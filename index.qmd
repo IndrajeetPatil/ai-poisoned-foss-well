@@ -137,7 +137,7 @@ Sources: [HBS AI Institute, October 31, 2024](https://d3.harvard.edu/revealing-v
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px;"}
 
 ::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Review labor
+Review labour
 :::
 
 Volunteer maintainers turn raw patches into shared infrastructure.
@@ -324,7 +324,7 @@ Productivity rises for firms while maintainer attention and future contributors 
 Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer (Jan. 28, 2026)](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
 :::
 
-## License and provenance collapse {.smaller}
+## Provenance becomes licence laundering {.smaller}
 
 :::: {.columns}
 
@@ -332,30 +332,30 @@ Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494)
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Plausible is not traceable.**<br>
-Generated code can look mergeable while still having unknown origin, unclear license lineage, or missing attribution.
+Generated code can look mergeable while still hiding its origin, licence lineage, or attribution trail.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-Maintainers inherit the risk.<br>
-If the source is murky, the liability lands on the reviewer.
+**The next step is worse.**<br>
+**Malus** openly frames AI clean-room reimplementation as a way around attribution and copyleft obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-Projects now ask for human attestation, or reject AI-derived code outright.
+Maintainers answer with human attestation, provenance checks, or outright bans on AI-derived code.
 :::
 
 :::
 
 ::: {.column width="60%"}
 
-![](media/evidence/cloud-hypervisor-ai-policy.png){.artifact width="610" height="435" fig-alt="Screenshot of Cloud Hypervisor's GitHub issue discussing a stance on AI generated code"}
+![](media/evidence/malus-clean-room.png){.artifact width="610" height="405" fig-alt="Screenshot of the MALUS website advertising AI clean-room recreation to avoid open-source obligations"}
 
 :::
 
 ::::
 
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
-Sources: [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
+Sources: [malus.sh](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
 ## Hallucinated packages as supply-chain bait {.smaller}
@@ -554,7 +554,7 @@ Protect provenance
 
 Require human accountability.<br>
 Disclose AI usage.<br>
-Treat unknown code origin as risk.
+Treat unknown code origin and clean-room claims as risk.
 
 :::
 
