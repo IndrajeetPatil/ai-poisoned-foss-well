@@ -1,0 +1,20 @@
+.footer > p {
+  font-size: 15px;
+}
+
+/* Increase font size for code blocks inside callouts */
+.reveal .slides section div.callout pre.sourceCode {
+  font-size: 0.75em !important;
+}
+
+.reveal .slides img.hero,
+.reveal .slides img.artifact,
+.reveal .slides img.panel-image {
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);
+}
+
+.reveal .slides img.panel-image {
+  border-radius: 18px;
+}

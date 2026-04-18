@@ -1,0 +1,410 @@
+---
+format:
+  revealjs:
+    css: style.css
+    theme: simple
+    slide-number: true
+    code-line-numbers: false
+    preview-links: auto
+    keyboard: true
+    touch: true
+    help: true
+    include-in-header: meta-tags.html
+    link-external-newwindow: true
+revealjs-plugins:
+  - fontawesome
+execute:
+  echo: true
+  eval: false
+keywords: ["open-source", "foss", "ai", "software-security", "maintainers"]
+description-meta: "A presentation about how AI-generated pull requests, new security attack surfaces, and collapsing trust are poisoning the FOSS movement."
+license: "CC0 1.0 Universal"
+pagetitle: "Poisoning of the FOSS Well"
+author-meta: "Indrajeet Patil"
+date-meta: "2026-04-18"
+lang: "en"
+dir: "ltr"
+image: "media/social-media-card.png"
+image-alt: "Preview image for presentation about AI poisoning the FOSS movement"
+canonical-url: "https://indrajeetpatil.github.io/ai-poisoned-foss-well/"
+jupyter: python3
+---
+
+## Poisoning of the FOSS Well {style="margin-top: 1.5em; margin-bottom: 1em;"}
+
+:::: {.columns}
+
+::: {.column width="56%"}
+
+::: {style="margin-top: 1.5em; margin-bottom: 1em;"}
+
+::: {style="font-size: 0.92em; font-weight: bold;"}
+How AI is Poisoning the Free and Open Source Software Movement
+:::
+
+::: {style="font-size: 0.8em; margin-top: 1em;"}
+Indrajeet Patil
+:::
+
+:::
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; margin-top: 1.6em; font-size: 0.78em;"}
+AI does not only generate code.<br>
+It floods review queues, widens attack surfaces, and weakens the social trust that keeps FOSS alive.
+:::
+
+:::
+
+::: {.column width="44%"}
+
+![](media/evidence/well-hero.jpg){.hero width="310" height="430" fig-alt="An old water well in a grassy field"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 1.4em; color: #666;"}
+Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in-a-grassy-field-with-trees-U08P3HTx3SI)
+:::
+
+## The well is a social system {.smaller}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
+Review labor
+:::
+
+Volunteer maintainers turn raw patches into shared infrastructure.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
+Trust
+:::
+
+Contributors usually begin with a presumption of good faith.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
+Apprenticeship
+:::
+
+Small PRs are how future maintainers usually enter the project.
+
+:::
+
+:::
+
+::::
+
+<br>
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+LLMs change the cost model of all three at once.
+:::
+
+## Pollution of Pull Requests {.smaller}
+
+:::: {.columns}
+
+::: {.column width="39%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 16px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
+Cheap to submit.<br>
+Expensive to review.
+:::
+
+- Plausible diff
+- No context
+- No ownership after feedback
+
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+**Public example, February 2026**<br>
+Matplotlib maintainer **Scott Shambaugh** rejected an AI-authored change. Hours later, an AI persona published a personal attack piece about him.
+:::
+
+:::
+
+::: {.column width="61%"}
+
+![](media/evidence/shambaugh-post.png){.artifact width="620" height="500" fig-alt="Screenshot of Scott Shambaugh's post about an AI agent publishing a hit piece after a rejected pull request"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+:::
+
+## Security Exploitation {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+**Noise became part of the incident.**
+:::
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
+**March 24, 2026**<br>
+LiteLLM issue `#24512` warned that the package on PyPI was compromised.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
+**488 comments**<br>
+The thread was submerged in repetitive bot-shaped replies.<br>
+**12:49 UTC** closed as `NOT_PLANNED`.<br>
+**13:49 UTC** reopened.
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [BerriAI/litellm issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
+:::
+
+## Why LLMs tilt the field {.smaller}
+
+:::: {.columns}
+
+::: {.column width="58%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Speed**<br>
+Recon, exploit drafting, follow-up comments, and social engineering all compress into minutes.
+:::
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Parallelism**<br>
+One attacker can generate code, write convincing prose, and flood response channels at the same time.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.92em;"}
+**New economics**<br>
+Agent tools, CI pipelines, registries, issue queues, and trust workflows all become targets. Synthetic volume becomes an attacker advantage.
+:::
+
+:::
+
+::: {.column width="42%"}
+
+![](media/evidence/polluted-water.jpg){.panel-image width="430" height="500" fig-alt="A close photograph of polluted water"}
+
+:::
+
+::::
+
+## Erosion of Trust and the Contributor Pipeline {.smaller}
+
+```{mermaid}
+%%| eval: true
+%%| echo: false
+flowchart LR
+    A[Curious newcomer] --> B[First issue]
+    B --> C[Small PR]
+    C --> D[Review]
+    D --> E[Repeat contributor]
+    E --> F[Trusted maintainer]
+
+    X[XZ Utils backdoor<br/>trust was weaponized] -.-> F
+    F --> G[Project-wide suspicion]
+    G --> H[Fewer external contributions]
+    H --> I[Weaker contributor pipeline]
+
+    style A fill:#f8f9fa,color:#000
+    style B fill:#f8f9fa,color:#000
+    style C fill:#f8f9fa,color:#000
+    style D fill:#f8f9fa,color:#000
+    style E fill:#f8f9fa,color:#000
+    style F fill:#fff3e0,color:#000
+    style X fill:#ffebee,color:#000
+    style G fill:#ffebee,color:#000
+    style H fill:#ffebee,color:#000
+    style I fill:#ffebee,color:#000
+```
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+**XZ Utils** showed that even long-horizon trust can be exploited inside a critical package.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+The defensive reaction is rational for maintainers, but brutal for honest newcomers.
+:::
+
+:::
+
+::::
+
+## From trust-by-default to explicit trust {.smaller}
+
+::: {style="text-align: center; font-size: 0.78em; margin-bottom: 0.8em;"}
+Mitchell Hashimoto, creator of Terraform and co-founder of HashiCorp, is piloting a different model.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](media/evidence/ghostty-contributing.png){.artifact width="500" height="360" fig-alt="Screenshot of Ghostty's contributing guide with its vouch system"}
+
+::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
+**Ghostty:** first-time contributors need a maintainer vouch before their PR can stay open.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+![](media/evidence/vouch-readme.png){.artifact width="500" height="360" fig-alt="Screenshot of Mitchell Hashimoto's Vouch repository"}
+
+::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
+**Vouch:** trust becomes explicit before code arrives, instead of being assumed at the PR boundary.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [Ghostty CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/main/CONTRIBUTING.md) · [mitchellh/vouch](https://github.com/mitchellh/vouch)
+:::
+
+## Who pays {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Junior developers**<br>
+Lose first reviews, apprenticeship, and the easiest on-ramp into meaningful open-source work.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px;"}
+**Maintainers**<br>
+Carry more suspicion, more context switching, and more unpaid incident response.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Projects**<br>
+Lose diverse small contributions and become more closed, slower, and more fragile.
+:::
+
+::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px;"}
+**The movement**<br>
+Loses the renewal mechanism that kept FOSS broad, welcoming, and resilient.
+:::
+
+:::
+
+::::
+
+## Keep the well drinkable {.smaller}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+Protect review time
+:::
+
+Disclose AI usage.<br>
+Close synthetic drive-bys quickly.<br>
+Make contributors own follow-up.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.82em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+Protect security channels
+:::
+
+Use private reporting.<br>
+Treat comment floods as signal loss.<br>
+Shrink CI and release blast radius.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+Protect human on-ramps
+:::
+
+Create mentored issues.<br>
+Use trust gates sparingly.<br>
+Leave a real path in for people.
+
+:::
+
+:::
+
+::::
+
+<br>
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+If openness becomes unaffordable, FOSS stops regenerating.
+:::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 1.0em; color: #666;"}
+Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution/)
+:::
