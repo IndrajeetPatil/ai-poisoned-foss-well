@@ -486,8 +486,8 @@ flowchart LR
     style I fill:#ffebee,color:#000
 ```
 
-::: {style="font-size: 0.52em; color: #666; text-align: center; margin-top: 0.35em; margin-bottom: 0.8em;"}
-Accessible summary: newcomer → first issue → small PR → review → repeat contributor → trusted maintainer. The XZ Utils backdoor breaks that trust chain and pushes projects toward suspicion, fewer external contributions, and a weaker contributor pipeline.
+::: {.visually-hidden}
+Newcomer to trusted maintainer is the normal contribution path: first issue, small PR, review, repeat contribution, then trust. The XZ Utils backdoor breaks that trust chain and pushes projects toward suspicion, fewer external contributions, and a weaker contributor pipeline.
 :::
 
 :::: {.columns}
