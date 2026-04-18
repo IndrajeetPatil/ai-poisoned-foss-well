@@ -26,7 +26,7 @@ lang: "en"
 dir: "ltr"
 image: "media/social-media-card.png"
 image-alt: "Preview image for presentation about AI poisoning the FOSS movement"
-canonical-url: "https://indrajeetpatil.github.io/ai-poisoned-foss-well/"
+canonical-url: "https://www.indrapatil.com/ai-poisoned-foss-well/"
 jupyter: python3
 ---
 
@@ -342,20 +342,21 @@ Paid wrappers and sponsorships.
 
 ::: {style="background-color: #ffebee; padding: 13px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
 **January 2026**<br>
-**75%** of the engineering team lost their jobs.<br>
-Traffic down about **40%** from early 2023.<br>
-Revenue down close to **80%**.
+📈 Tailwind usage kept rising.<br>
+📉 Docs traffic about **40%** lower than early 2023.<br>
+📉 Revenue close to **80%** lower.<br>
+👥 **75%** of the engineering team lost their jobs.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.7em;"}
-AI can answer from the free core while bypassing the monetisation layer.
+The framework grew. The docs funnel shrank. The business model broke.
 :::
 
 :::
 
 ::: {.column width="58%"}
 
-![](media/evidence/tailwind-business-model.png){.artifact width="520" height="318" fig-alt="Screenshot of Tailwind CSS sponsorship page asking companies to support the future of Tailwind CSS"}
+![](media/evidence/tailwind-business-model.png){.artifact width="548" height="340" fig-alt="Screenshot of Tailwind CSS sponsorship page asking companies to support the future of Tailwind CSS"}
 
 :::
 
@@ -624,5 +625,5 @@ If openness becomes unaffordable, FOSS stops regenerating.
 :::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 1.0em; color: #666;"}
-Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution/)
+Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution)
 :::
