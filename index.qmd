@@ -410,27 +410,19 @@ Sources: [malus.sh](https://malus.sh/) · [cloud-hypervisor #7162](https://githu
 The model can invent it. An attacker can register it later.
 :::
 
-:::: {.columns}
+::: {style="display: flex; gap: 12px; margin-top: 10px;"}
 
-::: {.column width="50%"}
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.8em; height: 126px;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
 **5.2%**<br>
 average rate for commercial coding models.
 :::
 
-:::
-
-::: {.column width="50%"}
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.8em; height: 126px;"}
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
 **21.7%**<br>
 average rate for open-weight coding models.
 :::
 
 :::
-
-::::
 
 :::
 
@@ -475,7 +467,9 @@ flowchart LR
     style I fill:#ffebee,color:#000
 ```
 
-<br>
+::: {style="font-size: 0.52em; color: #666; text-align: center; margin-top: 0.35em; margin-bottom: 0.8em;"}
+Accessible summary: newcomer → first issue → small PR → review → repeat contributor → trusted maintainer. The XZ Utils backdoor breaks that trust chain and pushes projects toward suspicion, fewer external contributions, and a weaker contributor pipeline.
+:::
 
 :::: {.columns}
 
@@ -496,6 +490,10 @@ The defensive reaction is rational for maintainers, but brutal for honest newcom
 :::
 
 ::::
+
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
+Further context: [Veritasium, “The Most Clever Attack in Computing History”](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
+:::
 
 ## From trust-by-default to explicit trust {.smaller}
 
