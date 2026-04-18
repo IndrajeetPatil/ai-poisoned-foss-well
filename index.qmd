@@ -655,7 +655,7 @@ Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki
 
 # Thank You
 
-And keep the well drinkable.
+Questions, critiques, and contributions welcome.
 
 <br>
 <br>
