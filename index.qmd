@@ -256,36 +256,39 @@ The thread was submerged in repetitive bot-shaped replies.<br>
 Sources: [BerriAI/litellm issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
 :::
 
-## Why LLMs tilt the field {.smaller}
+## Why LLMs tilt the field {style="font-size: 0.8em;"}
 
 :::: {.columns}
 
 ::: {.column width="58%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Speed**<br>
-Recon, exploit drafting, follow-up comments, and social engineering all compress into minutes.
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
+**Compression**<br>
+Recon, exploit drafting, follow-up comments, and social engineering now collapse into minutes.
 :::
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Parallelism**<br>
-One attacker can generate code, write convincing prose, and flood response channels at the same time.
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
+**Parallel work**<br>
+One attacker can write code, write prose, and flood response channels at the same time.
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.92em;"}
-**New economics**<br>
-Agent tools, CI pipelines, registries, issue queues, and trust workflows all become targets. Synthetic volume becomes an attacker advantage.
+::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; font-size: 0.78em;"}
+Synthetic volume becomes an attacker advantage.
 :::
 
 :::
 
 ::: {.column width="42%"}
 
-![](media/evidence/polluted-water.jpg){.panel-image width="430" height="500" fig-alt="A close photograph of polluted water"}
+![](media/evidence/polluted-water.jpg){.panel-image width="390" height="418" fig-alt="A close photograph of polluted water"}
 
 :::
 
-:::: 
+::::
+
+::: {style="text-align: center; font-size: 0.46em; margin-top: 0.12em; color: #666;"}
+Photo: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
+:::
 
 ## Extraction without reciprocity {.smaller}
 
@@ -295,7 +298,7 @@ Agent tools, CI pipelines, registries, issue queues, and trust workflows all bec
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **More output, less relationship**<br>
-AI turns FOSS into a faster input for product teams while skipping the human loops that return value upstream.
+AI turns FOSS into a faster input for product teams while skipping the human loops that send value back upstream.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
@@ -307,7 +310,7 @@ Becoming a repeat contributor.
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-Productivity rises for firms while maintainer attention and future contributors fall.
+Firms gain speed. Maintainers lose time. Future contributors stop arriving.
 :::
 
 :::
@@ -322,6 +325,44 @@ Productivity rises for firms while maintainer attention and future contributors 
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
 Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer (Jan. 28, 2026)](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
+:::
+
+## Tailwind and the business-model shock {style="font-size: 0.76em;"}
+
+:::: {.columns}
+
+::: {.column width="42%"}
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 10px;"}
+**The old loop**<br>
+Free framework.<br>
+Docs traffic.<br>
+Paid wrappers and sponsorships.
+:::
+
+::: {style="background-color: #ffebee; padding: 13px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+**January 2026**<br>
+**75%** of the engineering team lost their jobs.<br>
+Traffic down about **40%** from early 2023.<br>
+Revenue down close to **80%**.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.7em;"}
+AI can answer from the free core while bypassing the monetisation layer.
+:::
+
+:::
+
+::: {.column width="58%"}
+
+![](media/evidence/tailwind-business-model.png){.artifact width="520" height="318" fig-alt="Screenshot of Tailwind CSS sponsorship page asking companies to support the future of Tailwind CSS"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.38em; margin-top: 0.04em; color: #666;"}
+Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [Tailwind Sponsor](https://tailwindcss.com/sponsor) · [Tailwind Plus](https://tailwindcss.com/plus)
 :::
 
 ## Provenance becomes licence laundering {.smaller}
@@ -341,7 +382,7 @@ Generated code can look mergeable while still hiding its origin, licence lineage
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-Maintainers answer with human attestation, provenance checks, or outright bans on AI-derived code.
+Maintainers answer with attestation, provenance checks, or outright bans on AI-derived code.
 :::
 
 :::
