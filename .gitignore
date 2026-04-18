@@ -23,6 +23,10 @@ README.html
 
 # Generated files
 _extensions/
+!_extensions/
+!_extensions/quarto-ext/
+!_extensions/quarto-ext/fontawesome/
+!_extensions/quarto-ext/fontawesome/**
 index.html
 index_files/
 index.quarto_ipynb
