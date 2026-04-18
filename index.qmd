@@ -125,7 +125,7 @@ average replacement or rewrite cost organizations said they would face if OSS di
 <br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The modern software industry is built on top of FOSS. Polluting that commons is not a niche problem, it is a systemic cost.
+Modern software runs on FOSS. Pollute the commons, pay a systemic cost.
 :::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.9em; color: #666;"}
@@ -200,7 +200,7 @@ Who captures the value, and who carries the cost?
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **More output, less relationship**<br>
-AI turns FOSS into a faster input for product teams while skipping the human loops that send value back upstream.
+AI makes FOSS a faster input while skipping the human loops that send value back upstream.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
@@ -381,7 +381,7 @@ Maintainers answer with attestation, provenance checks, or outright bans on AI-d
 Sources: [malus.sh](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
-## Hallucinated packages as supply-chain bait {.smaller}
+## Hallucinations as supply-chain bait {.smaller}
 
 :::: {.columns}
 
@@ -521,10 +521,10 @@ The defensive reaction is rational for maintainers, but brutal for honest newcom
 Further context: [Veritasium, “The Most Clever Attack in Computing History”](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
 :::
 
-## From trust-by-default to explicit trust {.smaller}
+## From default trust to explicit trust {.smaller}
 
 ::: {style="text-align: center; font-size: 0.78em; margin-bottom: 0.8em;"}
-Mitchell Hashimoto, creator of Terraform and co-founder of HashiCorp, is piloting a different model.
+Mitchell Hashimoto is piloting a different model.
 :::
 
 :::: {.columns}
@@ -534,7 +534,7 @@ Mitchell Hashimoto, creator of Terraform and co-founder of HashiCorp, is pilotin
 ![](media/evidence/ghostty-contributing.png){.artifact width="500" height="360" fig-alt="Screenshot of Ghostty's contributing guide with its vouch system"}
 
 ::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**Ghostty:** first-time contributors need a maintainer vouch before their PR can stay open.
+**Ghostty:** first-time contributors need a maintainer vouch before a PR can stay open.
 :::
 
 :::
@@ -544,7 +544,7 @@ Mitchell Hashimoto, creator of Terraform and co-founder of HashiCorp, is pilotin
 ![](media/evidence/vouch-readme.png){.artifact width="500" height="360" fig-alt="Screenshot of Mitchell Hashimoto's Vouch repository"}
 
 ::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**Vouch:** trust becomes explicit before code arrives, instead of being assumed at the PR boundary.
+**Vouch:** trust becomes explicit before code arrives.
 :::
 
 :::
@@ -563,7 +563,7 @@ Sources: [Ghostty CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/m
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Junior developers**<br>
-Lose first reviews, apprenticeship, and the easiest on-ramp into meaningful open-source work.
+Lose first reviews, apprenticeship, and the easiest route into open-source work.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px;"}
@@ -577,12 +577,12 @@ Carry more suspicion, more context switching, and more unpaid incident response.
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Projects**<br>
-Lose diverse small contributions and become more closed, slower, and more fragile.
+Lose diverse small contributions and become more closed and fragile.
 :::
 
 ::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px;"}
 **The movement**<br>
-Loses the renewal mechanism that kept FOSS broad, welcoming, and resilient.
+Loses the renewal mechanism that kept FOSS broad and resilient.
 :::
 
 :::
@@ -601,9 +601,9 @@ Loses the renewal mechanism that kept FOSS broad, welcoming, and resilient.
 Protect review time
 :::
 
-Disclose AI usage.<br>
-Close synthetic drive-bys quickly.<br>
-Make contributors own follow-up.
+- Disclose AI use
+- Close synthetic drive-bys fast
+- Make contributors own follow-up
 
 :::
 
@@ -617,9 +617,9 @@ Make contributors own follow-up.
 Protect provenance
 :::
 
-Require human accountability.<br>
-Disclose AI usage.<br>
-Treat unknown code origin and clean-room claims as risk.
+- Require human accountability
+- Treat unknown origin as risk
+- Reject clean-room evasions
 
 :::
 
@@ -633,9 +633,9 @@ Treat unknown code origin and clean-room claims as risk.
 Protect the commons
 :::
 
-Verify dependencies.<br>
-Fund maintainers upstream.<br>
-Leave a real path in for people.
+- Verify dependencies
+- Fund maintainers upstream
+- Keep a real path in for people
 
 :::
 

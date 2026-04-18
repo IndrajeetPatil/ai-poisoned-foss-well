@@ -25,6 +25,17 @@
   letter-spacing: -0.035em;
 }
 
+.reveal h1 {
+  font-size: 1.78em;
+  line-height: 0.95;
+}
+
+.reveal h2 {
+  font-size: 1.42em;
+  line-height: 0.97;
+  margin-bottom: 0.24em;
+}
+
 .reveal ul,
 .reveal ol {
   margin-top: 0.45em;
