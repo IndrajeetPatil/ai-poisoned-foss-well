@@ -360,7 +360,7 @@ Generated code can look mergeable while still hiding its origin, licence lineage
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **The next step is worse.**<br>
-**Malus** openly frames AI clean-room reimplementation as a way around attribution and copyleft obligations.
+**Malus** is a satirical warning, but it captures the logic: AI clean-room claims can be used to dodge attribution and copyleft obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
@@ -371,14 +371,14 @@ Maintainers answer with attestation, provenance checks, or outright bans on AI-d
 
 ::: {.column width="60%"}
 
-![](media/evidence/malus-clean-room.png){.artifact width="610" height="405" fig-alt="Screenshot of the MALUS website advertising AI clean-room recreation to avoid open-source obligations"}
+![](media/evidence/malus-clean-room.png){.artifact width="610" height="405" fig-alt="Screenshot of the satirical MALUS website warning about AI clean-room recreation to avoid open-source obligations"}
 
 :::
 
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [malus.sh](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+Sources: [malus.sh (satirical warning)](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
 ## Hallucinations as supply-chain bait {.smaller}
