@@ -67,6 +67,72 @@ It floods review queues, widens attack surfaces, and weakens the social trust th
 Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in-a-grassy-field-with-trees-U08P3HTx3SI)
 :::
 
+## FOSS is a giant hidden subsidy {.smaller}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+
+::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
+96%
+:::
+
+of codebases include open-source software.
+
+::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
+Harvard summary of the 2024 working paper
+:::
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px;"}
+
+::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
+$8.8T
+:::
+
+estimated global replacement value if firms had to recreate the OSS they rely on.
+
+::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
+Harvard demand-side estimate
+:::
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.92em;"}
+
+::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
+$3.5M
+:::
+
+average replacement or rewrite cost organizations said they would face if OSS disappeared.
+
+:::
+
+:::
+
+::::
+
+<br>
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+The modern software industry is built on top of FOSS. Polluting that commons is not a niche problem, it is a systemic cost.
+:::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.9em; color: #666;"}
+Sources: [HBS AI Institute, October 31, 2024](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/) · [Linux Foundation, February 24, 2026](https://www.linuxfoundation.org/press/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt)
+:::
+
 ## The well is a social system {.smaller}
 
 :::: {.columns}
