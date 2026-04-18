@@ -10,6 +10,10 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.reveal {
+  font-size: 35px;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -19,6 +23,16 @@
   font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
   font-weight: 700;
   letter-spacing: -0.035em;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-top: 0.45em;
+  margin-bottom: 0;
+}
+
+.reveal li {
+  margin-bottom: 0.2em;
 }
 
 .reveal strong,
