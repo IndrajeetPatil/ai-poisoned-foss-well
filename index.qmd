@@ -48,11 +48,6 @@ Indrajeet Patil
 
 :::
 
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; margin-top: 1.6em; font-size: 0.78em;"}
-AI does not only generate code.<br>
-It floods review queues, widens attack surfaces, and weakens the social trust that keeps FOSS alive.
-:::
-
 :::
 
 ::: {.column width="44%"}
