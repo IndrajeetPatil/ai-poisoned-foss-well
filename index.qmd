@@ -325,8 +325,8 @@ Productivity rises for firms while maintainer attention and future contributors 
 
 ::::
 
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [Koren et al., “Vibe Coding Kills Open Source” (arXiv, January 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer, January 28, 2026](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
+Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer (Jan. 28, 2026)](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
 :::
 
 ## License and provenance collapse {.smaller}
@@ -359,8 +359,8 @@ Projects now ask for human attestation, or reject AI-derived code outright.
 
 ::::
 
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [cloud-hypervisor issue #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware, April 12, 2026](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
+Sources: [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
 ## Hallucinated packages as supply-chain bait {.smaller}
@@ -406,8 +406,8 @@ average rate for open-weight coding models.
 
 ::::
 
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [USENIX ;login:, June 17, 2025](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25 paper](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · **205,474** unique phantom package names observed
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
+Sources: [USENIX ;login: (Jun. 17, 2025)](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · 205,474 phantom names observed
 :::
 
 ## Erosion of Trust and the Contributor Pipeline {.smaller}
