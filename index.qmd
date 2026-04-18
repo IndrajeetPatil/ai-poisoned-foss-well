@@ -464,7 +464,7 @@ Matplotlib maintainer **Scott Shambaugh** rejected an AI-authored change. Hours 
 Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 :::
 
-## Erosion of Trust and the Contributor Pipeline {.smaller}
+## AI amplifies the trust collapse {.smaller}
 
 ```{mermaid}
 %%| eval: true
@@ -477,9 +477,12 @@ flowchart LR
     E --> F[Trusted maintainer]
 
     X[XZ Utils backdoor<br/>trust was weaponized] -.-> F
+    Y[AI PR floods and bot-shaped submissions] -.-> D
     F --> G[Project-wide suspicion]
-    G --> H[Fewer external contributions]
-    H --> I[Weaker contributor pipeline]
+    D --> G
+    G --> H[Higher gatekeeping at the PR boundary]
+    H --> I[Fewer external contributions]
+    I --> J[Weaker contributor pipeline]
 
     style A fill:#f8f9fa,color:#000
     style B fill:#f8f9fa,color:#000
@@ -488,13 +491,15 @@ flowchart LR
     style E fill:#f8f9fa,color:#000
     style F fill:#fff3e0,color:#000
     style X fill:#ffebee,color:#000
+    style Y fill:#ffebee,color:#000
     style G fill:#ffebee,color:#000
     style H fill:#ffebee,color:#000
     style I fill:#ffebee,color:#000
+    style J fill:#ffebee,color:#000
 ```
 
 ::: {.visually-hidden}
-Newcomer to trusted maintainer is the normal contribution path: first issue, small PR, review, repeat contribution, then trust. The XZ Utils backdoor breaks that trust chain and pushes projects toward suspicion, fewer external contributions, and a weaker contributor pipeline.
+Newcomer to trusted maintainer is the normal contribution path: first issue, small PR, review, repeat contribution, then trust. The XZ Utils backdoor damages baseline trust, and AI-generated PR floods increase suspicion at the review boundary. Together they push projects toward higher gatekeeping, fewer external contributions, and a weaker contributor pipeline.
 :::
 
 :::: {.columns}
@@ -502,7 +507,7 @@ Newcomer to trusted maintainer is the normal contribution path: first issue, sma
 ::: {.column width="50%"}
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**XZ Utils** showed that even long-horizon trust can be exploited inside a critical package.
+**XZ Utils** broke the old assumption that trust naturally compounds over time.
 :::
 
 :::
@@ -510,7 +515,7 @@ Newcomer to trusted maintainer is the normal contribution path: first issue, sma
 ::: {.column width="50%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-The defensive reaction is rational for maintainers, but brutal for honest newcomers.
+**AI flood** makes every new PR feel costlier, less legible, and easier to distrust.
 :::
 
 :::

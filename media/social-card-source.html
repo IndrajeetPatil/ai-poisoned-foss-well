@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Poisoning of the FOSS Well Social Card</title>
+    <style>
+      :root {
+        --bg: #f8faf7;
+        --ink: #101828;
+        --muted: #516074;
+        --line: rgba(15, 23, 42, 0.1);
+        --shadow: 0 22px 50px rgba(15, 23, 42, 0.1);
+        --blue: #e3f2fd;
+        --green: #e8f5e9;
+        --amber: #fff3e0;
+        --rose: #ffebee;
+        --yellow: #fffbc1;
+        --blue-strong: #3b82f6;
+        --green-strong: #22c55e;
+        --amber-strong: #f59e0b;
+        --rose-strong: #f43f5e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 1600px;
+        height: 900px;
+        overflow: hidden;
+        background: var(--bg);
+        font-family:
+          "IBM Plex Sans", "Aptos", "Segoe UI", system-ui, sans-serif;
+        color: var(--ink);
+      }
+
+      body::before,
+      body::after {
+        content: "";
+        position: absolute;
+        border-radius: 999px;
+        filter: blur(10px);
+        opacity: 0.8;
+      }
+
+      body::before {
+        width: 380px;
+        height: 380px;
+        left: -120px;
+        top: -120px;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.14), transparent 68%);
+      }
+
+      body::after {
+        width: 420px;
+        height: 420px;
+        right: -140px;
+        bottom: -160px;
+        background: radial-gradient(circle, rgba(245, 158, 11, 0.12), transparent 70%);
+      }
+
+      .frame {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 72px 78px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 0.98fr 0.82fr;
+        gap: 40px;
+        align-items: stretch;
+        height: 100%;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 18px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        color: var(--muted);
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, var(--amber-strong), var(--rose-strong));
+      }
+
+      .title {
+        margin: 36px 0 24px;
+        font-family: "Space Grotesk", "Aptos Display", "Segoe UI", sans-serif;
+        font-size: 88px;
+        line-height: 0.95;
+        letter-spacing: -0.05em;
+        font-weight: 700;
+        max-width: 760px;
+      }
+
+      .subtitle {
+        max-width: 760px;
+        font-size: 37px;
+        line-height: 1.15;
+        color: #1f2937;
+      }
+
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 42px;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        font-size: 24px;
+        font-weight: 600;
+        color: #233044;
+      }
+
+      .chip::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+      }
+
+      .chip.blue::before {
+        background: var(--blue-strong);
+      }
+
+      .chip.rose::before {
+        background: var(--rose-strong);
+      }
+
+      .chip.green::before {
+        background: var(--green-strong);
+      }
+
+      .site {
+        position: absolute;
+        left: 78px;
+        bottom: 58px;
+        color: #64748b;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .artboard {
+        position: relative;
+        min-height: 100%;
+        border-radius: 38px;
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.74)),
+          var(--yellow);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .artboard::before {
+        content: "";
+        position: absolute;
+        inset: 24px;
+        border-radius: 28px;
+        border: 1px solid rgba(15, 23, 42, 0.06);
+      }
+
+      .ring {
+        position: absolute;
+        border-radius: 999px;
+        border: 2px solid rgba(59, 130, 246, 0.18);
+      }
+
+      .ring.one {
+        width: 430px;
+        height: 430px;
+        right: -40px;
+        top: 140px;
+      }
+
+      .ring.two {
+        width: 280px;
+        height: 280px;
+        right: 40px;
+        top: 215px;
+        border-color: rgba(244, 63, 94, 0.16);
+      }
+
+      .ring.three {
+        width: 120px;
+        height: 120px;
+        right: 120px;
+        top: 295px;
+        border-color: rgba(34, 197, 94, 0.22);
+      }
+
+      .stack-card {
+        position: absolute;
+        width: 360px;
+        padding: 24px 24px 22px;
+        border-radius: 26px;
+        border: 1px solid rgba(15, 23, 42, 0.1);
+        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+      }
+
+      .stack-card::before {
+        content: "";
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        top: 0;
+        height: 5px;
+        border-radius: 0 0 999px 999px;
+      }
+
+      .stack-card h3 {
+        margin: 0 0 10px;
+        font-family: "Space Grotesk", "Aptos Display", sans-serif;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: -0.03em;
+      }
+
+      .stack-card p {
+        margin: 0;
+        font-size: 19px;
+        line-height: 1.18;
+        color: #314155;
+      }
+
+      .card-1 {
+        left: 48px;
+        top: 82px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.52)), var(--amber);
+      }
+
+      .card-1::before {
+        background: linear-gradient(90deg, var(--amber-strong), #fbbf24);
+      }
+
+      .card-2 {
+        left: 26px;
+        bottom: 110px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.48)), var(--rose);
+      }
+
+      .card-2::before {
+        background: linear-gradient(90deg, var(--rose-strong), #fb7185);
+      }
+
+      .card-3 {
+        right: 48px;
+        bottom: 66px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.5)), var(--blue);
+      }
+
+      .card-3::before {
+        background: linear-gradient(90deg, var(--blue-strong), #60a5fa);
+      }
+
+      .well {
+        position: absolute;
+        right: 128px;
+        top: 114px;
+        width: 200px;
+        height: 200px;
+        border-radius: 999px;
+        background: radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.4));
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        box-shadow: 0 14px 26px rgba(15, 23, 42, 0.08);
+      }
+
+      .well::before {
+        content: "";
+        position: absolute;
+        inset: 28px;
+        border-radius: 999px;
+        border: 14px solid rgba(59, 130, 246, 0.22);
+      }
+
+      .well::after {
+        content: "";
+        position: absolute;
+        left: 72px;
+        right: 72px;
+        top: 36px;
+        bottom: 36px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, rgba(59, 130, 246, 0.16), rgba(244, 63, 94, 0.12));
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="grid">
+        <section>
+          <div class="eyebrow">Presentation deck</div>
+          <h1 class="title">Poisoning of the FOSS Well</h1>
+          <p class="subtitle">
+            How AI-generated pull requests, widening attack surfaces, and collapsing
+            trust are reshaping open source.
+          </p>
+          <div class="chips">
+            <div class="chip blue">Review queues</div>
+            <div class="chip rose">Supply chain</div>
+            <div class="chip green">Trust collapse</div>
+          </div>
+        </section>
+
+        <section class="artboard" aria-hidden="true">
+          <div class="ring one"></div>
+          <div class="ring two"></div>
+          <div class="ring three"></div>
+          <div class="well"></div>
+
+          <article class="stack-card card-1">
+            <h3>Cheap to submit</h3>
+            <p>Plausible AI patches create real review labour.</p>
+          </article>
+
+          <article class="stack-card card-2">
+            <h3>Harder to defend</h3>
+            <p>Noise, hallucinations, and speed widen the attack surface.</p>
+          </article>
+
+          <article class="stack-card card-3">
+            <h3>Costlier to trust</h3>
+            <p>The contribution pipeline gets narrower and more suspicious.</p>
+          </article>
+        </section>
+      </div>
+
+      <div class="site">indrapatil.com/ai-poisoned-foss-well</div>
+    </main>
+  </body>
+</html>
