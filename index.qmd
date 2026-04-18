@@ -182,9 +182,9 @@ Small PRs are how future maintainers usually enter the project.
 LLMs change the cost model of all three at once.
 :::
 
-## Economics {style="margin-top: 2.3em; text-align: center;"}
+## Economics {style="margin-top: 2.3em; text-align: left;"}
 
-::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
 Who captures the value, and who carries the cost?
 :::
 
@@ -267,9 +267,9 @@ The framework grew. The docs funnel shrank. The business model broke.
 Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [Tailwind Sponsor](https://tailwindcss.com/sponsor) · [Tailwind Plus](https://tailwindcss.com/plus)
 :::
 
-## Security {style="margin-top: 2.3em; text-align: center;"}
+## Security {style="margin-top: 2.3em; text-align: left;"}
 
-::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
 Attack surface, supply chain, and code provenance.
 :::
 
@@ -416,9 +416,9 @@ average rate for open-weight coding models.
 Sources: [USENIX ;login: (Jun. 17, 2025)](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · 205,474 phantom names observed
 :::
 
-## Community {style="margin-top: 2.3em; text-align: center;"}
+## Community {style="margin-top: 2.3em; text-align: left;"}
 
-::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
 Review queues, trust, and the contributor pipeline.
 :::
 

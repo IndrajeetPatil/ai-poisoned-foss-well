@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+.reveal,
+.reveal .slides,
+.reveal .slides section,
+.reveal p,
+.reveal li,
+.reveal table,
+.reveal blockquote {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.reveal strong,
+.reveal b {
+  font-weight: 600;
+}
+
+.reveal code,
+.reveal pre {
+  font-family:
+    "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    monospace;
+}
+
 .footer > p {
   font-size: 15px;
 }
