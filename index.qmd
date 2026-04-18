@@ -290,7 +290,125 @@ Agent tools, CI pipelines, registries, issue queues, and trust workflows all bec
 
 :::
 
+:::: 
+
+## Extraction without reciprocity {.smaller}
+
+:::: {.columns}
+
+::: {.column width="42%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**More output, less relationship**<br>
+AI turns FOSS into a faster input for product teams while skipping the human loops that return value upstream.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
+**What disappears**<br>
+Reading docs.<br>
+Reporting edge cases.<br>
+Sticking around for review.<br>
+Becoming a repeat contributor.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+Productivity rises for firms while maintainer attention and future contributors fall.
+:::
+
+:::
+
+::: {.column width="58%"}
+
+![](media/evidence/vibe-coding-paper.png){.artifact width="600" height="435" fig-alt="Screenshot of the arXiv paper Vibe Coding Kills Open Source"}
+
+:::
+
 ::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [Koren et al., “Vibe Coding Kills Open Source” (arXiv, January 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer, January 28, 2026](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
+:::
+
+## License and provenance collapse {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Plausible is not traceable.**<br>
+Generated code can look mergeable while still having unknown origin, unclear license lineage, or missing attribution.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
+Maintainers inherit the risk.<br>
+If the source is murky, the liability lands on the reviewer.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
+Projects now ask for human attestation, or reject AI-derived code outright.
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](media/evidence/cloud-hypervisor-ai-policy.png){.artifact width="610" height="435" fig-alt="Screenshot of Cloud Hypervisor's GitHub issue discussing a stance on AI generated code"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [cloud-hypervisor issue #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware, April 12, 2026](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+:::
+
+## Hallucinated packages as supply-chain bait {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
+**The package does not need to exist first.**<br>
+The model can invent it. An attacker can register it later.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.8em; height: 126px;"}
+**5.2%**<br>
+average rate for commercial coding models.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.8em; height: 126px;"}
+**21.7%**<br>
+average rate for open-weight coding models.
+:::
+
+:::
+
+::::
+
+:::
+
+::: {.column width="60%"}
+
+![](media/evidence/package-hallucination-story.png){.artifact width="590" height="420" fig-alt="Screenshot of the USENIX article Package Hallucinations: How LLMs Can Invent Vulnerabilities"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [USENIX ;login:, June 17, 2025](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25 paper](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · **205,474** unique phantom package names observed
+:::
 
 ## Erosion of Trust and the Contributor Pipeline {.smaller}
 
@@ -436,12 +554,12 @@ Make contributors own follow-up.
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.82em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
-Protect security channels
+Protect provenance
 :::
 
-Use private reporting.<br>
-Treat comment floods as signal loss.<br>
-Shrink CI and release blast radius.
+Require human accountability.<br>
+Disclose AI usage.<br>
+Treat unknown code origin as risk.
 
 :::
 
@@ -452,11 +570,11 @@ Shrink CI and release blast radius.
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.86em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
-Protect human on-ramps
+Protect the commons
 :::
 
-Create mentored issues.<br>
-Use trust gates sparingly.<br>
+Verify dependencies.<br>
+Fund maintainers upstream.<br>
 Leave a real path in for people.
 
 :::
