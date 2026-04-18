@@ -200,11 +200,12 @@ AI turns FOSS into a faster input for product teams while skipping the human loo
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**What disappears**<br>
-Reading docs.<br>
-Reporting edge cases.<br>
-Sticking around for review.<br>
-Becoming a repeat contributor.
+**What disappears**
+
+- Reading docs
+- Reporting edge cases
+- Sticking around for review
+- Becoming a repeat contributor
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
@@ -232,18 +233,20 @@ Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494)
 ::: {.column width="42%"}
 
 ::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 10px;"}
-**The old loop**<br>
-Free framework.<br>
-Docs traffic.<br>
-Paid wrappers and sponsorships.
+**The old loop**
+
+- Free framework
+- Docs traffic
+- Paid wrappers and sponsorships
 :::
 
 ::: {style="background-color: #ffebee; padding: 13px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
-**January 2026**<br>
-📈 Tailwind usage kept rising.<br>
-📉 Docs traffic about **40%** lower than early 2023.<br>
-📉 Revenue close to **80%** lower.<br>
-👥 **75%** of the engineering team lost their jobs.
+**January 2026**
+
+- 📈 Tailwind usage kept rising
+- 📉 Docs traffic about **40%** lower than early 2023
+- 📉 Revenue close to **80%** lower
+- 👥 **75%** of the engineering team lost their jobs
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.7em;"}
