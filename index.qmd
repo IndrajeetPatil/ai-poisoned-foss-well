@@ -182,112 +182,10 @@ Small PRs are how future maintainers usually enter the project.
 LLMs change the cost model of all three at once.
 :::
 
-## Pollution of Pull Requests {.smaller}
+## Economics {style="margin-top: 2.3em; text-align: center;"}
 
-:::: {.columns}
-
-::: {.column width="39%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 16px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
-Cheap to submit.<br>
-Expensive to review.
-:::
-
-- Plausible diff
-- No context
-- No ownership after feedback
-
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
-**Public example, February 2026**<br>
-Matplotlib maintainer **Scott Shambaugh** rejected an AI-authored change. Hours later, an AI persona published a personal attack piece about him.
-:::
-
-:::
-
-::: {.column width="61%"}
-
-![](media/evidence/shambaugh-post.png){.artifact width="620" height="500" fig-alt="Screenshot of Scott Shambaugh's post about an AI agent publishing a hit piece after a rejected pull request"}
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
-:::
-
-## Security Exploitation {.smaller}
-
-:::: {.columns}
-
-::: {.column width="40%"}
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
-**Noise became part of the incident.**
-:::
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
-**March 24, 2026**<br>
-LiteLLM issue `#24512` warned that the package on PyPI was compromised.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
-**488 comments**<br>
-The thread was submerged in repetitive bot-shaped replies.<br>
-**12:49 UTC** closed as `NOT_PLANNED`.<br>
-**13:49 UTC** reopened.
-:::
-
-:::
-
-::: {.column width="60%"}
-
-![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [BerriAI/litellm issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
-:::
-
-## Why LLMs tilt the field {style="font-size: 0.8em;"}
-
-:::: {.columns}
-
-::: {.column width="58%"}
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Compression**<br>
-Recon, exploit drafting, follow-up comments, and social engineering now collapse into minutes.
-:::
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Parallel work**<br>
-One attacker can write code, write prose, and flood response channels at the same time.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; font-size: 0.78em;"}
-Synthetic volume becomes an attacker advantage.
-:::
-
-:::
-
-::: {.column width="42%"}
-
-![](media/evidence/polluted-water.jpg){.panel-image width="390" height="418" fig-alt="A close photograph of polluted water"}
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.46em; margin-top: 0.12em; color: #666;"}
-Photo: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
+::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+Who captures the value, and who carries the cost?
 :::
 
 ## Extraction without reciprocity {.smaller}
@@ -366,6 +264,82 @@ The framework grew. The docs funnel shrank. The business model broke.
 Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [Tailwind Sponsor](https://tailwindcss.com/sponsor) · [Tailwind Plus](https://tailwindcss.com/plus)
 :::
 
+## Security {style="margin-top: 2.3em; text-align: center;"}
+
+::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+Attack surface, supply chain, and code provenance.
+:::
+
+## Security Exploitation {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+**Noise became part of the incident.**
+:::
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
+**March 24, 2026**<br>
+LiteLLM issue `#24512` warned that the package on PyPI was compromised.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
+**488 comments**<br>
+The thread was submerged in repetitive bot-shaped replies.<br>
+**12:49 UTC** closed as `NOT_PLANNED`.<br>
+**13:49 UTC** reopened.
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [BerriAI/litellm issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
+:::
+
+## Why LLMs tilt the field {style="font-size: 0.8em;"}
+
+:::: {.columns}
+
+::: {.column width="58%"}
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
+**Compression**<br>
+Recon, exploit drafting, follow-up comments, and social engineering now collapse into minutes.
+:::
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
+**Parallel work**<br>
+One attacker can write code, write prose, and flood response channels at the same time.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; font-size: 0.78em;"}
+Synthetic volume becomes an attacker advantage.
+:::
+
+:::
+
+::: {.column width="42%"}
+
+![](media/evidence/polluted-water.jpg){.panel-image width="390" height="418" fig-alt="A close photograph of polluted water"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.46em; margin-top: 0.12em; color: #666;"}
+Photo: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
+:::
+
 ## Provenance becomes licence laundering {.smaller}
 
 :::: {.columns}
@@ -437,6 +411,50 @@ average rate for open-weight coding models.
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
 Sources: [USENIX ;login: (Jun. 17, 2025)](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · 205,474 phantom names observed
+:::
+
+## Community {style="margin-top: 2.3em; text-align: center;"}
+
+::: {style="text-align: center; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+Review queues, trust, and the contributor pipeline.
+:::
+
+## Pollution of Pull Requests {.smaller}
+
+:::: {.columns}
+
+::: {.column width="39%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 16px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
+Cheap to submit.<br>
+Expensive to review.
+:::
+
+- Plausible diff
+- No context
+- No ownership after feedback
+
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+**Public example, February 2026**<br>
+Matplotlib maintainer **Scott Shambaugh** rejected an AI-authored change. Hours later, an AI persona published a personal attack piece about him.
+:::
+
+:::
+
+::: {.column width="61%"}
+
+![](media/evidence/shambaugh-post.png){.artifact width="620" height="500" fig-alt="Screenshot of Scott Shambaugh's post about an AI agent publishing a hit piece after a rejected pull request"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 :::
 
 ## Erosion of Trust and the Contributor Pipeline {.smaller}
