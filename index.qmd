@@ -655,7 +655,7 @@ Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki
 
 # Thank You
 
-Questions, critiques, and contributions welcome.
+Questions and critiques welcome.
 
 <br>
 <br>
