@@ -1,6 +1,6 @@
 # Poisoning the FOSS Well
 
-This presentation examines how AI-generated pull requests, synthetic issue noise, collapsing trust assumptions, licence laundering, and business-model shocks are reshaping the free and open source software movement.
+This presentation examines how AI can genuinely help open-source developers move faster, triage better, and fix real bugs, while also showing how AI-generated pull requests, synthetic issue noise, collapsing trust assumptions, licence laundering, and business-model shocks are reshaping the free and open source software movement.
 
 The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, and designed to be published as a static site.
 
@@ -8,6 +8,7 @@ The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, an
 
 The current deck covers:
 
+- acknowledged benefits of AI when used transparently by maintainers and contributors
 - FOSS as a hidden economic subsidy for the software industry
 - Pull-request pollution and maintainer overload
 - Security exploitation through synthetic issue noise and agent speed

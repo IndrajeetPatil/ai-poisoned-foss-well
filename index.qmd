@@ -186,6 +186,64 @@ Small PRs are how future maintainers usually enter the project.
 LLMs change the cost model of all three at once.
 :::
 
+## AI can help the well too {.smaller}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+
+::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
++5.9%
+:::
+
+Copilot use was associated with higher OSS code contributions, even as coordination time also rose.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Triage relief
+:::
+
+Andrea Griffiths: “AI can make maintainership sustainable” when it takes a first pass at repetitive issue triage.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Good AI use exists
+:::
+
+Ghostty accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
+
+:::
+
+:::
+
+::::
+
+<br>
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+This talk is not anti-AI. It is about what happens when speed, anonymity, and volume outrun stewardship.
+:::
+
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
+Sources: [Song et al. (arXiv, Jul. 8, 2025)](https://arxiv.org/abs/2410.02091) · [GitHub Blog, Mar. 27, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, Feb. 9, 2026](https://blog.continue.dev/were-losing-open-contribution)
+:::
+
 ## Economics {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
