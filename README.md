@@ -1,4 +1,4 @@
-# Poisoning of the FOSS Well
+# Poisoning the FOSS Well
 
 This presentation examines how AI-generated pull requests, synthetic issue noise, collapsing trust assumptions, licence laundering, and business-model shocks are reshaping the free and open source software movement.
 

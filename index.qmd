@@ -19,7 +19,7 @@ execute:
 keywords: ["open-source", "foss", "ai", "software-security", "maintainers"]
 description-meta: "A presentation about how AI-generated pull requests, new security attack surfaces, and collapsing trust are poisoning the FOSS movement."
 license: "CC0 1.0 Universal"
-pagetitle: "Poisoning of the FOSS Well"
+pagetitle: "Poisoning the FOSS Well"
 author-meta: "Indrajeet Patil"
 date-meta: "2026-04-18"
 lang: "en"
@@ -30,7 +30,7 @@ canonical-url: "https://www.indrapatil.com/ai-poisoned-foss-well/"
 jupyter: python3
 ---
 
-## Poisoning of the FOSS Well {style="margin-top: 1.5em; margin-bottom: 1em;"}
+## Poisoning the FOSS Well {style="margin-top: 1.5em; margin-bottom: 1em;"}
 
 :::: {.columns}
 
