@@ -43,7 +43,7 @@ How AI is Poisoning the Free and Open Source Software Movement
 :::
 
 ::: {style="font-size: 0.8em; margin-top: 1em;"}
-Indrajeet Patil
+Indrajeet Patil *(FOSS developer, 8+ years)*
 :::
 
 :::
@@ -111,10 +111,14 @@ Harvard demand-side estimate
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.92em;"}
 
 ::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-$3.5M
+2-5x
 :::
 
-average replacement or rewrite cost organizations said they would face if OSS disappeared.
+reported ROI for organisations that actively contribute upstream instead of only consuming OSS.
+
+::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
+Linux Foundation, 2026
+:::
 
 :::
 
