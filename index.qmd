@@ -43,7 +43,11 @@ How AI is Poisoning the Free and Open Source Software Movement
 :::
 
 ::: {style="font-size: 0.8em; margin-top: 1em;"}
-Indrajeet Patil *(FOSS developer, 8+ years)*
+Indrajeet Patil
+
+::: {style="font-size: 0.85em; margin-top: 0.3em;"}
+**FOSS developer, 8+ years**
+:::
 :::
 
 :::
