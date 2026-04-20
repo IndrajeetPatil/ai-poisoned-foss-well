@@ -265,12 +265,12 @@ Who captures the value, and who carries the cost?
 ::: {.column width="42%"}
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**More output, less relationship**<br>
-AI makes FOSS a faster input while skipping the human loops that send value back upstream.
+**The paradox is fake**<br>
+FOSS still needs more human contributors. What it cannot absorb is more anonymous, low-context synthetic volume.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**What disappears**
+**What healthy contribution used to create**
 
 - Reading docs
 - Reporting edge cases
@@ -279,7 +279,8 @@ AI makes FOSS a faster input while skipping the human loops that send value back
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-Firms gain speed. Maintainers lose time. Future contributors stop arriving.
+**Not all teams absorb this equally**<br>
+React can lean on engineers paid by Meta. Independent maintainers and small volunteer teams usually have no such buffer.
 :::
 
 :::
@@ -532,56 +533,40 @@ Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https:/
 
 ## AI amplifies the trust collapse {.smaller}
 
-```{mermaid}
-%%| eval: true
-%%| echo: false
-flowchart LR
-    A[Curious newcomer] --> B[First issue]
-    B --> C[Small PR]
-    C --> D[Review]
-    D --> E[Repeat contributor]
-    E --> F[Trusted maintainer]
-
-    X[XZ Utils backdoor<br/>trust was weaponized] -.-> F
-    Y[AI PR floods and bot-shaped submissions] -.-> D
-    F --> G[Project-wide suspicion]
-    D --> G
-    G --> H[Higher gatekeeping at the PR boundary]
-    H --> I[Fewer external contributions]
-    I --> J[Weaker contributor pipeline]
-
-    style A fill:#f8f9fa,color:#000
-    style B fill:#f8f9fa,color:#000
-    style C fill:#f8f9fa,color:#000
-    style D fill:#f8f9fa,color:#000
-    style E fill:#f8f9fa,color:#000
-    style F fill:#fff3e0,color:#000
-    style X fill:#ffebee,color:#000
-    style Y fill:#ffebee,color:#000
-    style G fill:#ffebee,color:#000
-    style H fill:#ffebee,color:#000
-    style I fill:#ffebee,color:#000
-    style J fill:#ffebee,color:#000
-```
-
-::: {.visually-hidden}
-Newcomer to trusted maintainer is the normal contribution path: first issue, small PR, review, repeat contribution, then trust. The XZ Utils backdoor damages baseline trust, and AI-generated PR floods increase suspicion at the review boundary. Together they push projects toward higher gatekeeping, fewer external contributions, and a weaker contributor pipeline.
-:::
-
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="58%"}
+
+```{=html}
+<div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 22px; padding: 10px; box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);">
+  <iframe
+    src="https://www.youtube.com/embed/aoag03mSuXQ"
+    title="Veritasium video about the XZ Utils backdoor"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    style="width: 100%; height: 430px; border: 0; border-radius: 16px;">
+  </iframe>
+</div>
+```
+
+:::
+
+::: {.column width="42%"}
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**XZ Utils** broke the old assumption that trust naturally compounds over time.
+**XZ Utils changed the baseline**<br>
+The lesson was not “review newcomers less kindly.” It was that trust itself can be weaponized.
 :::
-
-:::
-
-::: {.column width="50%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**AI flood** makes every new PR feel costlier, less legible, and easier to distrust.
+**AI flood changes the front door**<br>
+When maintainers see more bot-shaped PRs, every unsolicited submission becomes costlier to parse and easier to distrust.
+:::
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.72em; margin-top: 12px;"}
+This is why the “we want contributors, but reject many PRs” tension is real only on the surface: projects still want people, but they can no longer afford unaccountable volume.
 :::
 
 :::
@@ -589,7 +574,7 @@ Newcomer to trusted maintainer is the normal contribution path: first issue, sma
 ::::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
-Further context: [Veritasium, “The Most Clever Attack in Computing History”](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
+Context: [Veritasium, “The Most Clever Attack in Computing History”](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
 :::
 
 ## From default trust to explicit trust {.smaller}
@@ -624,6 +609,39 @@ Mitchell Hashimoto is piloting a different model.
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
 Sources: [Ghostty CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/main/CONTRIBUTING.md) · [mitchellh/vouch](https://github.com/mitchellh/vouch)
+:::
+
+## Narrower funnels {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](media/evidence/tldraw-contributions-policy.svg){.artifact width="700" height="450" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
+
+:::
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+**tldraw, January 2026**<br>
+An influential project announced it would automatically close pull requests from external contributors.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+The repo stayed open for issues, bug reports, and discussions. The part that narrowed first was the expensive part: reviewable code contribution.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
+This is what “the commons hardening” looks like in practice: not total closure, but higher gates at exactly the points where AI volume is most costly.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
+Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.com/tldraw/tldraw/issues/7695)
 :::
 
 ## Who pays {.smaller}
