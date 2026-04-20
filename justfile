@@ -44,7 +44,7 @@ preview:
 
 # Open rendered slides in browser (macOS)
 open:
-    open index.html
+    open _site/index.html
 
 # Clean generated files
 clean:

@@ -18,6 +18,7 @@ The current deck covers:
 - Hallucinated packages as a new supply-chain vector
 - Trust collapse after XZ Utils and the resulting damage to the contributor pipeline
 - Mitchell Hashimoto's trust-gating approach with Ghostty and Vouch
+- Community adaptability through technical counter-measures and policy shifts
 - The social costs borne by maintainers, junior developers, and the movement itself
 
 ## Development

@@ -194,6 +194,10 @@ Small PRs are how future maintainers usually enter the project.
 LLMs change the cost model of all three at once.
 :::
 
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.7em; margin-top: 1em; color: #444;"}
+**Note on pre-AI FOSS:** It is important not to romanticize pre-AI FOSS. Low-quality PRs, drive-by contributors who disappear after dumping code, and maintainer burnout existed long before LLMs. AI just makes the firehose of low-quality contribution cheaper and more plausible-looking. The root issue is still the tragedy of the commons + under-compensation of maintainers, not AI per se.
+:::
+
 ## AI can help the well too {.smaller}
 
 :::: {.columns}
@@ -336,6 +340,10 @@ Adoption rose. The docs-led business model cracked.
 
 ::: {style="text-align: center; font-size: 0.38em; margin-top: 0.04em; color: #666;"}
 Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [Tailwind Sponsor](https://tailwindcss.com/sponsor) · [Tailwind Plus](https://tailwindcss.com/plus)
+:::
+
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
+**Causation vs. correlation:** Tailwind's traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, "extraction without reciprocity" isn't purely one-way; many AI labs open-source their models and tools.
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
@@ -677,6 +685,42 @@ Loses the renewal mechanism that kept FOSS broad and resilient.
 :::
 
 ::::
+
+## Community Adaptability {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Technical Counter-measures**
+
+- **Automated provenance tools** (e.g., SLSA, sigstore)
+- **License-aware fine-tuning** that respects copyleft
+- **AI-assisted triage bots** using the tech to defend against the tech
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+**Social & Policy Shifts**
+
+- **Mandatory AI-disclosure templates**
+- Projects **banning undisclosed AI code**
+- Requiring strict **human sign-off** and accountability
+:::
+
+:::
+
+::::
+
+<br>
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+The social system is proving more resilient than a "poisoned forever" framing suggests. Solutions are already emerging.
+:::
 
 ## Keep the well drinkable {.smaller}
 
