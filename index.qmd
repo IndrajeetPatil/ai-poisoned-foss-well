@@ -719,7 +719,7 @@ Loses the renewal mechanism that kept FOSS broad and resilient.
 <br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The social system is proving more resilient than a "poisoned forever" framing suggests. Solutions are already emerging.
+The open-source ecosystem is actively adapting. Emerging solutions suggest the current disruption will eventually stabilize into a new equilibrium.
 :::
 
 ## Keep the well drinkable {.smaller}
