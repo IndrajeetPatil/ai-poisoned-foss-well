@@ -1,0 +1,10 @@
+# Poisoning the FOSS Well
+
+This is the well-known discovery copy for agentic assistants.
+
+Canonical slides: https://www.indrapatil.com/ai-poisoned-foss-well/
+Root llms.txt: https://www.indrapatil.com/ai-poisoned-foss-well/llms.txt
+Root llms-full.txt: https://www.indrapatil.com/ai-poisoned-foss-well/llms-full.txt
+Source: https://github.com/IndrajeetPatil/ai-poisoned-foss-well/
+
+Summary: A presentation about how AI-generated pull requests, new security attack surfaces, and collapsing trust are poisoning the FOSS movement.
