@@ -1,0 +1,28 @@
+# Poisoning the FOSS Well
+
+> A Quarto RevealJS presentation by Indrajeet Patil.
+
+A presentation about how AI-generated pull requests, new security attack surfaces, and collapsing trust are poisoning the FOSS movement.
+
+## Primary URL
+
+- [Slides](https://www.indrapatil.com/ai-poisoned-foss-well/)
+
+## Source
+
+- [GitHub repository](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/)
+
+## Topics
+
+- open source
+- foss
+- ai
+- software security
+- maintainers
+- free open source software
+- presentation
+- slides
+
+## Machine-readable companion
+
+- [Full agent summary](https://www.indrapatil.com/ai-poisoned-foss-well/llms-full.txt)

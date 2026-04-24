@@ -1,0 +1,7 @@
+# Poisoning the FOSS Well
+
+> A Quarto RevealJS presentation by Indrajeet Patil.
+
+Canonical slides: https://www.indrapatil.com/ai-poisoned-foss-well/
+Full agent summary: https://www.indrapatil.com/ai-poisoned-foss-well/llms-full.txt
+Source: https://github.com/IndrajeetPatil/ai-poisoned-foss-well/
