@@ -356,7 +356,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 <div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 22px; padding: 10px; box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);">
   <iframe
     src="https://www.youtube.com/embed/jrEB0xtws_A"
-    title="Video on AI security tools making open source a liability"
+    title="Video on Malus and AI clean-room reimplementation"
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
@@ -371,17 +371,17 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 ::: {.column width="42%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
-**The new calculus**<br>
-AI-powered security scanners can now automatically find weaknesses in any public codebase. Open source means open attack surface.
+**Example: Malus**<br>
+An AI "clean room" service claims it can recreate open-source packages from docs and APIs.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
-**Business response**<br>
-Companies that once shipped open-source editions alongside commercial products are closing the open-source wing entirely.
+**The pitch**<br>
+Keep equivalent functionality, but remove attribution, copyleft, and license obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
-Public code that was once a trust signal becomes a vulnerability catalogue when anyone with an AI scanner can exploit it.
+The liability is no longer only bugs in public code. It is the risk that openness becomes a reconstruction guide.
 :::
 
 :::
@@ -389,7 +389,7 @@ Public code that was once a trust signal becomes a vulnerability catalogue when 
 ::::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Not all closures are security-driven:** some firms re-licence for revenue reasons. But when AI lowers the cost of finding exploits in public code, the security argument accelerates the shift.
+The fear is not that open source suddenly stops working. It is that AI lowers the cost of routing around the obligations that made sharing sustainable.
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
