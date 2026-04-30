@@ -694,8 +694,53 @@ This is what “the commons hardening” looks like in practice: not total closu
 
 ::::
 
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
+::: {style=”text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;”}
 Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.com/tldraw/tldraw/issues/7695)
+:::
+
+## GitHub wasn't built for this {.smaller}
+
+:::: {.columns}
+
+::: {.column width=”50%”}
+
+::: {style=”background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;”}
+**The agentic traffic surge (April 2026)**
+
+- **275M commits/week** — on pace for 14B/year vs. 1B in all of 2025
+- GitHub Actions: 500M min/week (2023) → **2.1B min/week**
+- Agent-opened PRs: **4M** (Sep 2025) → **17M** (Mar 2026)
+- Automated traffic growing **8× faster** than human traffic
+:::
+
+::: {style=”background-color: #e3f2fd; padding: 14px; border-radius: 18px; font-size: 0.78em;”}
+GitHub CTO apologised publicly (April 29, 2026): designed for 10× scale, discovered they need **30×**. Platform pivoted to **”Availability First”** — pausing new features to stabilise the foundation. Former GitHub CEO Thomas Dohmke had already called it: the platform *”was never designed for the era of AI in the first place.”*
+:::
+
+:::
+
+::: {.column width=”50%”}
+
+::: {style=”background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 14px; font-size: 0.86em;”}
+**Zig → Codeberg (November 2025)**<br>
+GitHub Actions “vibe-scheduling” rendered CI unreliable; Microsoft's persistent AI integrations conflicted with Zig's strict no-AI policy. The GitHub repo was made read-only.
+:::
+
+::: {style=”background-color: #e8f5e9; padding: 14px; border-radius: 18px; font-size: 0.82em;”}
+**Ghostty announces departure (April 28, 2026)**<br>
+Mitchell Hashimoto kept a daily journal — nearly every day had an outage mark. *”This is no longer a place for serious work if it just blocks you out for hours per day, every day.”*
+:::
+
+:::
+
+::::
+
+::: {style=”background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;”}
+**Note:** GitHub was never the *only* place to host FOSS — SourceForge, Bitbucket, and self-hosting always existed. But for a long time it was the *best* place: free CI/CD, free hosting, GitHub Sponsors, Pages, and an unmatched audience made it the default home for the FOSS world. That is what makes these departures significant. It is not that alternatives do not exist — it is that the platform that made open-source easiest and most visible is now the one buckling under the weight of the era it helped create.
+:::
+
+::: {style=”text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;”}
+Sources: [Kyle Daigle on X (Apr. 4, 2026)](https://x.com/kdaigle/status/2040164759836778878) · [GitHub Blog: An update on availability (Apr. 29, 2026)](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [Zig: Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Hashimoto: Ghostty leaving GitHub (Apr. 28, 2026)](https://mitchellh.com/writing/ghostty-leaving-github) · [TechCrunch: Former GitHub CEO on Entire (Feb. 10, 2026)](https://techcrunch.com/2026/02/10/former-github-ceo-raises-record-60m-dev-tool-seed-round-at-300m-valuation/)
 :::
 
 ## Who pays {.smaller}
