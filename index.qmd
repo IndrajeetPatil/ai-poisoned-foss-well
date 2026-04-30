@@ -715,20 +715,20 @@ GitHub's own availability post frames the problem as a platform-scale shock: age
 ::: {.column width="48%"}
 
 ```{=html}
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start;">
+<div style="display: grid; gap: 12px;">
   <figure style="margin: 0;">
-    <img src="media/evidence/ghostty-leaving-github.png" class="artifact" alt="Screenshot of Mitchell Hashimoto's Ghostty Is Leaving GitHub post" style="width: 100%; height: 205px; object-fit: cover; object-position: top center;">
+    <img src="media/evidence/ghostty-leaving-github.png" class="artifact" alt="Title area of Mitchell Hashimoto's post: Ghostty Is Leaving GitHub, dated April 28, 2026" style="width: 100%; height: 94px; object-fit: contain; background-color: #111827;">
     <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Ghostty: leaving GitHub</figcaption>
   </figure>
   <figure style="margin: 0;">
-    <img src="media/evidence/zig-codeberg-migration.png" class="artifact" alt="Screenshot of Zig's Migrating from GitHub to Codeberg post" style="width: 100%; height: 205px; object-fit: cover; object-position: top center;">
+    <img src="media/evidence/zig-codeberg-migration.png" class="artifact" alt="Title area of Zig's post: Migrating from GitHub to Codeberg, dated November 26, 2025" style="width: 100%; height: 94px; object-fit: contain; background-color: #111111;">
     <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Zig: GitHub to Codeberg</figcaption>
   </figure>
   <figure style="margin: 0;">
-    <img src="media/evidence/gentoo-codeberg-planet.png" class="artifact" alt="Screenshot of Planet Gentoo mentioning Goodbye Github, welcome Codeberg" style="width: 100%; height: 205px; object-fit: cover; object-position: center center;">
+    <img src="media/evidence/gentoo-codeberg-planet.png" class="artifact" alt="Title area of Planet Gentoo item: Goodbye Github, welcome Codeberg" style="width: 100%; height: 94px; object-fit: contain; background-color: #ffffff;">
     <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Gentoo: Codeberg mirror</figcaption>
   </figure>
-  <div style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; font-size: 0.68em; min-height: 205px; display: flex; align-items: center;">
+  <div style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.65em;">
     <div><strong>The signal:</strong><br>the default FOSS forge is becoming a bottleneck exactly where AI multiplies activity.</div>
   </div>
 </div>
