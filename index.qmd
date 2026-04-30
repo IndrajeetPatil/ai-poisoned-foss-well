@@ -356,7 +356,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 <div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 22px; padding: 10px; box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);">
   <iframe
     src="https://www.youtube.com/embed/jrEB0xtws_A"
-    title="Video on AI security tools making open source a liability"
+    title="Video on Malus and AI clean-room reimplementation"
     loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
@@ -371,17 +371,17 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 ::: {.column width="42%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
-**The new calculus**<br>
-AI-powered security scanners can now automatically find weaknesses in any public codebase. Open source means open attack surface.
+**Example: Malus**<br>
+An AI "clean room" service claims it can recreate open-source packages from docs and APIs.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
-**Business response**<br>
-Companies that once shipped open-source editions alongside commercial products are closing the open-source wing entirely.
+**The pitch**<br>
+Keep equivalent functionality, but remove attribution, copyleft, and license obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
-Public code that was once a trust signal becomes a vulnerability catalogue when anyone with an AI scanner can exploit it.
+The liability is no longer only bugs in public code. It is the risk that openness becomes a reconstruction guide.
 :::
 
 :::
@@ -389,7 +389,7 @@ Public code that was once a trust signal becomes a vulnerability catalogue when 
 ::::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Not all closures are security-driven:** some firms re-licence for revenue reasons. But when AI lowers the cost of finding exploits in public code, the security argument accelerates the shift.
+The fear is not that open source suddenly stops working. It is that AI lowers the cost of routing around the obligations that made sharing sustainable.
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
@@ -702,51 +702,62 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 
 :::: {.columns}
 
-::: {.column width="45%"}
+::: {.column width="52%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
-**The agentic traffic surge (April 2026)**
+```{=html}
+<img src="media/evidence/github-availability.png" class="artifact" alt="Screenshot of GitHub's April 2026 availability update" style="width: 100%; height: 212px; object-fit: cover; object-position: top center;">
 
-- **275M commits/week** — on pace for 14B/year vs. 1B in all of 2025
-- GitHub Actions: 500M min/week (2023) → **2.1B min/week**
-- Agent-opened PRs: **4M** (Sep 2025) → **17M** (Mar 2026)
-- Automated traffic growing **8× faster** than human traffic
+<div aria-label="GitHub platform scale statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
+  <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
+    <strong style="font-size: 1.55em;">275M</strong><br>
+    commits per week
+  </div>
+  <div style="background-color: #e8f5e9; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
+    <strong style="font-size: 1.55em;">2.1B</strong><br>
+    Actions minutes per week
+  </div>
+  <div style="background-color: #e3f2fd; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
+    <strong style="font-size: 1.55em;">17M</strong><br>
+    agent-opened PRs
+  </div>
+  <div style="background-color: #ffebee; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
+    <strong style="font-size: 1.55em;">8x</strong><br>
+    faster automated growth
+  </div>
+</div>
+```
+
+::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-top: 12px; font-size: 0.68em;"}
+[GitHub's own availability post](https://github.blog/news-insights/company-news/an-update-on-github-availability/) frames the problem as a platform-scale shock: agentic development turns every pull request into load on storage, CI, search, permissions, notifications, and APIs.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; font-size: 0.76em;"}
-GitHub CTO apologised publicly (April 29, 2026): designed for 10× scale, discovered they need **30×**. Platform pivoted to **”Availability First”** — pausing even new Copilot sign-ups to stabilise the foundation. Former GitHub CEO Thomas Dohmke had already called it: the platform *”was never designed for the era of AI in the first place.”*
 :::
 
-:::
+::: {.column width="48%"}
 
-::: {.column width="55%"}
-
-::: {style="background-color: #fff3e0; padding: 12px; border-radius: 18px; margin-bottom: 10px; font-size: 0.80em;"}
-**Zig → Codeberg (November 2025)**<br>
-GitHub Actions “vibe-scheduling” broke CI; Microsoft's AI integrations conflicted with Zig's strict no-AI policy. The GitHub repo was made read-only.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; margin-bottom: 10px; font-size: 0.80em;"}
-**Ghostty announces departure (April 28, 2026)**<br>
-Mitchell Hashimoto kept a daily outage journal — nearly every day had a mark. *”This is no longer a place for serious work if it just blocks you out for hours per day, every day.”*
-:::
-
-::: {style="background-color: #ede7f6; padding: 12px; border-radius: 18px; font-size: 0.80em;"}
-**Gentoo → Codeberg (January 2026)**<br>
-Cited GitHub's *”continuous attempts to force Copilot usage”* — in direct conflict with Gentoo's standing ban on AI-generated contributions.
-:::
+```{=html}
+<div style="display: grid; gap: 12px;">
+  <figure style="margin: 0;">
+    <img src="media/evidence/ghostty-leaving-github.png" class="artifact" alt="Title area of Mitchell Hashimoto's post: Ghostty Is Leaving GitHub, dated April 28, 2026" style="width: 100%; height: 94px; object-fit: contain; background-color: #111827;">
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://mitchellh.com/writing/ghostty-leaving-github">Ghostty: leaving GitHub</a></figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="media/evidence/zig-codeberg-migration.png" class="artifact" alt="Title area of Zig's post: Migrating from GitHub to Codeberg, dated November 26, 2025" style="width: 100%; height: 94px; object-fit: contain; background-color: #111111;">
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://ziglang.org/news/migrating-from-github-to-codeberg/">Zig: GitHub to Codeberg</a></figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="media/evidence/gentoo-codeberg-planet.png" class="artifact" alt="Title area of Planet Gentoo item: Goodbye Github, welcome Codeberg" style="width: 100%; height: 94px; object-fit: contain; background-color: #ffffff;">
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://planet.gentoo.org/">Gentoo: Codeberg mirror</a></figcaption>
+  </figure>
+  <div style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.65em;">
+    <div><strong>The signal:</strong><br>the default FOSS forge is becoming a bottleneck exactly where AI multiplies activity.</div>
+  </div>
+</div>
+```
 
 :::
 
 ::::
-
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Note:** GitHub was never the *only* FOSS home, but it was the *best* one — free CI/CD, hosting, Sponsors, Pages, and unmatched community reach made it the default. These departures matter not because alternatives lack, but because the platform that made FOSS easiest is now buckling under the era it helped create.
-:::
-
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
-Sources: [Kyle Daigle on X (Apr. 4, 2026)](https://x.com/kdaigle/status/2040164759836778878) · [GitHub Blog: An update on availability (Apr. 29, 2026)](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [Zig: Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Hashimoto: Ghostty leaving GitHub (Apr. 28, 2026)](https://mitchellh.com/writing/ghostty-leaving-github) · [Gentoo: Goodbye GitHub (Jan. 5, 2026)](https://www.gentoo.org/news/2026/01/05/goodbye-github.html) · [TechCrunch: Former GitHub CEO on Entire (Feb. 10, 2026)](https://techcrunch.com/2026/02/10/former-github-ceo-raises-record-60m-dev-tool-seed-round-at-300m-valuation/)
-:::
 
 ## Who pays {.smaller}
 
