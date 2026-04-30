@@ -707,7 +707,7 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 ![](media/evidence/github-availability.png){.artifact width="540" height="270" fig-alt="Screenshot of GitHub's April 2026 availability update"}
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 14px; font-size: 0.76em;"}
-GitHub's own availability post frames the problem as a platform-scale shock: agentic development turns every pull request into load on storage, CI, search, permissions, notifications, and APIs.
+[GitHub's own availability post](https://github.blog/news-insights/company-news/an-update-on-github-availability/) frames the problem as a platform-scale shock: agentic development turns every pull request into load on storage, CI, search, permissions, notifications, and APIs.
 :::
 
 :::
@@ -718,15 +718,15 @@ GitHub's own availability post frames the problem as a platform-scale shock: age
 <div style="display: grid; gap: 12px;">
   <figure style="margin: 0;">
     <img src="media/evidence/ghostty-leaving-github.png" class="artifact" alt="Title area of Mitchell Hashimoto's post: Ghostty Is Leaving GitHub, dated April 28, 2026" style="width: 100%; height: 94px; object-fit: contain; background-color: #111827;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Ghostty: leaving GitHub</figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://mitchellh.com/writing/ghostty-leaving-github">Ghostty: leaving GitHub</a></figcaption>
   </figure>
   <figure style="margin: 0;">
     <img src="media/evidence/zig-codeberg-migration.png" class="artifact" alt="Title area of Zig's post: Migrating from GitHub to Codeberg, dated November 26, 2025" style="width: 100%; height: 94px; object-fit: contain; background-color: #111111;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Zig: GitHub to Codeberg</figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://ziglang.org/news/migrating-from-github-to-codeberg/">Zig: GitHub to Codeberg</a></figcaption>
   </figure>
   <figure style="margin: 0;">
     <img src="media/evidence/gentoo-codeberg-planet.png" class="artifact" alt="Title area of Planet Gentoo item: Goodbye Github, welcome Codeberg" style="width: 100%; height: 94px; object-fit: contain; background-color: #ffffff;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;">Gentoo: Codeberg mirror</figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://planet.gentoo.org/">Gentoo: Codeberg mirror</a></figcaption>
   </figure>
   <div style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.65em;">
     <div><strong>The signal:</strong><br>the default FOSS forge is becoming a bottleneck exactly where AI multiplies activity.</div>
@@ -737,10 +737,6 @@ GitHub's own availability post frames the problem as a platform-scale shock: age
 :::
 
 ::::
-
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
-Sources: [GitHub Blog: An update on availability](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [Hashimoto: Ghostty leaving GitHub](https://mitchellh.com/writing/ghostty-leaving-github) · [Zig: Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Planet Gentoo: Goodbye Github, welcome Codeberg](https://planet.gentoo.org/)
-:::
 
 ## Who pays {.smaller}
 
