@@ -702,9 +702,9 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 
 :::: {.columns}
 
-::: {.column width=”50%”}
+::: {.column width=”45%”}
 
-::: {style=”background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;”}
+::: {style=”background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px;”}
 **The agentic traffic surge (April 2026)**
 
 - **275M commits/week** — on pace for 14B/year vs. 1B in all of 2025
@@ -713,22 +713,27 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 - Automated traffic growing **8× faster** than human traffic
 :::
 
-::: {style=”background-color: #e3f2fd; padding: 14px; border-radius: 18px; font-size: 0.78em;”}
-GitHub CTO apologised publicly (April 29, 2026): designed for 10× scale, discovered they need **30×**. Platform pivoted to **”Availability First”** — pausing new features to stabilise the foundation. Former GitHub CEO Thomas Dohmke had already called it: the platform *”was never designed for the era of AI in the first place.”*
+::: {style=”background-color: #e3f2fd; padding: 13px; border-radius: 18px; font-size: 0.76em;”}
+GitHub CTO apologised publicly (April 29, 2026): designed for 10× scale, discovered they need **30×**. Platform pivoted to **”Availability First”** — pausing even new Copilot sign-ups to stabilise the foundation. Former GitHub CEO Thomas Dohmke had already called it: the platform *”was never designed for the era of AI in the first place.”*
 :::
 
 :::
 
-::: {.column width=”50%”}
+::: {.column width=”55%”}
 
-::: {style=”background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 14px; font-size: 0.86em;”}
+::: {style=”background-color: #fff3e0; padding: 12px; border-radius: 18px; margin-bottom: 10px; font-size: 0.80em;”}
 **Zig → Codeberg (November 2025)**<br>
-GitHub Actions “vibe-scheduling” rendered CI unreliable; Microsoft's persistent AI integrations conflicted with Zig's strict no-AI policy. The GitHub repo was made read-only.
+GitHub Actions “vibe-scheduling” broke CI; Microsoft's AI integrations conflicted with Zig's strict no-AI policy. The GitHub repo was made read-only.
 :::
 
-::: {style=”background-color: #e8f5e9; padding: 14px; border-radius: 18px; font-size: 0.82em;”}
+::: {style=”background-color: #e8f5e9; padding: 12px; border-radius: 18px; margin-bottom: 10px; font-size: 0.80em;”}
 **Ghostty announces departure (April 28, 2026)**<br>
-Mitchell Hashimoto kept a daily journal — nearly every day had an outage mark. *”This is no longer a place for serious work if it just blocks you out for hours per day, every day.”*
+Mitchell Hashimoto kept a daily outage journal — nearly every day had a mark. *”This is no longer a place for serious work if it just blocks you out for hours per day, every day.”*
+:::
+
+::: {style=”background-color: #ede7f6; padding: 12px; border-radius: 18px; font-size: 0.80em;”}
+**Gentoo → Codeberg (January 2026)**<br>
+Cited GitHub's *”continuous attempts to force Copilot usage”* — in direct conflict with Gentoo's standing ban on AI-generated contributions.
 :::
 
 :::
@@ -740,7 +745,7 @@ Mitchell Hashimoto kept a daily journal — nearly every day had an outage mark.
 :::
 
 ::: {style=”text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;”}
-Sources: [Kyle Daigle on X (Apr. 4, 2026)](https://x.com/kdaigle/status/2040164759836778878) · [GitHub Blog: An update on availability (Apr. 29, 2026)](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [Zig: Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Hashimoto: Ghostty leaving GitHub (Apr. 28, 2026)](https://mitchellh.com/writing/ghostty-leaving-github) · [TechCrunch: Former GitHub CEO on Entire (Feb. 10, 2026)](https://techcrunch.com/2026/02/10/former-github-ceo-raises-record-60m-dev-tool-seed-round-at-300m-valuation/)
+Sources: [Kyle Daigle on X (Apr. 4, 2026)](https://x.com/kdaigle/status/2040164759836778878) · [GitHub Blog: An update on availability (Apr. 29, 2026)](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [Zig: Migrating from GitHub to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Hashimoto: Ghostty leaving GitHub (Apr. 28, 2026)](https://mitchellh.com/writing/ghostty-leaving-github) · [Gentoo: Goodbye GitHub (Jan. 5, 2026)](https://www.gentoo.org/news/2026/01/05/goodbye-github.html) · [TechCrunch: Former GitHub CEO on Entire (Feb. 10, 2026)](https://techcrunch.com/2026/02/10/former-github-ceo-raises-record-60m-dev-tool-seed-round-at-300m-valuation/)
 :::
 
 ## Who pays {.smaller}
