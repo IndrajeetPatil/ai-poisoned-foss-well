@@ -741,7 +741,7 @@ Cited GitHub's *”continuous attempts to force Copilot usage”* — in direct 
 ::::
 
 ::: {style=”background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;”}
-**Note:** GitHub was never the *only* place to host FOSS — SourceForge, Bitbucket, and self-hosting always existed. But for a long time it was the *best* place: free CI/CD, free hosting, GitHub Sponsors, Pages, and an unmatched audience made it the default home for the FOSS world. That is what makes these departures significant. It is not that alternatives do not exist — it is that the platform that made open-source easiest and most visible is now the one buckling under the weight of the era it helped create.
+**Note:** GitHub was never the *only* FOSS home, but it was the *best* one — free CI/CD, hosting, Sponsors, Pages, and unmatched community reach made it the default. These departures matter not because alternatives lack, but because the platform that made FOSS easiest is now buckling under the era it helped create.
 :::
 
 ::: {style=”text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;”}
