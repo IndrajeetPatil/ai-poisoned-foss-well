@@ -631,6 +631,40 @@ This is why the “we want contributors, but reject many PRs” tension is real 
 Context: [Veritasium, “The Most Clever Attack in Computing History”](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
 :::
 
+## Stars stop being trust signals {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](media/evidence/github-stars-for-sale.svg){.artifact width="700" height="450" fig-alt="Stylized evidence card showing paid GitHub stars, suspected fake stars at scale, and the loop from visibility to funding attention"}
+
+:::
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**A reputation market exists**<br>
+One live service sells GitHub stars, advertises card and crypto payments, and frames stars as visibility and credibility.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+**Why people care**<br>
+GitHub stars are no longer just bookmarks. They feed discovery, rankings, startup lists, and early funding attention.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
+The old shortcut was: many stars means many people trust this. Once stars can be bought, every passive signal needs an audit trail.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
+Sources: [SocialPlug, “Buy GitHub Stars”](https://www.socialplug.io/services/buy-github-stars) · [He et al., ICSE 2026](https://arxiv.org/abs/2412.13459) · [GitHub Fund](https://github.com/open-source/github-fund) · [TechCrunch on Runa’s ROSS Index](https://techcrunch.com/2023/02/01/which-open-source-startups-rocketed-in-2022/)
+:::
+
 ## From default trust to explicit trust {.smaller}
 
 ::: {style="text-align: center; font-size: 0.78em; margin-bottom: 0.8em;"}
