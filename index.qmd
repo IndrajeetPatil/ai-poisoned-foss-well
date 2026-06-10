@@ -74,15 +74,16 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 
 :::: {.columns}
 
-::: {.column width="33%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+![](media/illustrations/oss-hidden-subsidy.jpg){.illustration width="640" height="360" fig-alt="Generated scientific cross-section illustration showing visible software products supported by a much larger hidden open-source dependency network"}
 
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-96%
 :::
 
-of codebases include open-source software.
+::: {.column width="38%"}
+
+::: {style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
+**96%** of codebases include open-source software.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Synopsys OSSRA report, cited by Harvard
@@ -90,17 +91,8 @@ Synopsys OSSRA report, cited by Harvard
 
 :::
 
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px;"}
-
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-$8.8T
-:::
-
-estimated global replacement value if firms had to recreate the OSS they rely on.
+::: {style="background-color: #e8f5e9; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
+**$8.8T** estimated global replacement value.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Harvard demand-side estimate
@@ -108,17 +100,8 @@ Harvard demand-side estimate
 
 :::
 
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.92em;"}
-
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-2-5x
-:::
-
-reported ROI for organisations that actively contribute upstream instead of only consuming OSS.
+::: {style="background-color: #fff3e0; padding: 13px; border-radius: 18px; font-size: 0.68em;"}
+**2-5x** reported ROI for organisations that contribute upstream.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Linux Foundation, 2026
@@ -129,8 +112,6 @@ Linux Foundation, 2026
 :::
 
 ::::
-
-<br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
 Modern software runs on FOSS. Pollute the commons, pay a systemic cost.
@@ -244,32 +225,26 @@ Who captures the value, and who carries the cost?
 
 :::: {.columns}
 
-::: {.column width="42%"}
+::: {.column width="38%"}
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.76em;"}
 **The paradox is fake**<br>
 FOSS still needs more human contributors. What it cannot absorb is more anonymous, low-context synthetic volume.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**What healthy contribution used to create**
-
-- Reading docs
-- Reporting edge cases
-- Sticking around for review
-- Becoming a repeat contributor
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.72em;"}
+Healthy contribution returns context: docs, edge cases, review follow-up, and repeat contributors.
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**Not all teams absorb this equally**<br>
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; font-size: 0.68em;"}
 `React` can lean on engineers paid by Meta. Independent maintainers and small volunteer teams usually have no such buffer.
 :::
 
 :::
 
-::: {.column width="58%"}
+::: {.column width="62%"}
 
-[![](media/evidence/vibe-coding-paper.png){.artifact width="600" height="435" fig-alt="Screenshot of the arXiv paper Vibe Coding Kills Open Source"}](https://arxiv.org/abs/2601.15494)
+![](media/illustrations/extraction-without-reciprocity.jpg){.illustration width="640" height="360" fig-alt="Generated scientific flow diagram showing a broad open-source commons feeding a model and commercial product pipeline, with only a thin return flow back to maintainers"}
 
 :::
 
@@ -472,21 +447,21 @@ Sources: [`cloud-hypervisor` #7162](https://github.com/cloud-hypervisor/cloud-hy
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="38%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.76em;"}
 **The package does not need to exist first.**<br>
 The model can invent it. An attacker can register it later.
 :::
 
 ::: {style="display: flex; gap: 12px; margin-top: 10px;"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
 **5.2%**<br>
 average rate for commercial coding models.
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
 **21.7%**<br>
 average rate for open-weight coding models.
 :::
@@ -495,9 +470,9 @@ average rate for open-weight coding models.
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="62%"}
 
-![](media/evidence/package-hallucination-story.png){.artifact width="590" height="420" fig-alt="Screenshot of the USENIX article Package Hallucinations: How LLMs Can Invent Vulnerabilities"}
+![](media/illustrations/package-hallucination-chain.jpg){.illustration width="640" height="360" fig-alt="Generated scientific attack-chain diagram showing a hallucinated package node becoming a registered poisoned dependency and flowing into developer and production environments"}
 
 :::
 
@@ -844,36 +819,35 @@ Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Technical Counter-measures**
-
-- **Automated provenance tools** (e.g., `SLSA`, `sigstore`)
-- **License-aware fine-tuning** that respects copyleft
-- **AI-assisted triage bots** using the tech to defend against the tech
-:::
+![](media/illustrations/community-adaptation-filters.jpg){.illustration width="640" height="360" fig-alt="Generated scientific filter diagram showing synthetic contribution volume passing through verification, policy, and human review layers before reaching a healthy open-source commons"}
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="38%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Social & Policy Shifts**
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
+**Technical filters**<br>
+Provenance tooling, `SLSA`, `sigstore`, and license-aware automation.
+:::
 
-- **Mandatory AI-disclosure templates**
-- Projects **banning undisclosed AI code**
-- Requiring strict **human sign-off** and accountability
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
+**Policy filters**<br>
+Disclosure templates, explicit bans on undisclosed AI code, and review gates.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.68em;"}
+**Human filters**<br>
+Accountability stays with a person before code enters the commons.
 :::
 
 :::
 
 ::::
 
-<br>
-
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The open-source ecosystem is actively adapting. Emerging solutions suggest the current disruption will eventually stabilize into a new equilibrium.
+The open-source ecosystem is adapting toward a filtered equilibrium, not a simple return to the old default-open model.
 :::
 
 ## Keep the well drinkable {.smaller}
