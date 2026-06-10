@@ -85,7 +85,7 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 of codebases include open-source software.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
-Harvard summary of the 2024 working paper
+Synopsys OSSRA report, cited by Harvard
 :::
 
 :::
@@ -137,7 +137,7 @@ Modern software runs on FOSS. Pollute the commons, pay a systemic cost.
 :::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.9em; color: #666;"}
-Sources: [HBS AI Institute, October 31, 2024](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/) · [Linux Foundation, February 24, 2026](https://www.linuxfoundation.org/press/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt)
+Sources: [HBS AI Institute, 2024](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/) · [Linux Foundation, 2026](https://www.linuxfoundation.org/press/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt)
 :::
 
 ## The well is a social system {.smaller}
@@ -253,7 +253,7 @@ This talk is not anti-AI. It is about what happens when speed, anonymity, and vo
 :::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
-Sources: [Song et al. (arXiv, Jul. 8, 2025)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, Mar. 27, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, Feb. 9, 2026](https://blog.continue.dev/were-losing-open-contribution)
+Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution)
 :::
 
 ## Economics {style="margin-top: 2.3em; text-align: left;"}
@@ -298,7 +298,7 @@ FOSS still needs more human contributors. What it cannot absorb is more anonymou
 ::::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
-Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer (Jan. 28, 2026)](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
+Sources: [Koren et al. (arXiv, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer, 2026](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
 :::
 
 ## `Tailwind` and the business-model shock {style="font-size: 0.74em;"}
@@ -364,7 +364,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
 **Actual move: `Cal.com`**<br>
-On Apr. 14, 2026, the scheduling SaaS said it was going closed source after five years in public.
+In April 2026 the scheduling SaaS went closed source after five years in public.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
@@ -402,15 +402,14 @@ Attack surface, supply chain, and code provenance.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
-**March 24, 2026**<br>
+**March 2026**<br>
 `LiteLLM` issue `#24512` warned that the package on `PyPI` was compromised.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
 **488 comments**<br>
 The thread was submerged in repetitive bot-shaped replies.<br>
-**12:49 UTC** closed as `NOT_PLANNED`.<br>
-**13:49 UTC** reopened.
+Briefly closed as `NOT_PLANNED`, then reopened.
 :::
 
 :::
@@ -492,7 +491,7 @@ Maintainers answer with disclosure, attestation, provenance checks, or outright 
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [`cloud-hypervisor` #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+Sources: [`cloud-hypervisor` #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware, 2026](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
 ## Hallucinations as supply-chain bait {.smaller}
@@ -531,7 +530,7 @@ average rate for open-weight coding models.
 ::::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.6em; color: #666;"}
-Sources: [USENIX ;login: (Jun. 17, 2025)](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · 205,474 phantom names observed
+Sources: [USENIX ;login:, 2025](https://www.usenix.org/publications/loginonline/we-have-package-you-comprehensive-analysis-package-hallucinations-code) · [USENIX Security ’25](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) · 205,474 phantom names observed
 :::
 
 ## Community {style="margin-top: 2.3em; text-align: left;"}
@@ -761,7 +760,7 @@ The emerging norm is not "no AI." It is: disclose it, own it, and prove a human 
 ::::
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.65em; color: #666;"}
-Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
+Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
 :::
 
 ## `GitHub` wasn't built for this {.smaller}
@@ -864,7 +863,7 @@ Loses the renewal mechanism that kept FOSS broad and resilient.
 ::::
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
-Source: [Mara Averick, stdlib, Jun. 7, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
+Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
 :::
 
 ## Community Adaptability {.smaller}
