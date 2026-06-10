@@ -67,7 +67,7 @@ Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in
 :::
 
 ::: {style="text-align: center; font-size: 0.6em; margin-top: 0.9em; color: #666;"}
-Source code for these slides can be found [on GitHub](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
+Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
 :::
 
 ## FOSS is a giant hidden subsidy {.smaller}
@@ -210,7 +210,7 @@ LLMs change the cost model of all three at once.
 +5.9%
 :::
 
-Copilot use was associated with higher OSS code contributions, even as coordination time also rose.
+`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose.
 
 :::
 
@@ -238,7 +238,7 @@ Andrea Griffiths: “AI can make maintainership sustainable” when it takes a f
 Good AI use exists
 :::
 
-Ghostty accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
+`Ghostty` accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
 
 :::
 
@@ -253,7 +253,7 @@ This talk is not anti-AI. It is about what happens when speed, anonymity, and vo
 :::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
-Sources: [Song et al. (arXiv, Jul. 8, 2025)](https://arxiv.org/abs/2410.02091) · [GitHub Blog, Mar. 27, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, Feb. 9, 2026](https://blog.continue.dev/were-losing-open-contribution)
+Sources: [Song et al. (arXiv, Jul. 8, 2025)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, Mar. 27, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, Feb. 9, 2026](https://blog.continue.dev/were-losing-open-contribution)
 :::
 
 ## Economics {style="margin-top: 2.3em; text-align: left;"}
@@ -284,7 +284,7 @@ FOSS still needs more human contributors. What it cannot absorb is more anonymou
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
 **Not all teams absorb this equally**<br>
-React can lean on engineers paid by Meta. Independent maintainers and small volunteer teams usually have no such buffer.
+`React` can lean on engineers paid by Meta. Independent maintainers and small volunteer teams usually have no such buffer.
 :::
 
 :::
@@ -301,7 +301,7 @@ React can lean on engineers paid by Meta. Independent maintainers and small volu
 Sources: [Koren et al. (arXiv, Jan. 21, 2026)](https://arxiv.org/abs/2601.15494) · [PC Gamer (Jan. 28, 2026)](https://www.pcgamer.com/software/ai/vibe-coding-kills-open-source-claims-new-paper-as-its-authors-lament-the-lack-of-human-attention-towards-oss-products/)
 :::
 
-## Tailwind and the business-model shock {style="font-size: 0.74em;"}
+## `Tailwind` and the business-model shock {style="font-size: 0.74em;"}
 
 :::: {.columns}
 
@@ -339,11 +339,11 @@ Adoption rose. The docs-led business model cracked.
 ::::
 
 ::: {style="text-align: center; font-size: 0.38em; margin-top: 0.04em; color: #666;"}
-Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [Tailwind Sponsor](https://tailwindcss.com/sponsor) · [Tailwind Plus](https://tailwindcss.com/plus)
+Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [`Tailwind` Sponsor](https://tailwindcss.com/sponsor) · [`Tailwind` Plus](https://tailwindcss.com/plus)
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Causation vs. correlation:** Tailwind's traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, "extraction without reciprocity" isn't purely one-way; many AI labs open-source their models and tools.
+**Causation vs. correlation:** `Tailwind`'s traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, "extraction without reciprocity" isn't purely one-way; many AI labs open-source their models and tools.
 :::
 
 ## Open source as a liability {style="font-size: 0.8em;"}
@@ -371,7 +371,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 ::: {.column width="42%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
-**Example: Malus**<br>
+**Example: `Malus`**<br>
 An AI "clean room" service claims it can recreate open-source packages from docs and APIs.
 :::
 
@@ -410,7 +410,7 @@ Attack surface, supply chain, and code provenance.
 
 ::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
 **March 24, 2026**<br>
-LiteLLM issue `#24512` warned that the package on PyPI was compromised.
+`LiteLLM` issue `#24512` warned that the package on `PyPI` was compromised.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
@@ -431,7 +431,7 @@ The thread was submerged in repetitive bot-shaped replies.<br>
 ::::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [BerriAI/litellm issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
+Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
 :::
 
 ## Why LLMs tilt the field {style="font-size: 0.8em;"}
@@ -481,7 +481,7 @@ Generated code can look mergeable while still hiding its origin, licence lineage
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **The next step is worse.**<br>
-**Malus** is a satirical warning, but it captures the logic: AI clean-room claims can be used to dodge attribution and copyleft obligations.
+**`Malus`** is a satirical warning, but it captures the logic: AI clean-room claims can be used to dodge attribution and copyleft obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
@@ -499,7 +499,7 @@ Maintainers answer with attestation, provenance checks, or outright bans on AI-d
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [malus.sh (satirical warning)](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+Sources: [`Malus` (satirical warning)](https://malus.sh/) · [cloud-hypervisor #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom’s Hardware (Apr. 12, 2026)](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
 :::
 
 ## Hallucinations as supply-chain bait {.smaller}
@@ -568,7 +568,7 @@ Expensive to review.
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **Public example, February 2026**<br>
-Matplotlib maintainer **Scott Shambaugh** rejected an AI-authored change. Hours later, an AI persona published a personal attack piece about him.
+`Matplotlib` maintainer **Scott Shambaugh** rejected an AI-authored change. Hours later, an AI persona published a personal attack piece about him.
 :::
 
 :::
@@ -610,7 +610,7 @@ Source: [Scott Shambaugh, “An AI Agent Published a Hit Piece on Me”](https:/
 ::: {.column width="42%"}
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**XZ Utils changed the baseline**<br>
+**`XZ Utils` changed the baseline**<br>
 The lesson was not “review newcomers less kindly.” It was that trust itself can be weaponized.
 :::
 
@@ -645,12 +645,12 @@ Context: [Veritasium, “The Most Clever Attack in Computing History”](https:/
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **A reputation market exists**<br>
-One live service sells GitHub stars, advertises card and crypto payments, and frames stars as visibility and credibility.
+One live service sells `GitHub` stars, advertises card and crypto payments, and frames stars as visibility and credibility.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
 **Why people care**<br>
-GitHub stars are no longer just bookmarks. They feed discovery, rankings, startup lists, and early funding attention.
+`GitHub` stars are no longer just bookmarks. They feed discovery, rankings, startup lists, and early funding attention.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
@@ -662,7 +662,7 @@ The old shortcut was: many stars means many people trust this. Once stars can be
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [SocialPlug, “Buy GitHub Stars”](https://www.socialplug.io/services/buy-github-stars) · [He et al., ICSE 2026](https://arxiv.org/abs/2412.13459) · [GitHub Fund](https://github.com/open-source/github-fund) · [TechCrunch on Runa’s ROSS Index](https://techcrunch.com/2023/02/01/which-open-source-startups-rocketed-in-2022/)
+Sources: [SocialPlug, “Buy `GitHub` Stars”](https://www.socialplug.io/services/buy-github-stars) · [He et al., ICSE 2026](https://arxiv.org/abs/2412.13459) · [`GitHub` Fund](https://github.com/open-source/github-fund) · [TechCrunch on Runa’s ROSS Index](https://techcrunch.com/2023/02/01/which-open-source-startups-rocketed-in-2022/)
 :::
 
 ## From default trust to explicit trust {.smaller}
@@ -678,7 +678,7 @@ Mitchell Hashimoto is piloting a different model.
 ![](media/evidence/ghostty-contributing.png){.artifact width="500" height="360" fig-alt="Screenshot of Ghostty's contributing guide with its vouch system"}
 
 ::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**Ghostty:** first-time contributors need a maintainer vouch before a PR can stay open.
+**`Ghostty`:** first-time contributors need a maintainer vouch before a PR can stay open.
 :::
 
 :::
@@ -688,7 +688,7 @@ Mitchell Hashimoto is piloting a different model.
 ![](media/evidence/vouch-readme.png){.artifact width="500" height="360" fig-alt="Screenshot of Mitchell Hashimoto's Vouch repository"}
 
 ::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**Vouch:** trust becomes explicit before code arrives.
+**`Vouch`:** trust becomes explicit before code arrives.
 :::
 
 :::
@@ -696,7 +696,7 @@ Mitchell Hashimoto is piloting a different model.
 ::::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [Ghostty CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/main/CONTRIBUTING.md) · [mitchellh/vouch](https://github.com/mitchellh/vouch)
+Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/main/CONTRIBUTING.md) · [`Vouch`](https://github.com/mitchellh/vouch)
 :::
 
 ## Narrower funnels {.smaller}
@@ -712,7 +712,7 @@ Sources: [Ghostty CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/m
 ::: {.column width="40%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**tldraw, January 2026**<br>
+**`tldraw`, January 2026**<br>
 An influential project announced it would automatically close pull requests from external contributors.
 :::
 
@@ -729,7 +729,7 @@ This is what “the commons hardening” looks like in practice: not total closu
 ::::
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
-Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.com/tldraw/tldraw/issues/7695)
+Source: [`tldraw` issue #7695, “Contributions policy”](https://github.com/tldraw/tldraw/issues/7695)
 :::
 
 ## AI policy hardening is now measurable {.smaller}
@@ -740,7 +740,7 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 
 ::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
 **118 policies**<br>
-found across 1,000 popular GitHub repositories in a May 2026 empirical scan.
+found across 1,000 popular `GitHub` repositories in a May 2026 empirical scan.
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
@@ -771,7 +771,7 @@ The emerging norm is not "no AI." It is: disclose it, own it, and prove a human 
 Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
 :::
 
-## GitHub wasn't built for this {.smaller}
+## `GitHub` wasn't built for this {.smaller}
 
 :::: {.columns}
 
@@ -787,11 +787,11 @@ Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706)
   </div>
   <div style="background-color: #e8f5e9; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
     <strong style="font-size: 1.55em;">Apr 22</strong><br>
-    Copilot Cloud Agent outage
+    <code>Copilot Cloud Agent</code> outage
   </div>
   <div style="background-color: #e3f2fd; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
     <strong style="font-size: 1.55em;">~10%</strong><br>
-    Cloud Agent sessions hit Apr 23
+    <code>Cloud Agent</code> sessions hit Apr 23
   </div>
   <div style="background-color: #ffebee; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
     <strong style="font-size: 1.55em;">65%</strong><br>
@@ -801,7 +801,7 @@ Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706)
 ```
 
 ::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-top: 12px; font-size: 0.68em;"}
-[GitHub's April 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: Copilot, PR-adjacent services, search, Actions, and webhooks all show up in the same failure surface.
+[`GitHub`'s April 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: `Copilot`, PR-adjacent services, search, `Actions`, and webhooks all show up in the same failure surface.
 :::
 
 :::
@@ -812,15 +812,15 @@ Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706)
 <div style="display: grid; gap: 12px;">
   <figure style="margin: 0;">
     <img src="media/evidence/ghostty-leaving-github.png" class="artifact" alt="Title area of Mitchell Hashimoto's post: Ghostty Is Leaving GitHub, dated April 28, 2026" style="width: 100%; height: 94px; object-fit: contain; background-color: #111827;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://mitchellh.com/writing/ghostty-leaving-github">Ghostty: leaving GitHub</a></figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://mitchellh.com/writing/ghostty-leaving-github"><code>Ghostty</code>: leaving <code>GitHub</code></a></figcaption>
   </figure>
   <figure style="margin: 0;">
     <img src="media/evidence/zig-codeberg-migration.png" class="artifact" alt="Title area of Zig's post: Migrating from GitHub to Codeberg, dated November 26, 2025" style="width: 100%; height: 94px; object-fit: contain; background-color: #111111;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://ziglang.org/news/migrating-from-github-to-codeberg/">Zig: GitHub to Codeberg</a></figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://ziglang.org/news/migrating-from-github-to-codeberg/"><code>Zig</code>: <code>GitHub</code> to <code>Codeberg</code></a></figcaption>
   </figure>
   <figure style="margin: 0;">
     <img src="media/evidence/gentoo-codeberg-planet.png" class="artifact" alt="Title area of Planet Gentoo item: Goodbye Github, welcome Codeberg" style="width: 100%; height: 94px; object-fit: contain; background-color: #ffffff;">
-    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://planet.gentoo.org/">Gentoo: Codeberg mirror</a></figcaption>
+    <figcaption style="font-size: 0.46em; color: #666; margin-top: 5px;"><a href="https://planet.gentoo.org/"><code>Gentoo</code>: <code>Codeberg</code> mirror</a></figcaption>
   </figure>
   <div style="background-color: #e3f2fd; padding: 12px; border-radius: 18px; font-size: 0.65em;">
     <div><strong>The signal:</strong><br>the default FOSS forge is becoming a bottleneck exactly where AI multiplies activity.</div>
@@ -833,7 +833,7 @@ Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706)
 ::::
 
 ::: {style="text-align: center; font-size: 0.42em; margin-top: 0.5em; color: #666;"}
-Sources: [GitHub availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [GitHub availability report: April 2026](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) · [Ghostty](https://mitchellh.com/writing/ghostty-leaving-github) · [Zig](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Planet Gentoo](https://planet.gentoo.org/)
+Sources: [`GitHub` availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`GitHub` availability report: April 2026](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Planet `Gentoo`](https://planet.gentoo.org/)
 :::
 
 ## Who pays {.smaller}
@@ -883,7 +883,7 @@ Source: [Mara Averick, stdlib, Jun. 7, 2026](https://blog.stdlib.io/ai-and-the-i
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Technical Counter-measures**
 
-- **Automated provenance tools** (e.g., SLSA, sigstore)
+- **Automated provenance tools** (e.g., `SLSA`, `sigstore`)
 - **License-aware fine-tuning** that respects copyleft
 - **AI-assisted triage bots** using the tech to defend against the tech
 :::
@@ -971,7 +971,7 @@ If openness becomes unaffordable, FOSS stops regenerating.
 :::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 1.0em; color: #666;"}
-Additional references: [XZ Utils backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution)
+Additional references: [`XZ Utils` backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution)
 :::
 
 # Thank You
@@ -982,7 +982,7 @@ Questions and critiques welcome.
 <br>
 
 ::: {style="text-align: center; font-size: 0.7em;"}
-Source code for these slides is available [on GitHub](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
+Source code for these slides is available [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
 :::
 
 ::: {style="text-align: center; font-size: 0.7em; margin-top: 0.8em;"}
