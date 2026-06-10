@@ -291,7 +291,7 @@ React can lean on engineers paid by Meta. Independent maintainers and small volu
 
 ::: {.column width="58%"}
 
-![](media/evidence/vibe-coding-paper.png){.artifact width="600" height="435" fig-alt="Screenshot of the arXiv paper Vibe Coding Kills Open Source"}
+[![](media/evidence/vibe-coding-paper.png){.artifact width="600" height="435" fig-alt="Screenshot of the arXiv paper Vibe Coding Kills Open Source"}](https://arxiv.org/abs/2601.15494)
 
 :::
 
