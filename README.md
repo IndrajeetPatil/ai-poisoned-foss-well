@@ -19,6 +19,7 @@ The current deck covers:
 - Trust collapse after XZ Utils and the resulting damage to the contributor pipeline
 - Mitchell Hashimoto's trust-gating approach with Ghostty and Vouch
 - Community adaptability through technical counter-measures and policy shifts
+- Measurable AI contribution policy hardening across popular GitHub repositories
 - The social costs borne by maintainers, junior developers, and the movement itself
 
 ## Development

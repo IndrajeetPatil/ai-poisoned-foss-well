@@ -732,6 +732,45 @@ This is what “the commons hardening” looks like in practice: not total closu
 Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.com/tldraw/tldraw/issues/7695)
 :::
 
+## AI policy hardening is now measurable {.smaller}
+
+:::: {.columns}
+
+::: {.column width="42%"}
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
+**118 policies**<br>
+found across 1,000 popular GitHub repositories in a May 2026 empirical scan.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
+**78% allow GenAI**<br>
+but the permission usually comes with conditions, not blind acceptance.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
+**51% require disclosure**<br>
+and **74% require a human in the loop** during contribution.
+:::
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.66em;"}
+The emerging norm is not "no AI." It is: disclose it, own it, and prove a human did the review work.
+:::
+
+:::
+
+::: {.column width="58%"}
+
+![](media/evidence/ai-policy-disclosure-paper.png){.artifact width="610" height="450" fig-alt="Screenshot of the May 2026 arXiv paper AI Policy, Disclosure, and Human in the Loop"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.65em; color: #666;"}
+Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
+:::
+
 ## GitHub wasn't built for this {.smaller}
 
 :::: {.columns}
@@ -739,30 +778,30 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 ::: {.column width="52%"}
 
 ```{=html}
-<img src="media/evidence/github-availability.png" class="artifact" alt="Screenshot of GitHub's April 2026 availability update" style="width: 100%; height: 212px; object-fit: cover; object-position: top center;">
+<img src="media/evidence/github-april-availability-report.png" class="artifact" alt="Screenshot of GitHub's April 2026 availability report" style="width: 100%; height: 212px; object-fit: cover; object-position: top center;">
 
-<div aria-label="GitHub platform scale statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
+<div aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
   <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">275M</strong><br>
-    commits per week
+    <strong style="font-size: 1.55em;">10</strong><br>
+    April incidents
   </div>
   <div style="background-color: #e8f5e9; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">2.1B</strong><br>
-    Actions minutes per week
+    <strong style="font-size: 1.55em;">Apr 22</strong><br>
+    Copilot Cloud Agent outage
   </div>
   <div style="background-color: #e3f2fd; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">17M</strong><br>
-    agent-opened PRs
+    <strong style="font-size: 1.55em;">~10%</strong><br>
+    Cloud Agent sessions hit Apr 23
   </div>
   <div style="background-color: #ffebee; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">8x</strong><br>
-    faster automated growth
+    <strong style="font-size: 1.55em;">65%</strong><br>
+    peak search timeout/error rate
   </div>
 </div>
 ```
 
 ::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-top: 12px; font-size: 0.68em;"}
-[GitHub's own availability post](https://github.blog/news-insights/company-news/an-update-on-github-availability/) frames the problem as a platform-scale shock: agentic development turns every pull request into load on storage, CI, search, permissions, notifications, and APIs.
+[GitHub's May 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: Copilot, PR-adjacent services, search, Actions, and webhooks all show up in the same failure surface.
 :::
 
 :::
@@ -792,6 +831,10 @@ Source: [tldraw/tldraw issue #7695, “Contributions policy”](https://github.c
 :::
 
 ::::
+
+::: {style="text-align: center; font-size: 0.42em; margin-top: 0.5em; color: #666;"}
+Sources: [GitHub availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [GitHub availability report: April 2026](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) · [Ghostty](https://mitchellh.com/writing/ghostty-leaving-github) · [Zig](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [Planet Gentoo](https://planet.gentoo.org/)
+:::
 
 ## Who pays {.smaller}
 
