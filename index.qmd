@@ -144,58 +144,36 @@ Sources: [HBS AI Institute, 2024](https://d3.harvard.edu/revealing-value-the-eco
 
 :::: {.columns}
 
-::: {.column width="33%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Review labour
-:::
-
-Volunteer maintainers turn raw patches into shared infrastructure.
+![](media/illustrations/foss-social-system.jpg){.illustration width="630" height="355" fig-alt="Generated illustration of an open-source commons as a stone well fed by review labour, trust, and apprenticeship, with a synthetic digital current disturbing the system"}
 
 :::
 
+::: {.column width="38%"}
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+**Review labour** turns raw patches into shared infrastructure.
 :::
 
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Trust
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+**Trust** lets contributors begin with a presumption of good faith.
 :::
 
-Contributors usually begin with a presumption of good faith.
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Apprenticeship
-:::
-
-Small PRs are how future maintainers usually enter the project.
-
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
+**Apprenticeship** is how future maintainers usually enter.
 :::
 
 :::
 
 ::::
 
-<br>
-
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
 LLMs change the cost model of all three at once.
 :::
 
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.7em; margin-top: 1em; color: #444;"}
-**Note on pre-AI FOSS:** Low-quality PRs, drive-by contributors, and maintainer burnout predate LLMs. What changed is speed and volume: AI makes low-context contribution cheaper, faster, and more plausible-looking. The root issue is still the tragedy of the commons and under-compensated maintainer labour, not AI itself.
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Boundary:** Low-quality PRs and burnout predate LLMs. AI changes speed, volume, and plausibility; the underlying commons problem is still under-compensated maintainer labour.
 :::
 
 ## AI can help the well too {.smaller}
@@ -430,35 +408,31 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 
 :::: {.columns}
 
-::: {.column width="58%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Compression**<br>
-Recon, exploit drafting, follow-up comments, and social engineering now collapse into minutes.
-:::
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Parallel work**<br>
-One attacker can write code, write prose, and flood response channels at the same time.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; font-size: 0.78em;"}
-Synthetic volume becomes an attacker advantage.
-:::
+![](media/illustrations/llm-tilted-field.jpg){.illustration width="640" height="360" fig-alt="Generated illustration of a tilted review field where human maintainers review carefully on one side while an AI system sends parallel streams of code, exploit notes, and issue comments on the other"}
 
 :::
 
-::: {.column width="42%"}
+::: {.column width="38%"}
 
-![](media/evidence/polluted-water.jpg){.panel-image width="390" height="418" fig-alt="A close photograph of polluted water"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
+**Same reviewer, more surface area**<br>
+Recon, exploit drafting, follow-up comments, and social engineering become parallel streams.
+:::
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
+**The bottleneck stays human**<br>
+Maintainers still pay attention one issue, one patch, one incident at a time.
+:::
+
+::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
+Synthetic volume turns time asymmetry into attacker advantage.
+:::
 
 :::
 
 ::::
-
-::: {style="text-align: center; font-size: 0.46em; margin-top: 0.12em; color: #666;"}
-Photo: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
-:::
 
 ## Provenance becomes licence laundering {.smaller}
 
