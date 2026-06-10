@@ -801,7 +801,7 @@ Sources: [Hora & Robbes (arXiv, May 15, 2026)](https://arxiv.org/abs/2605.16706)
 ```
 
 ::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-top: 12px; font-size: 0.68em;"}
-[GitHub's May 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: Copilot, PR-adjacent services, search, Actions, and webhooks all show up in the same failure surface.
+[GitHub's April 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: Copilot, PR-adjacent services, search, Actions, and webhooks all show up in the same failure surface.
 :::
 
 :::
