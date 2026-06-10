@@ -844,7 +844,7 @@ Sources: [GitHub availability update](https://github.blog/news-insights/company-
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Junior developers**<br>
-Lose first reviews, apprenticeship, and the easiest route into open-source work.
+Lose first reviews, apprenticeship, and the easiest route into open-source work. AI also hides the early public questions that used to make newcomers visible.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px;"}
@@ -869,6 +869,10 @@ Loses the renewal mechanism that kept FOSS broad and resilient.
 :::
 
 ::::
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
+Source: [Mara Averick, stdlib, Jun. 7, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
+:::
 
 ## Community Adaptability {.smaller}
 
