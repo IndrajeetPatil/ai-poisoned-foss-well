@@ -195,7 +195,7 @@ LLMs change the cost model of all three at once.
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.7em; margin-top: 1em; color: #444;"}
-**Note on pre-AI FOSS:** It is important not to romanticize pre-AI FOSS. Low-quality PRs, drive-by contributors who disappear after dumping code, and maintainer burnout existed long before LLMs. AI just makes the firehose of low-quality contribution cheaper and more plausible-looking. The root issue is still the tragedy of the commons + under-compensation of maintainers, not AI per se.
+**Note on pre-AI FOSS:** Low-quality PRs, drive-by contributors, and maintainer burnout predate LLMs. What changed is speed and volume: AI makes low-context contribution cheaper, faster, and more plausible-looking. The root issue is still the tragedy of the commons and under-compensated maintainer labour, not AI itself.
 :::
 
 ## AI can help the well too {.smaller}
