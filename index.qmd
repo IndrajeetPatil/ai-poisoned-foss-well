@@ -472,7 +472,7 @@ average rate for open-weight coding models.
 
 ::: {.column width="62%"}
 
-![](media/illustrations/package-hallucination-chain.jpg){.illustration width="640" height="360" fig-alt="Generated scientific attack-chain diagram showing a hallucinated package node becoming a registered poisoned dependency and flowing into developer and production environments"}
+![](media/evidence/package-hallucination-story.png){.artifact width="610" height="382" fig-alt="Screenshot of the USENIX article about comprehensive analysis of package hallucinations in code-generating LLMs"}
 
 :::
 
@@ -719,7 +719,7 @@ Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [ope
 ::: {.column width="52%"}
 
 ```{=html}
-<img src="media/evidence/github-april-availability-report.png" class="artifact" alt="Screenshot of GitHub's April 2026 availability report" style="width: 100%; height: 212px; object-fit: cover; object-position: top center;">
+<img src="media/evidence/github-record-acceleration.png" class="artifact" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month" style="width: 100%; height: 260px; object-fit: contain; background-color: #ffffff;">
 
 <div aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
   <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
