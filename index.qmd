@@ -561,7 +561,7 @@ Sources: [USENIX ;login:, 2025](https://www.usenix.org/publications/loginonline/
 Who captures the value, and who carries the cost?
 :::
 
-## `Tailwind` and the business-model shock {style="font-size: 0.74em;"}
+## The docs-led business-model shock {style="font-size: 0.74em;"}
 
 :::: {.columns}
 
