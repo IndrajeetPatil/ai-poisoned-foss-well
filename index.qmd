@@ -74,15 +74,16 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 
 :::: {.columns}
 
-::: {.column width="33%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+![](media/illustrations/oss-hidden-subsidy.jpg){.illustration width="640" height="360" fig-alt="Generated scientific cross-section illustration showing visible software products supported by a much larger hidden open-source dependency network"}
 
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-96%
 :::
 
-of codebases include open-source software.
+::: {.column width="38%"}
+
+::: {style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
+**96%** of codebases include open-source software.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Synopsys OSSRA report, cited by Harvard
@@ -90,17 +91,8 @@ Synopsys OSSRA report, cited by Harvard
 
 :::
 
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px;"}
-
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-$8.8T
-:::
-
-estimated global replacement value if firms had to recreate the OSS they rely on.
+::: {style="background-color: #e8f5e9; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
+**$8.8T** estimated global replacement value.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Harvard demand-side estimate
@@ -108,17 +100,8 @@ Harvard demand-side estimate
 
 :::
 
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.92em;"}
-
-::: {style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;"}
-2-5x
-:::
-
-reported ROI for organisations that actively contribute upstream instead of only consuming OSS.
+::: {style="background-color: #fff3e0; padding: 13px; border-radius: 18px; font-size: 0.68em;"}
+**2-5x** reported ROI for organisations that contribute upstream.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
 Linux Foundation, 2026
@@ -129,8 +112,6 @@ Linux Foundation, 2026
 :::
 
 ::::
-
-<br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
 Modern software runs on FOSS. Pollute the commons, pay a systemic cost.
@@ -144,116 +125,36 @@ Sources: [HBS AI Institute, 2024](https://d3.harvard.edu/revealing-value-the-eco
 
 :::: {.columns}
 
-::: {.column width="33%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Review labour
-:::
-
-Volunteer maintainers turn raw patches into shared infrastructure.
+![](media/illustrations/foss-social-system.jpg){.illustration width="630" height="355" fig-alt="Generated illustration of an open-source commons as a stone well fed by review labour, trust, and apprenticeship, with a synthetic digital current disturbing the system"}
 
 :::
 
+::: {.column width="38%"}
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+**Review labour** turns raw patches into shared infrastructure.
 :::
 
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Trust
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+**Trust** lets contributors begin with a presumption of good faith.
 :::
 
-Contributors usually begin with a presumption of good faith.
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 10px;"}
-Apprenticeship
-:::
-
-Small PRs are how future maintainers usually enter the project.
-
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
+**Apprenticeship** is how future maintainers usually enter.
 :::
 
 :::
 
 ::::
-
-<br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
 LLMs change the cost model of all three at once.
 :::
 
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.7em; margin-top: 1em; color: #444;"}
-**Note on pre-AI FOSS:** Low-quality PRs, drive-by contributors, and maintainer burnout predate LLMs. What changed is speed and volume: AI makes low-context contribution cheaper, faster, and more plausible-looking. The root issue is still the tragedy of the commons and under-compensated maintainer labour, not AI itself.
-:::
-
-## AI can help the well too {.smaller}
-
-:::: {.columns}
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
-
-::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
-+5.9%
-:::
-
-`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose.
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
-Triage relief
-:::
-
-Andrea Griffiths: “AI can make maintainership sustainable” when it takes a first pass at repetitive issue triage.
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
-Good AI use exists
-:::
-
-`Ghostty` accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
-
-:::
-
-:::
-
-::::
-
-<br>
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-This talk is not anti-AI. It is about what happens when speed, anonymity, and volume outrun stewardship.
-:::
-
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
-Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution)
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Boundary:** Low-quality PRs and burnout predate LLMs. AI changes speed, volume, and plausibility; the underlying commons problem is still under-compensated maintainer labour.
 :::
 
 ## Economics {style="margin-top: 2.3em; text-align: left;"}
@@ -266,32 +167,26 @@ Who captures the value, and who carries the cost?
 
 :::: {.columns}
 
-::: {.column width="42%"}
+::: {.column width="38%"}
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.76em;"}
 **The paradox is fake**<br>
 FOSS still needs more human contributors. What it cannot absorb is more anonymous, low-context synthetic volume.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**What healthy contribution used to create**
-
-- Reading docs
-- Reporting edge cases
-- Sticking around for review
-- Becoming a repeat contributor
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.72em;"}
+Healthy contribution returns context: docs, edge cases, review follow-up, and repeat contributors.
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**Not all teams absorb this equally**<br>
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; font-size: 0.68em;"}
 `React` can lean on engineers paid by Meta. Independent maintainers and small volunteer teams usually have no such buffer.
 :::
 
 :::
 
-::: {.column width="58%"}
+::: {.column width="62%"}
 
-[![](media/evidence/vibe-coding-paper.png){.artifact width="600" height="435" fig-alt="Screenshot of the arXiv paper Vibe Coding Kills Open Source"}](https://arxiv.org/abs/2601.15494)
+![](media/illustrations/extraction-without-reciprocity.jpg){.illustration width="640" height="360" fig-alt="Generated scientific flow diagram showing a broad open-source commons feeding a model and commercial product pipeline, with only a thin return flow back to maintainers"}
 
 :::
 
@@ -430,35 +325,31 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 
 :::: {.columns}
 
-::: {.column width="58%"}
+::: {.column width="62%"}
 
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Compression**<br>
-Recon, exploit drafting, follow-up comments, and social engineering now collapse into minutes.
-:::
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px;"}
-**Parallel work**<br>
-One attacker can write code, write prose, and flood response channels at the same time.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 18px; font-size: 0.78em;"}
-Synthetic volume becomes an attacker advantage.
-:::
+![](media/illustrations/llm-tilted-field.jpg){.illustration width="640" height="360" fig-alt="Generated illustration of a tilted review field where human maintainers review carefully on one side while an AI system sends parallel streams of code, exploit notes, and issue comments on the other"}
 
 :::
 
-::: {.column width="42%"}
+::: {.column width="38%"}
 
-![](media/evidence/polluted-water.jpg){.panel-image width="390" height="418" fig-alt="A close photograph of polluted water"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
+**Same reviewer, more surface area**<br>
+Recon, exploit drafting, follow-up comments, and social engineering become parallel streams.
+:::
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
+**The bottleneck stays human**<br>
+Maintainers still pay attention one issue, one patch, one incident at a time.
+:::
+
+::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
+Synthetic volume turns time asymmetry into attacker advantage.
+:::
 
 :::
 
 ::::
-
-::: {style="text-align: center; font-size: 0.46em; margin-top: 0.12em; color: #666;"}
-Photo: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
-:::
 
 ## Provenance becomes licence laundering {.smaller}
 
@@ -498,21 +389,21 @@ Sources: [`cloud-hypervisor` #7162](https://github.com/cloud-hypervisor/cloud-hy
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="38%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.76em;"}
 **The package does not need to exist first.**<br>
 The model can invent it. An attacker can register it later.
 :::
 
 ::: {style="display: flex; gap: 12px; margin-top: 10px;"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
 **5.2%**<br>
 average rate for commercial coding models.
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 16px; font-size: 0.78em; min-height: 126px; flex: 1;"}
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
 **21.7%**<br>
 average rate for open-weight coding models.
 :::
@@ -521,9 +412,9 @@ average rate for open-weight coding models.
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="62%"}
 
-![](media/evidence/package-hallucination-story.png){.artifact width="590" height="420" fig-alt="Screenshot of the USENIX article Package Hallucinations: How LLMs Can Invent Vulnerabilities"}
+![](media/evidence/package-hallucination-story.png){.artifact width="610" height="382" fig-alt="Screenshot of the USENIX article about comprehensive analysis of package hallucinations in code-generating LLMs"}
 
 :::
 
@@ -770,7 +661,7 @@ Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [ope
 ::: {.column width="52%"}
 
 ```{=html}
-<img src="media/evidence/github-april-availability-report.png" class="artifact" alt="Screenshot of GitHub's April 2026 availability report" style="width: 100%; height: 212px; object-fit: cover; object-position: top center;">
+<img src="media/evidence/github-record-acceleration.png" class="artifact" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month" style="width: 100%; height: 260px; object-fit: contain; background-color: #ffffff;">
 
 <div aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
   <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
@@ -866,30 +757,48 @@ Loses the renewal mechanism that kept FOSS broad and resilient.
 Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
 :::
 
-## Community Adaptability {.smaller}
+## Useful AI gives stewardship time back {.smaller}
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Technical Counter-measures**
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
 
-- **Automated provenance tools** (e.g., `SLSA`, `sigstore`)
-- **License-aware fine-tuning** that respects copyleft
-- **AI-assisted triage bots** using the tech to defend against the tech
+::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
++5.9%
+:::
+
+`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose.
+
 :::
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Social & Policy Shifts**
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
 
-- **Mandatory AI-disclosure templates**
-- Projects **banning undisclosed AI code**
-- Requiring strict **human sign-off** and accountability
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Triage relief
+:::
+
+Andrea Griffiths: "AI can make maintainership sustainable" when it takes a first pass at repetitive issue triage.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Accountable reports
+:::
+
+`Ghostty` accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
+
 :::
 
 :::
@@ -899,7 +808,46 @@ Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible
 <br>
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The open-source ecosystem is actively adapting. Emerging solutions suggest the current disruption will eventually stabilize into a new equilibrium.
+The line is not AI versus no AI. It is whether the tool reduces stewardship burden or exports it to maintainers.
+:::
+
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
+Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution)
+:::
+
+## Community Adaptability {.smaller}
+
+:::: {.columns}
+
+::: {.column width="62%"}
+
+![](media/illustrations/community-adaptation-filters.jpg){.illustration width="640" height="360" fig-alt="Generated scientific filter diagram showing synthetic contribution volume passing through verification, policy, and human review layers before reaching a healthy open-source commons"}
+
+:::
+
+::: {.column width="38%"}
+
+::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
+**Technical filters**<br>
+Provenance tooling, `SLSA`, `sigstore`, and license-aware automation.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
+**Policy filters**<br>
+Disclosure templates, explicit bans on undisclosed AI code, and review gates.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.68em;"}
+**Human filters**<br>
+Accountability stays with a person before code enters the commons.
+:::
+
+:::
+
+::::
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+The open-source ecosystem is adapting toward a filtered equilibrium, not a simple return to the old default-open model.
 :::
 
 ## Keep the well drinkable {.smaller}
