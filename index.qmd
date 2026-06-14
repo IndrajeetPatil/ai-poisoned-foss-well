@@ -531,12 +531,12 @@ Synthetic volume turns time asymmetry into attacker advantage.
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Plausible is not traceable.**<br>
-Generated code can look mergeable while still hiding its origin, licence lineage, or attribution trail.
+A generated patch can pass review without revealing where it came from or which training data it echoes.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**Reconstruction is not proof.**<br>
-AI-generated code can recreate behavior from public code, docs, APIs, and old releases while hiding provenance and licence lineage.
+**Reconstruction is not proof of independence.**<br>
+Recreating behavior from public code, docs, and APIs does not establish clean-room origin or resolve licence obligations.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
@@ -648,7 +648,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Causation vs. correlation:** `Tailwind`'s traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, "extraction without reciprocity" isn't purely one-way; many AI labs open-source their models and tools.
+**Causation vs. correlation:** `Tailwind`'s traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, the extraction story is not purely one-way; many AI labs open-source their models and tools.
 :::
 
 ## Open source as a liability {style="font-size: 0.8em;"}
@@ -784,41 +784,6 @@ The line is not AI versus no AI. It is whether the tool reduces stewardship burd
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
 Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution)
-:::
-
-## Community Adaptability {.smaller}
-
-:::: {.columns}
-
-::: {.column width="62%"}
-
-![](media/illustrations/community-adaptation-filters.jpg){.illustration width="640" height="360" fig-alt="Generated scientific filter diagram showing synthetic contribution volume passing through verification, policy, and human review layers before reaching a healthy open-source commons"}
-
-:::
-
-::: {.column width="38%"}
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
-**Technical filters**<br>
-Provenance tooling, `SLSA`, `sigstore`, and license-aware automation.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.7em;"}
-**Policy filters**<br>
-Disclosure templates, explicit bans on undisclosed AI code, and review gates.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.68em;"}
-**Human filters**<br>
-Accountability stays with a person before code enters the commons.
-:::
-
-:::
-
-::::
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The open-source ecosystem is adapting toward a filtered equilibrium, not a simple return to the old default-open model.
 :::
 
 ## Keep the well drinkable {.smaller}
