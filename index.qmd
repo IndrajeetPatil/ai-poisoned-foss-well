@@ -733,35 +733,28 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 
 ## Keep the well drinkable {.smaller}
 
+::: {style="text-align: center;"}
+![](media/illustrations/well-guardrails.png){.illustration width="680" height="382" fig-alt="Generated editorial illustration of a protected stone FOSS well with three guardrail systems for review time, provenance, and commons stewardship"}
+:::
+
 ```{=html}
-<div class="well-guardrails" role="img" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
-  <div class="guardrail guardrail--review">
+<div class="well-action-rail" role="group" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
+  <div class="well-action well-action--review">
     <strong>Protect review time</strong>
-    <span>Disclose AI use</span>
-    <span>Close synthetic drive-bys fast</span>
-    <span>Make contributors own follow-up</span>
+    <span>Disclose AI use · close synthetic drive-bys fast · require follow-up ownership</span>
   </div>
-  <div class="guardrail guardrail--provenance">
+  <div class="well-action well-action--provenance">
     <strong>Protect provenance</strong>
-    <span>Require human accountability</span>
-    <span>Treat unknown origin as risk</span>
-    <span>Reject clean-room evasions</span>
+    <span>Require accountability · treat unknown origin as risk · reject clean-room evasions</span>
   </div>
-  <div class="guardrail guardrail--commons">
+  <div class="well-action well-action--commons">
     <strong>Protect the commons</strong>
-    <span>Verify dependencies</span>
-    <span>Fund maintainers upstream</span>
-    <span>Keep a real path in for people</span>
-  </div>
-  <div class="well-guardrails__basin">
-    <span>drinkable FOSS well</span>
+    <span>Verify dependencies · fund maintainers upstream · keep a real path in for people</span>
   </div>
 </div>
 ```
 
-<br>
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+::: {style="background-color: #FFFBC1; padding: 14px 18px; border-radius: 25px; text-align: center; margin-top: 0.45em;"}
 If openness becomes unaffordable, FOSS stops regenerating.
 :::
 

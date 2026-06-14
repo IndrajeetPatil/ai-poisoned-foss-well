@@ -190,6 +190,7 @@
 .cost-ripple,
 .platform-stress,
 .stewardship-balance,
+.well-action-rail,
 .well-guardrails {
   box-sizing: border-box;
   color: #111827;
@@ -200,6 +201,7 @@
 .cost-ripple *,
 .platform-stress *,
 .stewardship-balance *,
+.well-action-rail *,
 .well-guardrails * {
   box-sizing: border-box;
 }
@@ -758,6 +760,48 @@
   gap: 14px;
   align-items: end;
   margin-top: 8px;
+}
+
+.well-action-rail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.well-action {
+  display: grid;
+  gap: 6px;
+  min-height: 74px;
+  padding: 10px 13px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.06);
+}
+
+.well-action strong {
+  font-size: 0.54em;
+  line-height: 1.05;
+}
+
+.well-action span {
+  color: #475569;
+  font-size: 0.39em;
+  font-weight: 600;
+  line-height: 1.14;
+}
+
+.well-action--review {
+  border-top: 5px solid #3b82f6;
+}
+
+.well-action--provenance {
+  border-top: 5px solid #f43f5e;
+}
+
+.well-action--commons {
+  border-top: 5px solid #22c55e;
 }
 
 .guardrail {
