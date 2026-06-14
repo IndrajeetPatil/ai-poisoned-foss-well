@@ -70,13 +70,13 @@ Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in
 Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
 :::
 
-## FOSS is a giant hidden subsidy {.smaller}
+## FOSS is the shared well {.smaller}
 
 :::: {.columns}
 
 ::: {.column width="62%"}
 
-![](media/illustrations/oss-hidden-subsidy.jpg){.illustration width="640" height="360" fig-alt="Generated scientific cross-section illustration showing visible software products supported by a much larger hidden open-source dependency network"}
+![](media/illustrations/foss-shared-well.png){.illustration width="640" height="360" fig-alt="Generated cross-section illustration of a stone FOSS well feeding modern software systems above ground, with an underground aquifer of open-source dependencies and maintainer work"}
 
 :::
 
@@ -114,7 +114,7 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 ::::
 
 ::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-Modern software runs on FOSS. Pollute the commons, pay a systemic cost.
+Modern software keeps drawing from the same well. Pollute it, and every downstream project pays.
 :::
 
 ## The well is a social system {.smaller}
@@ -236,24 +236,25 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 
 ::: {.column width="42%"}
 
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
-**118 policies**<br>
-found across 1,000 popular `GitHub` repositories in a May 2026 empirical scan.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
-**78% allow GenAI**<br>
-but the permission usually comes with conditions, not blind acceptance.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.68em;"}
-**51% require disclosure**<br>
-and **74% require a human in the loop** during contribution.
-:::
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.66em;"}
-The emerging norm is not "no AI." It is: disclose it, own it, and prove a human did the review work.
-:::
+```{=html}
+<div class="policy-meter" role="img" aria-label="Policy scan: 118 repositories had AI contribution policies; 78 percent allow GenAI, 51 percent require disclosure, and 74 percent require a human in the loop.">
+  <div class="policy-meter__headline">
+    <span>118</span>
+    <strong>policies found</strong>
+    <em>across 1,000 popular repositories</em>
+  </div>
+  <div class="policy-bar policy-bar--green" style="--value: 78%;">
+    <div><strong>78%</strong><span>allow GenAI</span></div>
+  </div>
+  <div class="policy-bar policy-bar--amber" style="--value: 51%;">
+    <div><strong>51%</strong><span>require disclosure</span></div>
+  </div>
+  <div class="policy-bar policy-bar--blue" style="--value: 74%;">
+    <div><strong>74%</strong><span>require human review</span></div>
+  </div>
+  <p>The norm is not "no AI." It is: disclose it, own it, and prove a human did the review work.</p>
+</div>
+```
 
 :::
 
@@ -567,26 +568,25 @@ Who captures the value, and who carries the cost?
 
 ::: {.column width="42%"}
 
-::: {style="background-color: #fff3e0; padding: 13px; border-radius: 18px; margin-bottom: 8px; font-size: 0.92em;"}
-**The old loop**
-
-- Free framework
-- Docs traffic
-- Paid wrappers and sponsorships
-:::
-
-::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-bottom: 8px; font-size: 0.68em;"}
-**January 2026**
-
-- 📈 Usage still rising
-- 📉 Docs traffic about **40%** below early 2023
-- 📉 Revenue close to **80%** lower
-- 👥 **75%** of engineers laid off
-:::
-
-::: {style="background-color: #e3f2fd; padding: 11px 12px; border-radius: 18px; font-size: 0.66em;"}
-Adoption rose. The docs-led business model cracked.
-:::
+```{=html}
+<div class="business-shock" role="img" aria-label="Docs-led business loop where framework adoption used to feed docs traffic and paid products, but AI-mediated answers weaken docs traffic and revenue.">
+  <div class="business-shock__loop">
+    <div class="loop-node">Free framework</div>
+    <div class="loop-arrow">-></div>
+    <div class="loop-node">Docs traffic</div>
+    <div class="loop-arrow">-></div>
+    <div class="loop-node">Paid wrappers<br>and sponsors</div>
+  </div>
+  <div class="business-shock__break">
+    <strong>January 2026</strong>
+    <span>Usage still rising</span>
+    <span>Docs traffic about <b>40%</b> below early 2023</span>
+    <span>Revenue close to <b>80%</b> lower</span>
+    <span><b>75%</b> of engineers laid off</span>
+  </div>
+  <div class="business-shock__claim">Adoption rose. The docs-led business model cracked.</div>
+</div>
+```
 
 :::
 
@@ -653,37 +653,30 @@ The costs are real. So are the responses.
 
 ## Who pays {.smaller}
 
-:::: {.columns}
-
-::: {.column width="50%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Junior developers**<br>
-Lose first reviews, apprenticeship, and the easiest route into open-source work.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px;"}
-**Maintainers**<br>
-Carry more suspicion, more context switching, and more unpaid incident response.
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Projects**<br>
-Lose diverse small contributions and become more closed and fragile.
-:::
-
-::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px;"}
-**The movement**<br>
-Loses the renewal mechanism that kept FOSS broad and resilient.
-:::
-
-:::
-
-::::
+```{=html}
+<div class="cost-ripple" role="img" aria-label="Ripple map showing how synthetic contribution volume creates costs for junior developers, maintainers, projects, and the broader movement.">
+  <div class="cost-ripple__center">
+    <strong>Synthetic volume</strong>
+    <span>pollutes the review well</span>
+  </div>
+  <div class="cost-node cost-node--junior">
+    <strong>Junior developers</strong>
+    <span>lose first reviews, apprenticeship, and a low-friction path into FOSS.</span>
+  </div>
+  <div class="cost-node cost-node--maintainers">
+    <strong>Maintainers</strong>
+    <span>carry suspicion, context switching, and unpaid incident response.</span>
+  </div>
+  <div class="cost-node cost-node--projects">
+    <strong>Projects</strong>
+    <span>lose diverse small contributions and become more closed and fragile.</span>
+  </div>
+  <div class="cost-node cost-node--movement">
+    <strong>The movement</strong>
+    <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
+  </div>
+</div>
+```
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
 Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
@@ -725,51 +718,26 @@ Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob
 
 ## Useful AI gives stewardship time back {.smaller}
 
-:::: {.columns}
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
-
-::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
-+5.9%
-:::
-
-`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose (2024 study).
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
-Triage relief
-:::
-
-Andrea Griffiths: "AI can make maintainership sustainable" when it takes a first pass at repetitive issue triage.
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
-Accountable reports
-:::
-
-`Ghostty` accepted AI-assisted reports that transparently explained the process and helped fix four real crashes.
-
-:::
-
-:::
-
-::::
+```{=html}
+<div class="stewardship-balance" role="img" aria-label="Three useful AI patterns feed stewardship time back: contribution lift, triage relief, and accountable reports.">
+  <div class="stewardship-balance__hub">
+    <span>Good AI</span>
+    <strong>returns stewardship time</strong>
+  </div>
+  <div class="stewardship-card stewardship-card--lift">
+    <strong>+5.9%</strong>
+    <span>Copilot use associated with higher OSS code contributions, even as coordination time also rose.</span>
+  </div>
+  <div class="stewardship-card stewardship-card--triage">
+    <strong>Triage relief</strong>
+    <span>First-pass issue sorting can make maintainership more sustainable.</span>
+  </div>
+  <div class="stewardship-card stewardship-card--reports">
+    <strong>Accountable reports</strong>
+    <span>Ghostty accepted transparent AI-assisted reports that helped fix four real crashes.</span>
+  </div>
+</div>
+```
 
 <br>
 
@@ -783,57 +751,31 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 
 ## Keep the well drinkable {.smaller}
 
-:::: {.columns}
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.86em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
-Protect review time
-:::
-
-- Disclose AI use
-- Close synthetic drive-bys fast
-- Make contributors own follow-up
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.82em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
-Protect provenance
-:::
-
-- Require human accountability
-- Treat unknown origin as risk
-- Reject clean-room evasions
-
-:::
-
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 220px; font-size: 0.86em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
-Protect the commons
-:::
-
-- Verify dependencies
-- Fund maintainers upstream
-- Keep a real path in for people
-
-:::
-
-:::
-
-::::
+```{=html}
+<div class="well-guardrails" role="img" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
+  <div class="guardrail guardrail--review">
+    <strong>Protect review time</strong>
+    <span>Disclose AI use</span>
+    <span>Close synthetic drive-bys fast</span>
+    <span>Make contributors own follow-up</span>
+  </div>
+  <div class="guardrail guardrail--provenance">
+    <strong>Protect provenance</strong>
+    <span>Require human accountability</span>
+    <span>Treat unknown origin as risk</span>
+    <span>Reject clean-room evasions</span>
+  </div>
+  <div class="guardrail guardrail--commons">
+    <strong>Protect the commons</strong>
+    <span>Verify dependencies</span>
+    <span>Fund maintainers upstream</span>
+    <span>Keep a real path in for people</span>
+  </div>
+  <div class="well-guardrails__basin">
+    <span>drinkable FOSS well</span>
+  </div>
+</div>
+```
 
 <br>
 
