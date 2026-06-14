@@ -249,11 +249,11 @@ An influential project announced it would automatically close pull requests from
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
-The repo stayed open for issues, bug reports, and discussions. The part that narrowed first was the expensive part: reviewable code contribution.
+Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
-This is what "the commons hardening" looks like in practice: not total closure, but higher gates at exactly the points where AI volume is most costly.
+Not total closure — higher gates at exactly the points where AI volume is most costly.
 :::
 
 :::
@@ -399,7 +399,7 @@ When maintainers see more bot-shaped PRs, every unsolicited submission becomes c
 :::
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.72em; margin-top: 12px;"}
-This is why the "we want contributors, but reject many PRs" tension is real only on the surface: projects still want people, but they can no longer afford unaccountable volume.
+The tension is only on the surface: projects still want people, not unaccountable volume.
 :::
 
 :::
@@ -429,11 +429,11 @@ One live service sells `GitHub` stars, advertises card and crypto payments, and 
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
 **Why people care**<br>
-`GitHub` stars are no longer just bookmarks. They feed discovery, rankings, startup lists, and early funding attention.
+Stars feed discovery, rankings, startup lists, and early funding attention.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
-The old shortcut was: many stars means many people trust this. Once stars can be bought, every passive signal needs an audit trail.
+Once stars can be bought, every passive trust signal needs an audit trail.
 :::
 
 :::
@@ -634,7 +634,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}
-**Causation vs. correlation:** `Tailwind`'s traffic drop could also stem from better general-purpose AI search, market saturation, or competitors. AI isn't necessarily the sole driver. Similarly, the extraction story is not purely one-way; many AI labs open-source their models and tools.
+**Causation vs. correlation:** `Tailwind`'s traffic drop could also stem from AI-powered search, market saturation, or competitors. AI isn't necessarily the sole driver.
 :::
 
 ## Open source as a liability {style="font-size: 0.8em;"}
@@ -665,7 +665,7 @@ The company said AI can scan public code for vulnerabilities and turn transparen
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **Reconstruction risk**<br>
-Even after closure, `Cal.diy` keeps core scheduling pieces open; public code, docs, APIs, and prior architecture still lower the cost of recreating behavior.
+Even after closure, public code, docs, APIs, and prior architecture via `Cal.diy` still lower the cost of recreating the product.
 :::
 
 :::
@@ -690,7 +690,7 @@ The costs are real. So are the responses.
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 **Junior developers**<br>
-Lose first reviews, apprenticeship, and the easiest route into open-source work. AI also hides the early public questions that used to make newcomers visible.
+Lose first reviews, apprenticeship, and the easiest route into open-source work.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px;"}
