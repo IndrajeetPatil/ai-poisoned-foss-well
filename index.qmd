@@ -203,7 +203,7 @@ Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://the
 
 ::: {.column width="60%"}
 
-![](media/evidence/tldraw-contributions-policy.svg){.artifact width="700" height="450" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
+![](media/evidence/tldraw-contributions-policy.svg){.artifact width="700" height="300" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
 
 :::
 
@@ -278,7 +278,7 @@ Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [ope
 ```{=html}
 <img src="media/evidence/github-record-acceleration.png" class="artifact" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month" style="width: 100%; height: 260px; object-fit: contain; background-color: #ffffff;">
 
-<div aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
+<div role="group" aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
   <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
     <strong style="font-size: 1.55em;">10</strong><br>
     April incidents
@@ -347,6 +347,9 @@ Trust, attack surface, and code provenance.
     allowfullscreen
     style="width: 100%; height: 430px; border: 0; border-radius: 16px;">
   </iframe>
+  <p style="text-align: center; font-size: 0.55em; margin: 6px 0 0 0; color: #666;">
+    <a href="https://www.youtube.com/watch?v=aoag03mSuXQ">Watch on YouTube</a> if the embed doesn't load.
+  </p>
 </div>
 ```
 
