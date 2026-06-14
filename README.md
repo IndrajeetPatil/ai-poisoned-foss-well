@@ -8,19 +8,17 @@ The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, an
 
 The current deck covers:
 
-- acknowledged benefits of AI when used transparently by maintainers and contributors
-- FOSS as a hidden economic subsidy for the software industry
-- Pull-request pollution and maintainer overload
-- Security exploitation through synthetic issue noise and agent speed
-- Economic extraction from FOSS without reciprocal support
-- Tailwind CSS as a warning about AI breaking documentation-driven FOSS businesses
-- Provenance collapse, clean-room reimplementation, and licence laundering
-- Hallucinated packages as a new supply-chain vector
-- Trust collapse after XZ Utils and the resulting damage to the contributor pipeline
-- Mitchell Hashimoto's trust-gating approach with Ghostty and Vouch
-- Community adaptability through technical counter-measures and policy shifts
-- Measurable AI contribution policy hardening across popular GitHub repositories
-- The social costs borne by maintainers, junior developers, and the movement itself
+- why FOSS functions as a hidden economic subsidy and a fragile social system
+- extraction without reciprocity, including AI pressure on documentation-led FOSS business models
+- maintainers treating open source as a liability when synthetic volume and commercial reuse make support costs harder to absorb
+- security exploitation through synthetic issue noise, agent speed, provenance collapse, licence laundering, and hallucinated packages
+- pull-request pollution, maintainer overload, and the trust collapse after XZ Utils
+- weakened public trust signals, including paid GitHub stars and automated contribution volume
+- explicit trust gates such as Ghostty and Vouch, narrower contribution funnels, and measurable AI policy hardening across popular repositories
+- GitHub's AI-era platform strain and community movement toward Codeberg or stronger local policies
+- the social costs borne by maintainers, junior developers, and the movement itself
+- transparent, accountable AI use that gives stewardship time back instead of adding unreviewable noise
+- community adaptability through verification, disclosure, provenance checks, and upstream support
 
 ## Development
 
