@@ -184,9 +184,9 @@ Healthy contribution returns context: docs, edge cases, review follow-up, and re
 
 :::
 
-::: {.column width="62%"}
+::: {.column width="60%"}
 
-![](media/illustrations/extraction-without-reciprocity.jpg){.illustration width="640" height="360" fig-alt="Generated scientific flow diagram showing a broad open-source commons feeding a model and commercial product pipeline, with only a thin return flow back to maintainers"}
+![](media/illustrations/extraction-without-reciprocity.jpg){.illustration style="width: 100%; height: 430px; object-fit: cover; object-position: center center;" fig-alt="Generated scientific flow diagram showing a broad open-source commons feeding a model and commercial product pipeline, with only a thin return flow back to maintainers"}
 
 :::
 
