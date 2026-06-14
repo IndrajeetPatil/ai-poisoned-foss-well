@@ -188,6 +188,7 @@
 .policy-meter,
 .business-shock,
 .cost-ripple,
+.platform-stress,
 .stewardship-balance,
 .well-guardrails {
   box-sizing: border-box;
@@ -197,6 +198,7 @@
 .policy-meter *,
 .business-shock *,
 .cost-ripple *,
+.platform-stress *,
 .stewardship-balance *,
 .well-guardrails * {
   box-sizing: border-box;
@@ -499,6 +501,153 @@
   right: 2%;
   bottom: 0;
   border-top: 5px solid #eab308;
+}
+
+.platform-stress {
+  display: grid;
+  grid-template-columns: 1.05fr 34px 1.18fr 34px 1.16fr;
+  grid-template-rows: minmax(285px, auto) auto;
+  gap: 14px;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.platform-stress__inputs,
+.platform-stress__forge,
+.platform-stress__incidents,
+.platform-stress__response {
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.07);
+}
+
+.platform-stress__inputs {
+  display: grid;
+  align-content: center;
+  gap: 16px;
+  padding: 20px;
+  border-top: 6px solid #f59e0b;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(251, 191, 36, 0.22), transparent 34%),
+    #ffffff;
+}
+
+.platform-stress__inputs span {
+  color: #92400e;
+  font-size: 0.52em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.platform-stress__inputs strong {
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 0.92em;
+  line-height: 1.08;
+}
+
+.platform-stress__arrow {
+  display: grid;
+  place-items: center;
+  color: #64748b;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.platform-stress__forge {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+  padding: 20px;
+  border-top: 6px solid #3b82f6;
+}
+
+.platform-stress__forge strong {
+  color: #1e3a8a;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 0.86em;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.forge-services {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+}
+
+.forge-services span {
+  display: block;
+  padding: 9px 11px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-size: 0.48em;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.platform-stress__incidents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  padding: 14px;
+  border-top: 6px solid #f43f5e;
+  background:
+    linear-gradient(180deg, rgba(255, 241, 242, 0.8), rgba(255, 255, 255, 0.98)),
+    #ffffff;
+}
+
+.platform-stress__incidents div {
+  display: grid;
+  align-content: center;
+  gap: 7px;
+  min-height: 118px;
+  padding: 12px;
+  border-radius: 16px;
+  background: #fff1f2;
+}
+
+.platform-stress__incidents strong {
+  color: #9f1239;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 0.95em;
+  line-height: 1;
+}
+
+.platform-stress__incidents span {
+  color: #334155;
+  font-size: 0.43em;
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+.platform-stress__response {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 0.9fr 1.8fr;
+  gap: 18px;
+  align-items: center;
+  min-height: 96px;
+  padding: 16px 20px;
+  border-top: 5px solid #22c55e;
+  background:
+    linear-gradient(90deg, rgba(240, 253, 244, 0.98), rgba(255, 251, 235, 0.94));
+}
+
+.platform-stress__response strong {
+  color: #166534;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 0.72em;
+  line-height: 1.08;
+}
+
+.platform-stress__response span {
+  color: #334155;
+  font-size: 0.5em;
+  line-height: 1.18;
 }
 
 .stewardship-balance {

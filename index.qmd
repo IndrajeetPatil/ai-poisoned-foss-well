@@ -270,59 +270,41 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
 :::
 
-## `GitHub` wasn't built for this {.smaller}
-
-:::: {.columns}
-
-::: {.column width="52%"}
+## GitHub wasn't built for this {.smaller}
 
 ```{=html}
-<img src="media/evidence/github-record-acceleration.png" class="artifact" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month" style="width: 100%; height: 260px; object-fit: contain; background-color: #ffffff;">
-
-<div role="group" aria-label="GitHub April 2026 incident statistics" style="display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 11px;">
-  <div style="background-color: #fff3e0; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">10</strong><br>
-    April incidents
+<div class="platform-stress" role="img" aria-label="AI-accelerated GitHub activity flows into shared forge services. April 2026 incidents affected Copilot agent sessions, search, Actions, and webhooks, creating pressure that pushes projects toward mirrors and alternative forges.">
+  <div class="platform-stress__inputs">
+    <span>AI-accelerated activity</span>
+    <strong>More PRs, commits, repos, agent sessions</strong>
   </div>
-  <div style="background-color: #e8f5e9; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">Apr 22</strong><br>
-    <code>Copilot Cloud Agent</code> outage
+  <div class="platform-stress__arrow" aria-hidden="true">-&gt;</div>
+  <div class="platform-stress__forge">
+    <strong>Default FOSS forge</strong>
+    <div class="forge-services">
+      <span>Pull requests</span>
+      <span>Copilot agents</span>
+      <span>Search</span>
+      <span>Actions</span>
+      <span>Webhooks</span>
+    </div>
   </div>
-  <div style="background-color: #e3f2fd; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">~10%</strong><br>
-    <code>Copilot</code> agent sessions affected
+  <div class="platform-stress__arrow" aria-hidden="true">-&gt;</div>
+  <div class="platform-stress__incidents">
+    <div><strong>10</strong><span>April incidents</span></div>
+    <div><strong>Apr 22</strong><span>Copilot Cloud Agent outage</span></div>
+    <div><strong>~10%</strong><span>agent sessions affected</span></div>
+    <div><strong>65%</strong><span>peak search timeout/error rate</span></div>
   </div>
-  <div style="background-color: #ffebee; padding: 9px 11px; border-radius: 14px; font-size: 0.55em; line-height: 1.18;">
-    <strong style="font-size: 1.55em;">65%</strong><br>
-    peak search timeout/error rate
+  <div class="platform-stress__response">
+    <strong>Response: reduce single-forge dependence</strong>
+    <span>Ghostty, Zig, and Gentoo moved or mirrored toward Codeberg, citing platform direction, reliability, or independence.</span>
   </div>
 </div>
 ```
 
-::: {style="background-color: #ffebee; padding: 12px; border-radius: 18px; margin-top: 12px; font-size: 0.68em;"}
-[`GitHub`'s April 2026 availability report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) turns the earlier platform warning into incident data: `Copilot`, PR-adjacent services, search, `Actions`, and webhooks all show up in the same failure surface.
-:::
-
-:::
-
-::: {.column width="48%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
-**Projects are leaving**<br>
-[`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github), [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/), and [`Gentoo`](https://planet.gentoo.org/) have moved or mirrored to `Codeberg`, citing platform direction, reliability, or independence.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**The signal**<br>
-The default FOSS forge is becoming a bottleneck exactly where AI multiplies activity. The result is hosting fragmentation.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.42em; margin-top: 0.5em; color: #666;"}
-Sources: [`GitHub` availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`GitHub` availability report: April 2026](https://github.blog/news-insights/company-news/github-availability-report-april-2026/)
+::: {style="text-align: center; font-size: 0.38em; margin-top: 0.5em; color: #666;"}
+Sources: [`GitHub` availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`GitHub` April 2026 report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [`Gentoo`](https://planet.gentoo.org/)
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
