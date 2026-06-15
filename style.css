@@ -240,7 +240,7 @@ body {
 .reveal .slides div[style*="background-color: #fff3e0;"] *,
 .reveal .slides div[style*="background-color: #ffebee;"] *,
 .reveal .slides div[style*="background-color: #FFFBC1;"] * {
-  color: var(--well-ink) !important;
+  color: var(--well-ink);
 }
 
 .reveal .slides div[style*="background-color: #e3f2fd;"] a,
@@ -265,7 +265,7 @@ body {
   border-left-color: var(--well-blue) !important;
   border-radius: 0 8px 8px 0 !important;
   background: rgba(251, 255, 234, 0.74) !important;
-  color: var(--well-ink-soft) !important;
+  color: var(--well-ink-soft);
   box-shadow: none !important;
 }
 
