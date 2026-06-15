@@ -345,6 +345,39 @@ Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/1
 **Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
 :::
 
+## Who pays {.smaller}
+
+```{=html}
+<div class="cost-stack" role="img" aria-label="Impact map showing costs shifted onto junior developers, maintainers, projects, and the broader movement.">
+  <div class="cost-stack__grid">
+    <div class="cost-impact cost-impact--junior">
+      <em>Entry path narrows</em>
+      <strong>Junior developers</strong>
+      <span>lose first reviews, apprenticeship, and a low-friction route into FOSS.</span>
+    </div>
+    <div class="cost-impact cost-impact--maintainers">
+      <em>Attention fragments</em>
+      <strong>Maintainers</strong>
+      <span>carry suspicion, context switching, and unpaid incident response.</span>
+    </div>
+    <div class="cost-impact cost-impact--projects">
+      <em>Contribution base shrinks</em>
+      <strong>Projects</strong>
+      <span>lose diverse small contributions and become more closed and fragile.</span>
+    </div>
+    <div class="cost-impact cost-impact--movement">
+      <em>Renewal slows</em>
+      <strong>The movement</strong>
+      <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
+    </div>
+  </div>
+</div>
+```
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
+Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
+:::
+
 ## Security {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
@@ -476,31 +509,31 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 ::: {.column width="40%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**AI code looks original, but you can't trace its sources.**<br>
-A generated patch can pass review without revealing that it may be based on someone else's copyrighted work.
+**Licence contamination without a trail.**<br>
+AI can regenerate copyleft-licensed code in a permissive project. No line is copied verbatim, but the original licence terms may still apply.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**Rewriting is not the same as writing from scratch.**<br>
-When AI recreates functionality from existing code, the original licence terms may still apply — even if no line was copied verbatim.
+**No one can prove provenance after the fact.**<br>
+Unlike a human contributor, an LLM cannot say where its output came from. An audit that used to trace imports now hits a black box.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-Maintainers respond by requiring contributors to disclose AI use, prove where code came from, or banning AI-generated patches outright.
+**Where this bites first:** medical devices, automotive, and defence — sectors where regulators already require full software provenance and licence compliance.
 :::
 
 :::
 
 ::: {.column width="60%"}
 
-![](media/evidence/cloud-hypervisor-ai-policy.png){.artifact width="610" height="405" fig-alt="Screenshot of cloud-hypervisor issue discussing AI-generated code policy"}
+![](media/evidence/chardet-licence-laundering.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing chardet's AI-assisted relicensing from LGPL to MIT via Claude rewrite"}
 
 :::
 
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [`cloud-hypervisor` #7162](https://github.com/cloud-hypervisor/cloud-hypervisor/issues/7162) · [Tom's Hardware, 2026](https://www.tomshardware.com/software/linux/linux-lays-down-the-law-on-ai-generated-code-yes-to-copilot-no-to-ai-slop-and-humans-take-the-fall-for-mistakes-after-months-of-fierce-debate-torvalds-and-maintainers-come-to-an-agreement)
+Sources: [The Register, "AI will kill software licensing"](https://www.theregister.com/2026/03/06/ai_kills_software_licensing/) · [Black Duck OSSRA 2026](https://www.blackduck.com/resources/analyst-reports/open-source-security-risk-analysis.html) · [FDA SBOM guidance](https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity) · [EU CRA SBOM requirements](https://anchore.com/sbom/eu-cra/)
 :::
 
 ## Hallucinations as supply-chain bait {.smaller}
@@ -717,43 +750,10 @@ Regulation assumes a level of organisational capacity that volunteer-maintained 
 Sources: [Mend.io CRA guide](https://www.mend.io/blog/eu-cyber-resilience-act-compliance-guide/) · [Linux Foundation Europe](https://linuxfoundation.eu/cyber-resilience-act) · [`GitHub` blog on CRA](https://github.blog/open-source/maintainers/what-the-eus-new-software-legislation-means-for-developers/)
 :::
 
-## Looking ahead {style="margin-top: 2.3em; text-align: left;"}
+## Not all doom and gloom {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
 The costs are real. So are the responses.
-:::
-
-## Who pays {.smaller}
-
-```{=html}
-<div class="cost-stack" role="img" aria-label="Impact map showing costs shifted onto junior developers, maintainers, projects, and the broader movement.">
-  <div class="cost-stack__grid">
-    <div class="cost-impact cost-impact--junior">
-      <em>Entry path narrows</em>
-      <strong>Junior developers</strong>
-      <span>lose first reviews, apprenticeship, and a low-friction route into FOSS.</span>
-    </div>
-    <div class="cost-impact cost-impact--maintainers">
-      <em>Attention fragments</em>
-      <strong>Maintainers</strong>
-      <span>carry suspicion, context switching, and unpaid incident response.</span>
-    </div>
-    <div class="cost-impact cost-impact--projects">
-      <em>Contribution base shrinks</em>
-      <strong>Projects</strong>
-      <span>lose diverse small contributions and become more closed and fragile.</span>
-    </div>
-    <div class="cost-impact cost-impact--movement">
-      <em>Renewal slows</em>
-      <strong>The movement</strong>
-      <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
-    </div>
-  </div>
-</div>
-```
-
-::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
-Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
 :::
 
 ## Useful AI gives stewardship time back {.smaller}
