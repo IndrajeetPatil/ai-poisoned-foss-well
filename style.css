@@ -674,7 +674,7 @@
 
 .github-stress__graph span {
   color: #92400e;
-  font-size: 0.44em;
+  font-size: 0.52em;
   font-weight: 700;
   line-height: 1.08;
   text-transform: uppercase;
@@ -683,7 +683,7 @@
 .github-stress__graph strong {
   color: #111827;
   font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
-  font-size: 0.66em;
+  font-size: 0.72em;
   line-height: 1.08;
 }
 
@@ -767,7 +767,7 @@
   border-radius: 999px;
   background: #eff6ff;
   color: #1e3a8a;
-  font-size: 0.43em;
+  font-size: 0.52em;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
@@ -803,7 +803,7 @@
 
 .platform-stress__incidents span {
   color: #334155;
-  font-size: 0.36em;
+  font-size: 0.48em;
   font-weight: 600;
   line-height: 1.12;
 }
@@ -830,7 +830,7 @@
 
 .platform-stress__response span {
   color: #334155;
-  font-size: 0.5em;
+  font-size: 0.58em;
   line-height: 1.18;
 }
 
