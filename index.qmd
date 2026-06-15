@@ -325,9 +325,12 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 ::: {.column width="40%"}
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
-**What happens next**<br>
-Non-Django packages must find new homes or go unmaintained. The cooperative model designed for a pre-AI world has no successor.
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**Before:** Anyone could join, triage issues, and merge PRs across 80+ packages. Shared trust scaled maintenance without centralised control.
+:::
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+**After:** AI spam made open membership a liability. Non-Django packages must find new homes or go unmaintained — the model has no successor.
 :::
 
 :::
