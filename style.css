@@ -574,7 +574,7 @@
 }
 
 .cost-impact em {
-  font-size: 0.42em;
+  font-size: 0.52em;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -585,13 +585,13 @@
 .cost-impact strong {
   color: #111827;
   font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
-  font-size: 0.7em;
+  font-size: 0.78em;
   line-height: 1.06;
 }
 
 .cost-impact span {
   color: #475569;
-  font-size: 0.46em;
+  font-size: 0.56em;
   line-height: 1.18;
 }
 
@@ -882,13 +882,13 @@
 }
 
 .well-action strong {
-  font-size: 0.66em;
+  font-size: 0.78em;
   line-height: 1.05;
 }
 
 .well-action span {
   color: #475569;
-  font-size: 0.46em;
+  font-size: 0.58em;
   font-weight: 600;
   line-height: 1.18;
 }
