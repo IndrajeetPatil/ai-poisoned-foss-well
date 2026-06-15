@@ -285,6 +285,7 @@ body {
 .business-shock,
 .cost-ripple,
 .cost-stack,
+.flood-meter,
 .github-stress,
 .platform-stress,
 .well-two-column,
@@ -298,6 +299,7 @@ body {
 .business-shock *,
 .cost-ripple *,
 .cost-stack *,
+.flood-meter *,
 .github-stress *,
 .platform-stress *,
 .well-two-column *,
@@ -414,6 +416,96 @@ body {
   background: rgba(255, 92, 115, 0.12);
   color: var(--well-ink);
   font-size: 0.52em;
+  line-height: 1.22;
+}
+
+.flood-meter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid rgba(8, 38, 41, 0.32);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 92, 115, 0.08), rgba(255, 92, 115, 0)),
+    var(--well-paper);
+  box-shadow:
+    6px 6px 0 var(--well-shadow),
+    0 12px 24px rgba(8, 38, 41, 0.09);
+}
+
+.flood-meter__headline {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 14px;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(8, 38, 41, 0.18);
+}
+
+.flood-meter__headline span {
+  color: var(--well-ink);
+  font-family: "Bricolage Grotesque", "IBM Plex Sans", sans-serif;
+  font-size: 1.62em;
+  font-weight: 700;
+  line-height: 0.95;
+}
+
+.flood-meter__headline strong {
+  font-size: 0.72em;
+  line-height: 1.05;
+}
+
+.flood-stat {
+  display: grid;
+  gap: 8px;
+  min-height: 112px;
+  padding: 14px;
+  border-radius: 6px;
+  background: rgba(8, 38, 41, 0.05);
+}
+
+.flood-stat strong {
+  color: var(--well-ink);
+  font-family: "Bricolage Grotesque", "IBM Plex Sans", sans-serif;
+  font-size: 1.14em;
+  line-height: 1;
+}
+
+.flood-stat span {
+  color: var(--well-ink-soft);
+  font-size: 0.52em;
+  font-weight: 600;
+  line-height: 1.18;
+}
+
+.flood-stat--red {
+  background: rgba(255, 92, 115, 0.12);
+}
+
+.flood-stat--amber {
+  background: rgba(248, 189, 75, 0.14);
+}
+
+.flood-stat--blue {
+  background: rgba(114, 212, 255, 0.14);
+}
+
+.flood-stat--green {
+  background: rgba(149, 240, 168, 0.14);
+}
+
+.flood-meter__footer {
+  grid-column: 1 / -1;
+  margin: 1px 0 0;
+  padding: 11px 12px;
+  border-left: 4px solid var(--well-red);
+  border-radius: 6px;
+  background: rgba(255, 92, 115, 0.12);
+  color: var(--well-ink);
+  font-size: 0.52em;
+  font-weight: 700;
   line-height: 1.22;
 }
 

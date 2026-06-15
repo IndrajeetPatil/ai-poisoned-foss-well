@@ -21,7 +21,7 @@ description-meta: "A presentation about how AI-generated pull requests, new secu
 license: "CC0 1.0 Universal"
 pagetitle: "Poisoning the FOSS Well"
 author-meta: "Indrajeet Patil"
-date-meta: "2026-04-18"
+date-meta: "2026-06-15"
 lang: "en"
 dir: "ltr"
 image: "media/social-media-card.png"
@@ -159,6 +159,65 @@ LLMs change the cost model of all three at once.
 Review queues, contribution gates, and the pipeline.
 :::
 
+## The flood in numbers {.smaller}
+
+:::: {.columns}
+
+::: {.column width="52%"}
+
+```{=html}
+<div class="flood-meter" role="img" aria-label="AI-generated pull request volume on GitHub: 17 million per month by March 2026, a 325 percent increase from September 2025, while maintainer numbers stayed flat.">
+  <div class="flood-meter__headline">
+    <span>17M</span>
+    <strong>AI-generated pull requests per month on GitHub (March 2026)</strong>
+  </div>
+  <div class="flood-stat flood-stat--red">
+    <strong>325%</strong>
+    <span>increase in six months — up from 4M in September 2025</span>
+  </div>
+  <div class="flood-stat flood-stat--amber">
+    <strong>~4.5%</strong>
+    <span>of all public GitHub commits from Claude Code alone</span>
+  </div>
+  <div class="flood-stat flood-stat--blue">
+    <strong>36M</strong>
+    <span>new developers joined GitHub in 2025</span>
+  </div>
+  <div class="flood-stat flood-stat--green">
+    <strong>Flat</strong>
+    <span>number of people taking on maintainer or ownership roles</span>
+  </div>
+  <div class="flood-meter__footer">More contributors, fewer stewards. The review queue grows; the capacity to process it does not.</div>
+</div>
+```
+
+:::
+
+::: {.column width="48%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+**"A denial-of-service attack on human attention."**<br>
+GitHub's own 2026 open source report described the pattern.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**1 in 10 AI PRs is legitimate**<br>
+Xavier Portilla Edo (Voiceflow) estimated 90% of AI-generated pull requests are noise.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**1.7x more issues**<br>
+AI-generated PRs carry 1.7x more problems than human-written ones (CodeRabbit, 2026).
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.44em; margin-top: 0.6em; color: #666;"}
+Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [The New Stack](https://thenewstack.io/ai-generated-code-crisis/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive)
+:::
+
 ## Pollution of Pull Requests {.smaller}
 
 :::: {.columns}
@@ -197,6 +256,41 @@ Expensive to review.
 Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 :::
 
+## When the bounty backfires {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](media/evidence/curl-bug-bounty.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
+
+:::
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+**`curl` killed its bug bounty**<br>
+After six years and 78 real CVEs fixed, AI-generated reports made the program unsustainable.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+**Seven fake reports in 16 hours**<br>
+In January 2026 alone, 20% of submissions were AI-generated. Only 5% of all reports turned out to be valid.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**Then it reopened.**<br>
+One month later, AI model quality had improved enough that `curl` returned to HackerOne. The floor moved — but so did the ceiling.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
+Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bounty/) · [The New Stack](https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/) · [Daniel Stenberg, FOSDEM 2026](https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/)
+:::
+
 ## Narrower funnels {.smaller}
 
 :::: {.columns}
@@ -228,6 +322,41 @@ Not total closure — higher gates at exactly the points where AI volume is most
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
 Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
+:::
+
+## Shared maintenance breaks first {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](media/evidence/jazzband-sunsetting.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing Jazzband's March 2026 sunsetting after AI spam made its open-membership model untenable"}
+
+:::
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+**`Jazzband` is shutting down**<br>
+After 10 years maintaining 80+ Python packages, the cooperative announced its wind-down in March 2026.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+**Open membership became the vulnerability**<br>
+AI-generated spam PRs and issues made shared push access untenable. The model was designed for a world where the worst case was an accidental merge.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
+**Packages scatter, continuity breaks**<br>
+`django-debug-toolbar` and others migrated to Django Commons. Non-Django packages must find new homes or go unmaintained.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
+Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/14/sunsetting-jazzband) · [`Jazzband` wind-down plan](https://jazzband.co/news/2026/03/14/wind-down-plan)
 :::
 
 ## AI policy hardening is now measurable {.smaller}
@@ -300,8 +429,8 @@ Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [ope
     </div>
   </div>
   <div class="platform-stress__response">
-    <strong>Response: reduce single-forge dependence</strong>
-    <span>Ghostty, Zig, and Gentoo moved or mirrored toward Codeberg, citing platform direction, reliability, or independence.</span>
+    <strong>Response: projects leave, citing AI-driven strain</strong>
+    <span>Ghostty left after AI contributions forced its vouch system. Zig banned AI-generated contributions and migrated to Codeberg. Gentoo mirrored for independence.</span>
   </div>
 </div>
 ```
@@ -383,12 +512,12 @@ One live service sells `GitHub` stars, advertises card and crypto payments, and 
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
-**Why people care**<br>
-Stars feed discovery, rankings, startup lists, and early funding attention.
+**AI lowers the cost of faking at scale**<br>
+Automated account creation and coordinated engagement are cheaper with LLM tooling. He et al. found 6M suspected fake stars across 18K+ repos.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
-Once stars can be bought, every passive trust signal needs an audit trail.
+Stars feed discovery, rankings, and early funding attention. Once the signal can be bought, every passive trust metric needs an audit trail.
 :::
 
 :::
@@ -432,6 +561,10 @@ Briefly closed as `NOT_PLANNED`, then reopened.
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
 Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
+:::
+
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Broader trend:** ReversingLabs reports a **73%** increase in malicious OSS package detections and a **451%** surge in malicious npm packages in 2025. AI-driven attackers accounted for an **89%** increase in supply chain attacks.
 :::
 
 ## Why LLMs tilt the field {style="font-size: 0.8em;"}
@@ -630,6 +763,58 @@ Even after closure, public code, docs, APIs, and prior architecture via `Cal.diy
 Sources: [`Cal.com` closed-source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) · [`Cal.diy` technical changes](https://cal.com/blog/cal-diy-open-source-to-closed-source)
 :::
 
+## Regulation arrives before readiness {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
+
+::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
+September 2026
+:::
+
+The EU Cyber Resilience Act requires mandatory vulnerability reporting. The deadline is weeks away. Most of the open-source community is not ready.
+
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
+**New category: "open-source software steward"**<br>
+Foundations and entities that publish FOSS in a business context must document a cybersecurity policy, notify authorities of exploited vulnerabilities, and promote disclosure.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
+**Commercial vendors carry full liability**<br>
+Companies that ship FOSS components in their products are responsible under the CRA — whether they maintain those components or not.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
+**AI makes compliance harder**<br>
+The flood of AI-generated pseudo-vulnerability reports increases triage volume at exactly the moment regulation demands faster, more accurate disclosure.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
+**Significant knowledge gaps**<br>
+A Linux Foundation survey found most open-source contributors are unaware of CRA obligations or unsure how to comply.
+:::
+
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+Regulation assumes a level of organisational capacity that volunteer-maintained FOSS rarely has.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.44em; margin-top: 0.65em; color: #666;"}
+Sources: [Mend.io CRA guide](https://www.mend.io/blog/eu-cyber-resilience-act-compliance-guide/) · [Linux Foundation Europe](https://linuxfoundation.eu/cyber-resilience-act) · [`GitHub` blog on CRA](https://github.blog/open-source/maintainers/what-the-eus-new-software-legislation-means-for-developers/)
+:::
+
 ## Looking ahead {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
@@ -711,58 +896,72 @@ Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob
 
 :::: {.columns}
 
-::: {.column width="33%"}
+::: {.column width="50%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
 
-::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
-+5.9%
+::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 8px;"}
++5.9% OSS contributions
 :::
 
-`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose (2024 study).
+`Copilot` use was associated with higher code contributions, even as coordination time also rose (2024 study).
+
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+curl bounty came back
+:::
+
+After shutting down in February, `curl` reopened on HackerOne in March 2026 — AI report quality had improved enough to make the program viable again.
+
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+Accountable reports work
+:::
+
+`Ghostty` accepted transparent AI-assisted reports that helped fix four real crashes. The contributor came to Discord as a human first.
 
 :::
 
 :::
 
-::: {.column width="33%"}
+::: {.column width="50%"}
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
+AI finds real vulnerabilities
+:::
+
+Anthropic's Mythos, run via Linux Foundation Alpha Omega, reviewed `curl`'s source and flagged five potential vulnerabilities. One was confirmed real.
+
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 Triage relief
 :::
 
-First-pass issue sorting can make maintainership more sustainable.
+First-pass issue sorting with Copilot SDK can make maintainership more sustainable by filtering noise before it reaches human reviewers.
 
 :::
 
-:::
-
-::: {.column width="33%"}
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
-
-::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
-Accountable reports
-:::
-
-`Ghostty` accepted transparent AI-assisted reports that helped fix four real crashes.
-
+::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+The line is not AI versus no AI. It is whether the tool reduces stewardship burden or exports it to maintainers.
 :::
 
 :::
 
 ::::
 
-<br>
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-The line is not AI versus no AI. It is whether the tool reduces stewardship burden or exports it to maintainers.
-:::
-
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.9em; color: #666;"}
-Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution)
+::: {style="text-align: center; font-size: 0.46em; margin-top: 0.8em; color: #666;"}
+Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution) · [Cybernews on curl and Mythos](https://cybernews.com/security/curl-bug-bounty-ai-security-reports-daniel-stenberg/)
 :::
 
 ## Keep the well drinkable {.smaller}
@@ -771,16 +970,16 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 <div class="well-two-column">
   <div class="well-action-rail" role="group" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
     <div class="well-action well-action--review">
-      <strong>Protect review time</strong>
-      <span>Disclose AI use · close synthetic drive-bys fast · require follow-up ownership</span>
+      <strong>Maintainers: protect review time</strong>
+      <span>Require AI disclosure · close synthetic drive-bys fast · demand follow-up ownership before merge</span>
     </div>
     <div class="well-action well-action--provenance">
-      <strong>Protect provenance</strong>
-      <span>Require accountability · treat unknown origin as risk · reject clean-room evasions</span>
+      <strong>Platforms: protect provenance</strong>
+      <span>Ship attribution tooling · surface AI-provenance signals on PRs · fund forge alternatives and interoperability</span>
     </div>
     <div class="well-action well-action--commons">
-      <strong>Protect the commons</strong>
-      <span>Verify dependencies · fund maintainers upstream · keep a real path in for people</span>
+      <strong>Companies & funders: protect the commons</strong>
+      <span>Verify dependencies you ship · fund maintainers upstream · keep a real entry path for newcomers</span>
     </div>
   </div>
   <div class="well-two-column__image">
