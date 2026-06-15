@@ -163,13 +163,13 @@ Review queues, contribution gates, and the pipeline.
 
 :::: {.columns}
 
-::: {.column width="52%"}
+::: {.column width="42%"}
 
 ```{=html}
 <div class="flood-meter" role="img" aria-label="AI-generated pull request volume on GitHub: 17 million per month by March 2026, a 325 percent increase from September 2025, while maintainer numbers stayed flat.">
   <div class="flood-meter__headline">
     <span>17M</span>
-    <strong>AI-generated pull requests per month on GitHub (March 2026)</strong>
+    <strong>AI-generated PRs per month (March 2026)</strong>
   </div>
   <div class="flood-stat flood-stat--red">
     <strong>325%</strong>
@@ -187,35 +187,30 @@ Review queues, contribution gates, and the pipeline.
     <strong>Flat</strong>
     <span>number of people taking on maintainer or ownership roles</span>
   </div>
-  <div class="flood-meter__footer">More contributors, fewer stewards. The review queue grows; the capacity to process it does not.</div>
+  <div class="flood-meter__footer">"A denial-of-service attack on human attention." — GitHub's 2026 open source report</div>
 </div>
 ```
 
 :::
 
-::: {.column width="48%"}
+::: {.column width="58%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**"A denial-of-service attack on human attention."**<br>
-GitHub's own 2026 open source report described the pattern.
+![](media/evidence/github-record-acceleration.png){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 12px; margin-bottom: 10px; font-size: 0.76em;"}
+**Only 1 in 10 AI PRs is legitimate.** AI-generated PRs carry 1.7x more issues than human-written ones (CodeRabbit, 2026).
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
-**1 in 10 AI PRs is legitimate**<br>
-Xavier Portilla Edo (Voiceflow) estimated 90% of AI-generated pull requests are noise.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**1.7x more issues**<br>
-AI-generated PRs carry 1.7x more problems than human-written ones (CodeRabbit, 2026).
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
+**Projects are leaving.** Ghostty, Zig, and Gentoo moved or mirrored away from GitHub, citing AI-driven contribution strain.
 :::
 
 :::
 
 ::::
 
-::: {style="text-align: center; font-size: 0.44em; margin-top: 0.6em; color: #666;"}
-Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [The New Stack](https://thenewstack.io/ai-generated-code-crisis/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive)
+::: {style="text-align: center; font-size: 0.38em; margin-top: 0.5em; color: #666;"}
+Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [The New Stack](https://thenewstack.io/ai-generated-code-crisis/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive) · [`GitHub` availability report](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/)
 :::
 
 ## Pollution of Pull Requests {.smaller}
@@ -397,46 +392,6 @@ Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/1
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.65em; color: #666;"}
 Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
-:::
-
-## GitHub wasn't built for this {.smaller}
-
-```{=html}
-<div class="github-stress" role="img" aria-label="GitHub reported record acceleration in pull requests merged, commits, and new repositories per month. That activity flows into shared forge services where April 2026 incidents affected Copilot agents, search, Actions, and webhooks.">
-  <div class="github-stress__graph">
-    <img src="media/evidence/github-record-acceleration.png" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month">
-    <div>
-      <span>AI-accelerated activity</span>
-      <strong>GitHub's own graph shows the bump.</strong>
-    </div>
-  </div>
-  <div class="github-stress__right">
-    <div class="platform-stress__forge">
-      <strong>Shared forge surface</strong>
-      <div class="forge-services">
-        <span>Pull requests</span>
-        <span>Copilot agents</span>
-        <span>Search</span>
-        <span>Actions</span>
-        <span>Webhooks</span>
-      </div>
-    </div>
-    <div class="platform-stress__incidents">
-      <div><strong>10</strong><span>April incidents</span></div>
-      <div><strong>Apr 22</strong><span>Copilot Cloud Agent outage</span></div>
-      <div><strong>~10%</strong><span>agent sessions affected</span></div>
-      <div><strong>65%</strong><span>peak search timeout/error rate</span></div>
-    </div>
-  </div>
-  <div class="platform-stress__response">
-    <strong>Response: projects leave, citing AI-driven strain</strong>
-    <span>Ghostty left after AI contributions forced its vouch system. Zig banned AI-generated contributions and migrated to Codeberg. Gentoo mirrored for independence.</span>
-  </div>
-</div>
-```
-
-::: {style="text-align: center; font-size: 0.38em; margin-top: 0.5em; color: #666;"}
-Sources: [`GitHub` availability update](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`GitHub` April 2026 report](https://github.blog/news-insights/company-news/github-availability-report-april-2026/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [`Gentoo`](https://planet.gentoo.org/)
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
