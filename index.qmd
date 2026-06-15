@@ -133,15 +133,11 @@ Modern software keeps drawing from the same well. Pollute it, and every downstre
 **Review labour** turns raw patches into shared infrastructure.
 :::
 
-. . .
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
+::: {.fragment style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
 **Trust** lets contributors begin with a presumption of good faith.
 :::
 
-. . .
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
+::: {.fragment style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
 **Reciprocity** is the implicit exchange that sustains the ecosystem.
 :::
 
@@ -335,9 +331,7 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 **Before:** Anyone could join, triage issues, and merge PRs across 80+ packages. Shared trust scaled maintenance without centralised control.
 :::
 
-. . .
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+::: {.fragment style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **After:** AI spam made open membership a liability. Non-Django packages must find new homes or go unmaintained — the model has no successor.
 :::
 
@@ -521,16 +515,12 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 AI can regenerate copyleft-licensed code in a permissive project. No line is copied verbatim, but the original licence terms may still apply.
 :::
 
-. . .
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
+::: {.fragment style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **No one can prove provenance after the fact.**<br>
 Unlike a human contributor, an LLM cannot say where its output came from. An audit that used to trace imports now hits a black box.
 :::
 
-. . .
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
+::: {.fragment style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
 **Where this bites first:** medical devices, automotive, and defence — sectors where regulators already require full software provenance and licence compliance.
 :::
 
@@ -559,9 +549,7 @@ Sources: [The Register, "AI will kill software licensing"](https://www.theregist
 The model can invent it. An attacker can register it later.
 :::
 
-. . .
-
-::: {style="display: flex; gap: 12px; margin-top: 10px;"}
+::: {.fragment style="display: flex; gap: 12px; margin-top: 10px;"}
 
 ::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
 **5.2%**<br>
@@ -728,14 +716,12 @@ The EU Cyber Resilience Act requires mandatory vulnerability reporting. The dead
 
 :::
 
-. . .
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
+::: {.fragment style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **New category: "open-source software steward"**<br>
 Foundations and entities that publish FOSS in a business context must document a cybersecurity policy, notify authorities of exploited vulnerabilities, and promote disclosure.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
+::: {.fragment style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
 **Commercial vendors carry full liability**<br>
 Companies that ship FOSS components in their products are responsible under the CRA — whether they maintain those components or not.
 :::
@@ -749,9 +735,7 @@ Companies that ship FOSS components in their products are responsible under the 
 The flood of AI-generated pseudo-vulnerability reports increases triage volume at exactly the moment regulation demands faster, more accurate disclosure.
 :::
 
-. . .
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
+::: {.fragment style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
 **Significant knowledge gaps**<br>
 A Linux Foundation survey found most open-source contributors are unaware of CRA obligations or unsure how to comply.
 :::
@@ -790,9 +774,7 @@ The costs are real. So are the responses.
 
 :::
 
-. . .
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+::: {.fragment style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 curl bounty came back
@@ -802,7 +784,7 @@ After shutting down in February, `curl` reopened on HackerOne in March 2026 — 
 
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.86em;"}
+::: {.fragment style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.86em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 Accountable reports work
@@ -826,9 +808,7 @@ Anthropic's Mythos, run via Linux Foundation Alpha Omega, reviewed `curl`'s sour
 
 :::
 
-. . .
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+::: {.fragment style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 Triage relief
