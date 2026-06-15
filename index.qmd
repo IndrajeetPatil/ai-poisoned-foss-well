@@ -267,8 +267,12 @@ Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://the
 Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
 Not total closure — higher gates at exactly the points where AI volume is most costly.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**`Ghostty`** went further: first-time contributors now need a [maintainer vouch](https://github.com/mitchellh/vouch) before a PR stays open.
 :::
 
 :::
@@ -747,40 +751,6 @@ The costs are real. So are the responses.
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.75em; color: #666;"}
 Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
-:::
-
-## From default trust to explicit trust {.smaller}
-
-::: {style="text-align: center; font-size: 0.78em; margin-bottom: 0.8em;"}
-Mitchell Hashimoto is piloting a different model.
-:::
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-![](media/evidence/ghostty-contributing.png){.artifact width="500" height="360" fig-alt="Screenshot of Ghostty's contributing guide with its vouch system"}
-
-::: {style="background-color: #e3f2fd; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**`Ghostty`:** first-time contributors need a maintainer vouch before a PR can stay open.
-:::
-
-:::
-
-::: {.column width="50%"}
-
-![](media/evidence/vouch-readme.png){.artifact width="500" height="360" fig-alt="Screenshot of Mitchell Hashimoto's Vouch repository"}
-
-::: {style="background-color: #e8f5e9; padding: 12px; border-radius: 14px; font-size: 0.72em; margin-top: 10px;"}
-**`Vouch`:** trust becomes explicit before code arrives.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob/main/CONTRIBUTING.md) · [`Vouch`](https://github.com/mitchellh/vouch)
 :::
 
 ## Useful AI gives stewardship time back {.smaller}
