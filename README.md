@@ -3,6 +3,7 @@
 This presentation examines how AI can genuinely help open-source developers move faster, triage better, and fix real bugs, while also showing how AI-generated pull requests, synthetic issue noise, collapsing trust assumptions, licence laundering, and business-model shocks are reshaping the free and open source software movement.
 
 The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, and designed to be published as a static site.
+The refreshed slide design is inspired by the [Pydantic Logfire website](https://pydantic.dev/logfire).
 
 ## Contents
 
