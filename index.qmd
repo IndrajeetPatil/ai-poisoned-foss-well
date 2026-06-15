@@ -709,26 +709,51 @@ Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob
 
 ## Useful AI gives stewardship time back {.smaller}
 
-```{=html}
-<div class="stewardship-balance" role="img" aria-label="Three useful AI patterns feed stewardship time back: contribution lift, triage relief, and accountable reports.">
-  <div class="stewardship-balance__hub">
-    <span>Good AI</span>
-    <strong>returns stewardship time</strong>
-  </div>
-  <div class="stewardship-card stewardship-card--lift">
-    <strong>+5.9%</strong>
-    <span>Copilot use associated with higher OSS code contributions, even as coordination time also rose.</span>
-  </div>
-  <div class="stewardship-card stewardship-card--triage">
-    <strong>Triage relief</strong>
-    <span>First-pass issue sorting can make maintainership more sustainable.</span>
-  </div>
-  <div class="stewardship-card stewardship-card--reports">
-    <strong>Accountable reports</strong>
-    <span>Ghostty accepted transparent AI-assisted reports that helped fix four real crashes.</span>
-  </div>
-</div>
-```
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; height: 235px;"}
+
+::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 10px;"}
++5.9%
+:::
+
+`Copilot` use was associated with higher OSS code contributions, even as coordination time also rose (2024 study).
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.88em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Triage relief
+:::
+
+First-pass issue sorting can make maintainership more sustainable.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; height: 235px; font-size: 0.86em;"}
+
+::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 10px;"}
+Accountable reports
+:::
+
+`Ghostty` accepted transparent AI-assisted reports that helped fix four real crashes.
+
+:::
+
+:::
+
+::::
 
 <br>
 

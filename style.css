@@ -200,7 +200,6 @@
 .cost-stack,
 .github-stress,
 .platform-stress,
-.stewardship-balance,
 .well-two-column,
 .well-action-rail,
 .well-guardrails {
@@ -214,7 +213,6 @@
 .cost-stack *,
 .github-stress *,
 .platform-stress *,
-.stewardship-balance *,
 .well-two-column *,
 .well-action-rail *,
 .well-guardrails * {
@@ -836,107 +834,6 @@
   line-height: 1.18;
 }
 
-.stewardship-balance {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 14px;
-  align-items: end;
-  min-height: 370px;
-  margin-top: 10px;
-  padding-top: 136px;
-}
-
-.stewardship-balance::before {
-  content: "";
-  position: absolute;
-  left: 14%;
-  right: 14%;
-  top: 214px;
-  height: 3px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, #3b82f6, #22c55e, #f59e0b);
-}
-
-.stewardship-balance__hub {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  display: grid;
-  gap: 4px;
-  width: 300px;
-  padding: 18px 20px;
-  border-radius: 999px;
-  background: #f0fdf4;
-  border: 1px solid rgba(34, 197, 94, 0.22);
-  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.08);
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.stewardship-balance__hub span {
-  color: #166534;
-  font-size: 0.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.stewardship-balance__hub strong {
-  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
-  font-size: 0.82em;
-  line-height: 1.05;
-}
-
-.stewardship-card {
-  position: relative;
-  display: grid;
-  gap: 10px;
-  min-height: 176px;
-  padding: 16px;
-  border: 1px solid rgba(148, 163, 184, 0.24);
-  border-radius: 20px;
-  background: #ffffff;
-  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.07);
-}
-
-.stewardship-card::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: -27px;
-  width: 17px;
-  height: 17px;
-  border: 4px solid #ffffff;
-  border-radius: 999px;
-  background: currentColor;
-  transform: translateX(-50%);
-  box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.08);
-}
-
-.stewardship-card--lift {
-  color: #2563eb;
-}
-
-.stewardship-card--triage {
-  color: #16a34a;
-}
-
-.stewardship-card--reports {
-  color: #d97706;
-}
-
-.stewardship-card strong {
-  color: #0f172a;
-  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
-  font-size: 0.82em;
-  line-height: 1.05;
-}
-
-.stewardship-card span {
-  color: #475569;
-  font-size: 0.49em;
-  line-height: 1.2;
-}
 
 .well-guardrails {
   display: grid;
