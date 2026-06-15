@@ -133,9 +133,13 @@ Modern software keeps drawing from the same well. Pollute it, and every downstre
 **Review labour** turns raw patches into shared infrastructure.
 :::
 
+. . .
+
 ::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
 **Trust** lets contributors begin with a presumption of good faith.
 :::
+
+. . .
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
 **Reciprocity** is the implicit exchange that sustains the ecosystem.
@@ -226,9 +230,11 @@ Cheap to submit.<br>
 Expensive to review.
 :::
 
+::: {.incremental}
 - Plausible diff
 - No context
 - No ownership after feedback
+:::
 
 :::
 
@@ -328,6 +334,8 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Before:** Anyone could join, triage issues, and merge PRs across 80+ packages. Shared trust scaled maintenance without centralised control.
 :::
+
+. . .
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **After:** AI spam made open membership a liability. Non-Django packages must find new homes or go unmaintained — the model has no successor.
@@ -513,10 +521,14 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 AI can regenerate copyleft-licensed code in a permissive project. No line is copied verbatim, but the original licence terms may still apply.
 :::
 
+. . .
+
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **No one can prove provenance after the fact.**<br>
 Unlike a human contributor, an LLM cannot say where its output came from. An audit that used to trace imports now hits a black box.
 :::
+
+. . .
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
 **Where this bites first:** medical devices, automotive, and defence — sectors where regulators already require full software provenance and licence compliance.
@@ -546,6 +558,8 @@ Sources: [The Register, "AI will kill software licensing"](https://www.theregist
 **The package does not need to exist first.**<br>
 The model can invent it. An attacker can register it later.
 :::
+
+. . .
 
 ::: {style="display: flex; gap: 12px; margin-top: 10px;"}
 
@@ -714,6 +728,8 @@ The EU Cyber Resilience Act requires mandatory vulnerability reporting. The dead
 
 :::
 
+. . .
+
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **New category: "open-source software steward"**<br>
 Foundations and entities that publish FOSS in a business context must document a cybersecurity policy, notify authorities of exploited vulnerabilities, and promote disclosure.
@@ -732,6 +748,8 @@ Companies that ship FOSS components in their products are responsible under the 
 **AI makes compliance harder**<br>
 The flood of AI-generated pseudo-vulnerability reports increases triage volume at exactly the moment regulation demands faster, more accurate disclosure.
 :::
+
+. . .
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
 **Significant knowledge gaps**<br>
@@ -772,6 +790,8 @@ The costs are real. So are the responses.
 
 :::
 
+. . .
+
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
@@ -805,6 +825,8 @@ AI finds real vulnerabilities
 Anthropic's Mythos, run via Linux Foundation Alpha Omega, reviewed `curl`'s source and flagged five potential vulnerabilities. One was confirmed real.
 
 :::
+
+. . .
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
