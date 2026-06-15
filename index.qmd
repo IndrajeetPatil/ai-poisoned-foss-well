@@ -331,18 +331,8 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 
 ::: {.column width="40%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**`Jazzband` is shutting down**<br>
-After 10 years maintaining 80+ Python packages, the cooperative announced its wind-down in March 2026.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
-**Open membership became the vulnerability**<br>
-AI-generated spam PRs and issues made shared push access untenable. The model was designed for a world where the worst case was an accidental merge.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
-**Packages scatter, continuity breaks**<br>
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+**What happens next**<br>
 `django-debug-toolbar` and others migrated to Django Commons. Non-Django packages must find new homes or go unmaintained.
 :::
 
@@ -354,44 +344,8 @@ AI-generated spam PRs and issues made shared push access untenable. The model wa
 Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/14/sunsetting-jazzband) · [`Jazzband` wind-down plan](https://jazzband.co/news/2026/03/14/wind-down-plan)
 :::
 
-## AI policy hardening is now measurable {.smaller}
-
-:::: {.columns}
-
-::: {.column width="42%"}
-
-```{=html}
-<div class="policy-meter" role="img" aria-label="Policy scan: 118 repositories had AI contribution policies; 78 percent allow GenAI, 51 percent require disclosure, and 74 percent require a human in the loop.">
-  <div class="policy-meter__headline">
-    <span>118</span>
-    <strong>policies found</strong>
-    <em>across 1,000 popular repositories</em>
-  </div>
-  <div class="policy-bar policy-bar--green" style="--value: 78%;">
-    <div><strong>78%</strong><span>allow GenAI</span></div>
-  </div>
-  <div class="policy-bar policy-bar--amber" style="--value: 51%;">
-    <div><strong>51%</strong><span>require disclosure</span></div>
-  </div>
-  <div class="policy-bar policy-bar--blue" style="--value: 74%;">
-    <div><strong>74%</strong><span>require human review</span></div>
-  </div>
-  <p>The norm is not "no AI." It is: disclose it, own it, and prove a human did the review work.</p>
-</div>
-```
-
-:::
-
-::: {.column width="58%"}
-
-![](media/evidence/ai-policy-disclosure-paper.png){.artifact width="610" height="450" fig-alt="Screenshot of the May 2026 arXiv paper AI Policy, Disclosure, and Human in the Loop"}
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.48em; margin-top: 0.65em; color: #666;"}
-Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [open-source-ai-contribution-policies](https://github.com/melissawm/open-source-ai-contribution-policies)
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
 :::
 
 ## Security {style="margin-top: 2.3em; text-align: left;"}
