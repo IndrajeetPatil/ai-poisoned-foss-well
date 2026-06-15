@@ -464,24 +464,24 @@ Synthetic volume turns time asymmetry into attacker advantage.
 
 ::::
 
-## Provenance becomes licence laundering {.smaller}
+## When code has no paper trail {.smaller}
 
 :::: {.columns}
 
 ::: {.column width="40%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Plausible is not traceable.**<br>
-A generated patch can pass review without revealing where it came from or which training data it echoes.
+**AI code looks original, but you can't trace its sources.**<br>
+A generated patch can pass review without revealing that it may be based on someone else's copyrighted work.
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**Reconstruction is not proof of independence.**<br>
-Recreating behavior from public code, docs, and APIs does not establish clean-room origin or resolve licence obligations.
+**Rewriting is not the same as writing from scratch.**<br>
+When AI recreates functionality from existing code, the original licence terms may still apply — even if no line was copied verbatim.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-Maintainers answer with disclosure, attestation, provenance checks, or outright bans on AI-derived code.
+Maintainers respond by requiring contributors to disclose AI use, prove where code came from, or banning AI-generated patches outright.
 :::
 
 :::
