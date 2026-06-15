@@ -23,7 +23,7 @@
   <rect x="115" y="75" width="1170" height="12" rx="34" fill="url(#accent)"/>
 
   <text x="165" y="145" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">curl/curl</text>
-  <text x="165" y="185" font-family="IBM Plex Sans, Arial, sans-serif" font-size="23" fill="#475569">Bug bounty program · 6 years · $86K paid · 78 CVEs fixed</text>
+  <text x="165" y="185" font-family="IBM Plex Sans, Arial, sans-serif" font-size="23" fill="#475569">Bug bounty programme · 6 years · $86K paid · 78 CVEs fixed</text>
 
   <text x="165" y="265" font-family="Space Grotesk, Arial, sans-serif" font-size="50" font-weight="700" fill="#111827">"AI slop is DDoSing open source"</text>
   <text x="165" y="310" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" fill="#475569">— Daniel Stenberg, FOSDEM 2026</text>

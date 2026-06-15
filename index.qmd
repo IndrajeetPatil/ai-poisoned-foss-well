@@ -156,7 +156,7 @@ LLMs change the cost model of all three at once.
 ## Community {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
-Review queues, contribution gates, and the pipeline.
+Review labour, contribution gates, and the pipeline.
 :::
 
 ## The flood in numbers {.smaller}
@@ -251,41 +251,6 @@ Expensive to review.
 Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 :::
 
-## When the bounty backfires {.smaller}
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-![](media/evidence/curl-bug-bounty.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
-
-:::
-
-::: {.column width="40%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**`curl` killed its bug bounty**<br>
-After six years and 78 real CVEs fixed, AI-generated reports made the program unsustainable.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
-**Seven fake reports in 16 hours**<br>
-In January 2026 alone, 20% of submissions were AI-generated. Only 5% of all reports turned out to be valid.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**Then it reopened.**<br>
-One month later, AI model quality had improved enough that `curl` returned to HackerOne. The floor moved — but so did the ceiling.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
-Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bounty/) · [The New Stack](https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/) · [Daniel Stenberg, FOSDEM 2026](https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/)
-:::
-
 ## Narrower funnels {.smaller}
 
 :::: {.columns}
@@ -317,6 +282,41 @@ Not total closure — higher gates at exactly the points where AI volume is most
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
 Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
+:::
+
+## When the bounty backfires {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+![](media/evidence/curl-bug-bounty.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
+
+:::
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+**`curl` killed its bug bounty**<br>
+After six years and 78 real CVEs fixed, AI-generated reports made the programme unsustainable.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+**Seven fake reports in 16 hours**<br>
+In January 2026 alone, 20% of submissions were AI-generated. Only 5% of all reports turned out to be valid.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**Then it reopened.**<br>
+One month later, AI model quality had improved enough that `curl` returned to HackerOne. The floor moved — but so did the ceiling.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
+Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bounty/) · [The New Stack](https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/) · [Daniel Stenberg, FOSDEM 2026](https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/)
 :::
 
 ## Shared maintenance breaks first {.smaller}
@@ -586,7 +586,7 @@ Synthetic volume turns time asymmetry into attacker advantage.
 ## Economics {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
-Who captures the value, and who carries the cost?
+Reciprocity, business models, and who carries the cost.
 :::
 
 ## The docs-led business-model shock {style="font-size: 0.74em;"}
@@ -823,7 +823,7 @@ Sources: [`Ghostty` CONTRIBUTING.md](https://github.com/ghostty-org/ghostty/blob
 curl bounty came back
 :::
 
-After shutting down in February, `curl` reopened on HackerOne in March 2026 — AI report quality had improved enough to make the program viable again.
+After shutting down in February, `curl` reopened on HackerOne in March 2026 — AI report quality had improved enough to make the programme viable again.
 
 :::
 
