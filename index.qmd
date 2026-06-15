@@ -273,28 +273,31 @@ Sources: [Hora & Robbes (arXiv, 2026)](https://arxiv.org/abs/2605.16706) · [ope
 ## GitHub wasn't built for this {.smaller}
 
 ```{=html}
-<div class="platform-stress" role="img" aria-label="AI-accelerated GitHub activity flows into shared forge services. April 2026 incidents affected Copilot agent sessions, search, Actions, and webhooks, creating pressure that pushes projects toward mirrors and alternative forges.">
-  <div class="platform-stress__inputs">
-    <span>AI-accelerated activity</span>
-    <strong>More PRs, commits, repos, agent sessions</strong>
-  </div>
-  <div class="platform-stress__arrow" aria-hidden="true">-&gt;</div>
-  <div class="platform-stress__forge">
-    <strong>Default FOSS forge</strong>
-    <div class="forge-services">
-      <span>Pull requests</span>
-      <span>Copilot agents</span>
-      <span>Search</span>
-      <span>Actions</span>
-      <span>Webhooks</span>
+<div class="github-stress" role="img" aria-label="GitHub reported record acceleration in pull requests merged, commits, and new repositories per month. That activity flows into shared forge services where April 2026 incidents affected Copilot agents, search, Actions, and webhooks.">
+  <div class="github-stress__graph">
+    <img src="media/evidence/github-record-acceleration.png" alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month">
+    <div>
+      <span>AI-accelerated activity</span>
+      <strong>GitHub's own graph shows the bump.</strong>
     </div>
   </div>
-  <div class="platform-stress__arrow" aria-hidden="true">-&gt;</div>
-  <div class="platform-stress__incidents">
-    <div><strong>10</strong><span>April incidents</span></div>
-    <div><strong>Apr 22</strong><span>Copilot Cloud Agent outage</span></div>
-    <div><strong>~10%</strong><span>agent sessions affected</span></div>
-    <div><strong>65%</strong><span>peak search timeout/error rate</span></div>
+  <div class="github-stress__right">
+    <div class="platform-stress__forge">
+      <strong>Shared forge surface</strong>
+      <div class="forge-services">
+        <span>Pull requests</span>
+        <span>Copilot agents</span>
+        <span>Search</span>
+        <span>Actions</span>
+        <span>Webhooks</span>
+      </div>
+    </div>
+    <div class="platform-stress__incidents">
+      <div><strong>10</strong><span>April incidents</span></div>
+      <div><strong>Apr 22</strong><span>Copilot Cloud Agent outage</span></div>
+      <div><strong>~10%</strong><span>agent sessions affected</span></div>
+      <div><strong>65%</strong><span>peak search timeout/error rate</span></div>
+    </div>
   </div>
   <div class="platform-stress__response">
     <strong>Response: reduce single-forge dependence</strong>
@@ -756,10 +759,6 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 
 ::: {style="background-color: #FFFBC1; padding: 14px 18px; border-radius: 25px; text-align: center; margin-top: 0.45em;"}
 If openness becomes unaffordable, FOSS stops regenerating.
-:::
-
-::: {style="text-align: center; font-size: 0.55em; margin-top: 1.0em; color: #666;"}
-Additional references: [`XZ Utils` backdoor summary](https://en.wikipedia.org/wiki/XZ_Utils_backdoor) · [Mitchell Hashimoto on AI and open source](https://blog.continue.dev/were-losing-open-contribution)
 :::
 
 # Thank You
