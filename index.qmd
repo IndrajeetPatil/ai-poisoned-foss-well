@@ -371,17 +371,17 @@ Trust, attack surface, and code provenance.
 
 ::: {.column width="42%"}
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.8em;"}
 **`XZ Utils` changed the baseline**<br>
 The lesson was not "review newcomers less kindly." It was that trust itself can be weaponized.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.8em;"}
 **AI flood changes the front door**<br>
 When maintainers see more bot-shaped PRs, every unsolicited submission becomes costlier to parse and easier to distrust.
 :::
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.72em; margin-top: 12px;"}
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
 The tension is only on the surface: projects still want people, not unaccountable volume.
 :::
 
@@ -719,11 +719,7 @@ The costs are real. So are the responses.
 ## Who pays {.smaller}
 
 ```{=html}
-<div class="cost-stack" role="img" aria-label="Impact map showing how synthetic contribution volume shifts costs onto junior developers, maintainers, projects, and the broader movement.">
-  <div class="cost-stack__driver">
-    <strong>Synthetic volume</strong>
-    <span>pollutes the review well and pushes costs downstream</span>
-  </div>
+<div class="cost-stack" role="img" aria-label="Impact map showing costs shifted onto junior developers, maintainers, projects, and the broader movement.">
   <div class="cost-stack__grid">
     <div class="cost-impact cost-impact--junior">
       <em>Entry path narrows</em>
@@ -819,7 +815,7 @@ After shutting down in February, `curl` reopened on HackerOne in March 2026 — 
 Accountable reports work
 :::
 
-`Ghostty` accepted transparent AI-assisted reports that helped fix four real crashes. The contributor came to Discord as a human first.
+`Ghostty` accepted transparent AI-assisted reports that helped fix four real crashes.
 
 :::
 
