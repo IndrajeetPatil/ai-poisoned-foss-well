@@ -177,17 +177,17 @@ Review labour, contribution gates, and the pipeline.
   </div>
   <div class="flood-stat flood-stat--amber">
     <strong>~4.5%</strong>
-    <span>of all public GitHub commits from Claude Code alone</span>
+    <span>of all public <code>GitHub</code> commits from <code>Claude Code</code> alone</span>
   </div>
   <div class="flood-stat flood-stat--blue">
     <strong>36M</strong>
-    <span>new developers joined GitHub in 2025</span>
+    <span>new developers joined <code>GitHub</code> in 2025</span>
   </div>
   <div class="flood-stat flood-stat--green">
     <strong>Flat</strong>
     <span>number of people taking on maintainer or ownership roles</span>
   </div>
-  <div class="flood-meter__footer">"A denial-of-service attack on human attention." — GitHub's 2026 open source report</div>
+  <div class="flood-meter__footer">"A denial-of-service attack on human attention." — <code>GitHub</code>, What to expect for open source in 2026</div>
 </div>
 ```
 
@@ -198,11 +198,11 @@ Review labour, contribution gates, and the pipeline.
 ![](media/evidence/github-record-acceleration.png){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 12px; margin-bottom: 10px; font-size: 0.76em;"}
-**Only 1 in 10 AI PRs is legitimate.** AI-generated PRs carry 1.7x more issues than human-written ones (CodeRabbit, 2026).
+**AI PR quality is still a review burden.** `Voiceflow` put legitimate AI PRs at 1 in 10; `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
-**Projects are leaving.** Ghostty, Zig, and Gentoo moved or mirrored away from GitHub, citing AI-driven contribution strain.
+**Projects are reducing `GitHub` dependence.** `Ghostty` cites reliability strain, `Zig` cites `GitHub Actions` failures and AI pressure, and `Gentoo` is moving contribution mirrors toward `Codeberg` after `Copilot` concerns.
 :::
 
 :::
@@ -210,7 +210,7 @@ Review labour, contribution gates, and the pipeline.
 ::::
 
 ::: {style="text-align: center; font-size: 0.38em; margin-top: 0.5em; color: #666;"}
-Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [The New Stack](https://thenewstack.io/ai-generated-code-crisis/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive) · [`GitHub` availability report](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/)
+Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [`GitHub`, open source in 2026](https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive) · [`GitHub` availability report](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [`Gentoo` on Codeberg](https://www.gentoo.org/news/2026/02/16/codeberg.html)
 :::
 
 ## Pollution of Pull Requests {.smaller}
@@ -330,7 +330,7 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 :::
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
-**After:** AI spam made open membership a liability. Non-Django packages must find new homes or go unmaintained — the model has no successor.
+**After:** AI spam made open membership a liability. `Django` projects have `Django Commons`; non-`Django` packages must find new homes or risk going unmaintained.
 :::
 
 :::
@@ -479,9 +479,9 @@ Sources: [SocialPlug, "Buy `GitHub` Stars"](https://www.socialplug.io/services/b
 :::
 
 ::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
-**488 comments**<br>
+**Nearly 500 comments**<br>
 The thread was submerged in repetitive bot-shaped replies.<br>
-Briefly closed as `NOT_PLANNED`, then reopened.
+Briefly closed as `not_planned`, then reopened; a separate status thread stayed open.
 :::
 
 :::
@@ -495,11 +495,11 @@ Briefly closed as `NOT_PLANNED`, then reopened.
 ::::
 
 ::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [issue #24518](https://github.com/BerriAI/litellm/issues/24518)
+Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [status thread #24518](https://github.com/BerriAI/litellm/issues/24518)
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
-**Broader trend:** ReversingLabs reports a **73%** increase in malicious OSS package detections and a **451%** surge in malicious npm packages in 2025. AI-driven attackers accounted for an **89%** increase in supply chain attacks.
+**Broader trend:** `ReversingLabs` reports a **73%** increase in malicious OSS package detections in 2025, with `npm` accounting for nearly **90%** of detected open-source malware.
 :::
 
 ## When code has no paper trail {.smaller}
@@ -707,21 +707,21 @@ Sources: [`Cal.com` closed-source announcement](https://cal.com/blog/cal-com-goe
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
 
 ::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
-September 2026
+September 11, 2026
 :::
 
-The EU Cyber Resilience Act requires mandatory vulnerability reporting. The deadline is weeks away. Most of the open-source community is not ready.
+EU Cyber Resilience Act vulnerability and incident reporting begins for manufacturers. The deadline is weeks away. The open-source ecosystem still has major readiness gaps.
 
 :::
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
 **New category: "open-source software steward"**<br>
-Foundations and entities that publish FOSS in a business context must document a cybersecurity policy, notify authorities of exploited vulnerabilities, and promote disclosure.
+Legal entities that provide sustained support for FOSS in a commercial context face a lighter steward regime: cybersecurity policy, vulnerability-handling cooperation, and reporting duties.
 :::
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
 **Commercial vendors carry full liability**<br>
-Companies that ship FOSS components in their products are responsible under the CRA — whether they maintain those components or not.
+Companies that place products with digital elements on the EU market carry manufacturer obligations — including for FOSS components they ship but do not maintain.
 :::
 
 :::
@@ -812,7 +812,7 @@ Anthropic's Mythos, run via Linux Foundation Alpha Omega, reviewed `curl`'s sour
 Triage relief
 :::
 
-First-pass issue sorting with Copilot SDK can make maintainership more sustainable by filtering noise before it reaches human reviewers.
+First-pass issue sorting with `Copilot SDK` can make maintainership more sustainable by filtering noise before it reaches human reviewers.
 
 :::
 
