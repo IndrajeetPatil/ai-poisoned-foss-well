@@ -32,16 +32,16 @@
   <rect x="165" y="345" width="340" height="140" rx="22" fill="#fff1f2" stroke="#fecdd3"/>
   <text x="200" y="390" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#9f1239">January 2026</text>
   <text x="200" y="425" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">20% AI reports</text>
-  <text x="200" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" fill="#475569">Only 5% of all reports valid</text>
+  <text x="200" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" fill="#475569">Only 5% of reports valid</text>
 
   <rect x="535" y="345" width="340" height="140" rx="22" fill="#fef3c7" stroke="#fde68a"/>
   <text x="570" y="390" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">February 2026</text>
   <text x="570" y="425" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Bounty shut down</text>
-  <text x="570" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" fill="#475569">Moved to private disclosure</text>
+  <text x="570" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" fill="#475569">Private disclosure only</text>
 
   <rect x="905" y="345" width="340" height="140" rx="22" fill="#dcfce7" stroke="#86efac"/>
   <text x="940" y="390" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#166534">March 2026</text>
   <text x="940" y="425" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Reopened</text>
-  <text x="940" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="26" fill="#475569">AI report quality improved</text>
+  <text x="940" y="462" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" fill="#475569">AI quality improved</text>
 
 </svg>

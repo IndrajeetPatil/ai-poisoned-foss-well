@@ -263,16 +263,11 @@ Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://the
 
 ::: {.column width="40%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**`tldraw`, January 2026**<br>
-An influential project announced it would automatically close pull requests from external contributors.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
 Not total closure — higher gates at exactly the points where AI volume is most costly.
 :::
 
@@ -297,18 +292,13 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 ::: {.column width="40%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
-**`curl` killed its bug bounty**<br>
-After six years and 78 real CVEs fixed, AI-generated reports made the programme unsustainable.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
 **Seven fake reports in 16 hours**<br>
-In January 2026 alone, 20% of submissions were AI-generated. Only 5% of all reports turned out to be valid.
+Each one plausible enough to demand triage — the real cost is maintainer attention, not the reports themselves.
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**Then it reopened.**<br>
-One month later, AI model quality had improved enough that `curl` returned to HackerOne. The floor moved — but so did the ceiling.
+**The floor moved — but so did the ceiling.**<br>
+`curl` reopened one month later after AI quality improved. Anthropic's Mythos later found a real vulnerability the human pipeline had missed.
 :::
 
 :::
@@ -333,7 +323,7 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 ::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
 **What happens next**<br>
-`django-debug-toolbar` and others migrated to Django Commons. Non-Django packages must find new homes or go unmaintained.
+Non-Django packages must find new homes or go unmaintained. The cooperative model designed for a pre-AI world has no successor.
 :::
 
 :::
@@ -416,17 +406,13 @@ Context: [Veritasium, "The Most Clever Attack in Computing History"](https://you
 ::: {.column width="40%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
-**A reputation market exists**<br>
-One live service sells `GitHub` stars, advertises card and crypto payments, and frames stars as visibility and credibility.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
 **AI lowers the cost of faking at scale**<br>
-Automated account creation and coordinated engagement are cheaper with LLM tooling. He et al. found 6M suspected fake stars across 18K+ repos.
+LLM tooling makes automated account creation and coordinated engagement trivially cheap — what used to need a bot farm now needs a prompt.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.74em;"}
-Stars feed discovery, rankings, and early funding attention. Once the signal can be bought, every passive trust metric needs an audit trail.
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**Once the signal can be bought, every passive trust metric needs an audit trail.**<br>
+Stars, forks, and download counts all become unreliable proxies without provenance checks.
 :::
 
 :::
