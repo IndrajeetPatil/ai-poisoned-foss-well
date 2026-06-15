@@ -639,26 +639,32 @@ The costs are real. So are the responses.
 ## Who pays {.smaller}
 
 ```{=html}
-<div class="cost-ripple" role="img" aria-label="Ripple map showing how synthetic contribution volume creates costs for junior developers, maintainers, projects, and the broader movement.">
-  <div class="cost-ripple__center">
+<div class="cost-stack" role="img" aria-label="Impact map showing how synthetic contribution volume shifts costs onto junior developers, maintainers, projects, and the broader movement.">
+  <div class="cost-stack__driver">
     <strong>Synthetic volume</strong>
-    <span>pollutes the review well</span>
+    <span>pollutes the review well and pushes costs downstream</span>
   </div>
-  <div class="cost-node cost-node--junior">
-    <strong>Junior developers</strong>
-    <span>lose first reviews, apprenticeship, and a low-friction path into FOSS.</span>
-  </div>
-  <div class="cost-node cost-node--maintainers">
-    <strong>Maintainers</strong>
-    <span>carry suspicion, context switching, and unpaid incident response.</span>
-  </div>
-  <div class="cost-node cost-node--projects">
-    <strong>Projects</strong>
-    <span>lose diverse small contributions and become more closed and fragile.</span>
-  </div>
-  <div class="cost-node cost-node--movement">
-    <strong>The movement</strong>
-    <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
+  <div class="cost-stack__grid">
+    <div class="cost-impact cost-impact--junior">
+      <em>Entry path narrows</em>
+      <strong>Junior developers</strong>
+      <span>lose first reviews, apprenticeship, and a low-friction route into FOSS.</span>
+    </div>
+    <div class="cost-impact cost-impact--maintainers">
+      <em>Attention fragments</em>
+      <strong>Maintainers</strong>
+      <span>carry suspicion, context switching, and unpaid incident response.</span>
+    </div>
+    <div class="cost-impact cost-impact--projects">
+      <em>Contribution base shrinks</em>
+      <strong>Projects</strong>
+      <span>lose diverse small contributions and become more closed and fragile.</span>
+    </div>
+    <div class="cost-impact cost-impact--movement">
+      <em>Renewal slows</em>
+      <strong>The movement</strong>
+      <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
+    </div>
   </div>
 </div>
 ```
@@ -736,23 +742,24 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 
 ## Keep the well drinkable {.smaller}
 
-::: {style="text-align: center;"}
-![](media/illustrations/well-guardrails.png){.illustration width="680" height="382" fig-alt="Generated editorial illustration of a protected stone FOSS well with three guardrail systems for review time, provenance, and commons stewardship"}
-:::
-
 ```{=html}
-<div class="well-action-rail" role="group" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
-  <div class="well-action well-action--review">
-    <strong>Protect review time</strong>
-    <span>Disclose AI use · close synthetic drive-bys fast · require follow-up ownership</span>
+<div class="well-two-column">
+  <div class="well-action-rail" role="group" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
+    <div class="well-action well-action--review">
+      <strong>Protect review time</strong>
+      <span>Disclose AI use · close synthetic drive-bys fast · require follow-up ownership</span>
+    </div>
+    <div class="well-action well-action--provenance">
+      <strong>Protect provenance</strong>
+      <span>Require accountability · treat unknown origin as risk · reject clean-room evasions</span>
+    </div>
+    <div class="well-action well-action--commons">
+      <strong>Protect the commons</strong>
+      <span>Verify dependencies · fund maintainers upstream · keep a real path in for people</span>
+    </div>
   </div>
-  <div class="well-action well-action--provenance">
-    <strong>Protect provenance</strong>
-    <span>Require accountability · treat unknown origin as risk · reject clean-room evasions</span>
-  </div>
-  <div class="well-action well-action--commons">
-    <strong>Protect the commons</strong>
-    <span>Verify dependencies · fund maintainers upstream · keep a real path in for people</span>
+  <div class="well-two-column__image">
+    <img src="media/illustrations/well-guardrails.png" class="illustration" alt="Generated editorial illustration of a protected stone FOSS well with three guardrail systems for review time, provenance, and commons stewardship">
   </div>
 </div>
 ```

@@ -80,6 +80,15 @@
   border-radius: 18px;
 }
 
+.reveal .slides .columns {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.reveal .slides .columns > .column {
+  align-self: center !important;
+}
+
 .reveal .slides div[style*="background-color: #e3f2fd;"],
 .reveal .slides div[style*="background-color: #e8f5e9;"],
 .reveal .slides div[style*="background-color: #fff3e0;"],
@@ -188,9 +197,11 @@
 .policy-meter,
 .business-shock,
 .cost-ripple,
+.cost-stack,
 .github-stress,
 .platform-stress,
 .stewardship-balance,
+.well-two-column,
 .well-action-rail,
 .well-guardrails {
   box-sizing: border-box;
@@ -200,9 +211,11 @@
 .policy-meter *,
 .business-shock *,
 .cost-ripple *,
+.cost-stack *,
 .github-stress *,
 .platform-stress *,
 .stewardship-balance *,
+.well-two-column *,
 .well-action-rail *,
 .well-guardrails * {
   box-sizing: border-box;
@@ -505,6 +518,115 @@
   right: 2%;
   bottom: 0;
   border-top: 5px solid #eab308;
+}
+
+.cost-stack {
+  display: grid;
+  grid-template-columns: 0.74fr 1.8fr;
+  gap: 18px;
+  align-items: stretch;
+  min-height: 430px;
+  margin-top: 8px;
+}
+
+.cost-stack__driver {
+  display: grid;
+  align-content: center;
+  gap: 14px;
+  padding: 24px;
+  border: 1px solid rgba(244, 63, 94, 0.22);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 25% 20%, rgba(244, 63, 94, 0.16), transparent 36%),
+    linear-gradient(180deg, #fff1f2, #ffffff);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+}
+
+.cost-stack__driver strong {
+  color: #9f1239;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.02;
+}
+
+.cost-stack__driver span {
+  color: #475569;
+  font-size: 0.54em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.cost-stack__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.cost-impact {
+  display: grid;
+  grid-template-columns: 0.78fr 1fr 1.55fr;
+  align-items: center;
+  gap: 8px;
+  min-height: 100px;
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.07);
+}
+
+.cost-impact em {
+  font-size: 0.42em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.cost-impact strong {
+  color: #111827;
+  font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+  font-size: 0.7em;
+  line-height: 1.06;
+}
+
+.cost-impact span {
+  color: #475569;
+  font-size: 0.46em;
+  line-height: 1.18;
+}
+
+.cost-impact--junior {
+  border-top: 6px solid #f43f5e;
+}
+
+.cost-impact--junior em {
+  color: #9f1239;
+}
+
+.cost-impact--maintainers {
+  border-top: 6px solid #3b82f6;
+}
+
+.cost-impact--maintainers em {
+  color: #1d4ed8;
+}
+
+.cost-impact--projects {
+  border-top: 6px solid #22c55e;
+}
+
+.cost-impact--projects em {
+  color: #166534;
+}
+
+.cost-impact--movement {
+  border-top: 6px solid #eab308;
+}
+
+.cost-impact--movement em {
+  color: #92400e;
 }
 
 .github-stress {
@@ -824,18 +946,38 @@
   margin-top: 8px;
 }
 
+.well-two-column {
+  display: grid;
+  grid-template-columns: 0.82fr 1.28fr;
+  gap: 18px;
+  align-items: stretch;
+  margin-top: 8px;
+}
+
+.well-two-column__image {
+  display: grid;
+  place-items: center;
+}
+
+.well-two-column__image img {
+  width: 100%;
+  height: 386px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .well-action-rail {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 12px;
-  margin-top: 10px;
 }
 
 .well-action {
   display: grid;
-  gap: 6px;
-  min-height: 74px;
-  padding: 10px 13px;
+  align-content: center;
+  gap: 9px;
+  min-height: 120px;
+  padding: 16px;
   border: 1px solid rgba(148, 163, 184, 0.24);
   border-radius: 18px;
   background: #ffffff;
@@ -843,15 +985,15 @@
 }
 
 .well-action strong {
-  font-size: 0.54em;
+  font-size: 0.66em;
   line-height: 1.05;
 }
 
 .well-action span {
   color: #475569;
-  font-size: 0.39em;
+  font-size: 0.46em;
   font-weight: 600;
-  line-height: 1.14;
+  line-height: 1.18;
 }
 
 .well-action--review {
