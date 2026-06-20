@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Poisoning the FOSS Well Social Card</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
       :root {
-        --bg: #f8faf7;
-        --ink: #101828;
-        --muted: #516074;
-        --line: rgba(15, 23, 42, 0.1);
-        --shadow: 0 22px 50px rgba(15, 23, 42, 0.1);
-        --blue: #e3f2fd;
-        --green: #e8f5e9;
-        --amber: #fff3e0;
-        --rose: #ffebee;
-        --yellow: #fffbc1;
-        --blue-strong: #3b82f6;
-        --green-strong: #22c55e;
-        --amber-strong: #f59e0b;
-        --rose-strong: #f43f5e;
+        --canvas: #fbffea;
+        --paper: #f7fbdf;
+        --ink: #082629;
+        --ink-soft: #294448;
+        --muted: #5c6f70;
+        --line: rgba(8, 38, 41, 0.22);
+        --shadow: rgba(8, 38, 41, 0.12);
+        --orange: #ff7a2f;
+        --amber: #f8bd4b;
+        --magenta: #e520e9;
+        --green: #95f0a8;
+        --blue: #72d4ff;
       }
 
       * {
@@ -32,322 +32,213 @@
         width: 1600px;
         height: 900px;
         overflow: hidden;
-        background: var(--bg);
-        font-family:
-          "IBM Plex Sans", "Aptos", "Segoe UI", system-ui, sans-serif;
+        background: var(--canvas);
         color: var(--ink);
+        font-family: "IBM Plex Sans", "Aptos", "Segoe UI", system-ui, sans-serif;
       }
 
-      body::before,
-      body::after {
-        content: "";
-        position: absolute;
-        border-radius: 999px;
-        filter: blur(10px);
-        opacity: 0.8;
-      }
-
-      body::before {
-        width: 380px;
-        height: 380px;
-        left: -120px;
-        top: -120px;
-        background: radial-gradient(circle, rgba(59, 130, 246, 0.14), transparent 68%);
-      }
-
-      body::after {
-        width: 420px;
-        height: 420px;
-        right: -140px;
-        bottom: -160px;
-        background: radial-gradient(circle, rgba(245, 158, 11, 0.12), transparent 70%);
+      body {
+        background:
+          linear-gradient(rgba(8, 38, 41, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(8, 38, 41, 0.035) 1px, transparent 1px),
+          var(--canvas);
+        background-size: 46px 46px;
       }
 
       .frame {
         position: relative;
         width: 100%;
         height: 100%;
-        padding: 72px 78px;
+        padding: 72px 78px 58px;
       }
 
-      .grid {
+      .frame::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(251, 255, 234, 0.96) 0%, rgba(251, 255, 234, 0.9) 42%, rgba(251, 255, 234, 0.54) 66%, rgba(251, 255, 234, 0.18) 100%),
+          linear-gradient(135deg, rgba(255, 122, 47, 0.08), transparent 38%),
+          linear-gradient(315deg, rgba(114, 212, 255, 0.1), transparent 42%);
+        pointer-events: none;
+      }
+
+      .layout {
+        position: relative;
+        z-index: 1;
         display: grid;
-        grid-template-columns: 0.98fr 0.82fr;
-        gap: 40px;
-        align-items: stretch;
+        grid-template-columns: 600px 1fr;
+        gap: 58px;
+        align-items: center;
         height: 100%;
       }
 
       .eyebrow {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
-        padding: 12px 18px;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        color: var(--muted);
-        font-size: 24px;
+        gap: 14px;
+        margin: 0 0 30px;
+        color: var(--ink-soft);
+        font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+        font-size: 22px;
         font-weight: 600;
-        letter-spacing: 0.02em;
       }
 
       .eyebrow::before {
         content: "";
-        width: 12px;
-        height: 12px;
-        border-radius: 999px;
-        background: linear-gradient(135deg, var(--amber-strong), var(--rose-strong));
+        width: 58px;
+        height: 6px;
+        background: linear-gradient(90deg, var(--orange), var(--magenta));
       }
 
       .title {
-        margin: 36px 0 24px;
-        font-family: "Space Grotesk", "Aptos Display", "Segoe UI", sans-serif;
-        font-size: 88px;
-        line-height: 0.95;
-        letter-spacing: -0.05em;
+        margin: 0;
+        max-width: 590px;
+        font-family: "Bricolage Grotesque", "IBM Plex Sans", sans-serif;
+        font-size: 106px;
         font-weight: 700;
-        max-width: 760px;
+        letter-spacing: 0;
+        line-height: 0.91;
+      }
+
+      .title span {
+        display: block;
       }
 
       .subtitle {
-        max-width: 760px;
-        font-size: 37px;
-        line-height: 1.15;
-        color: #1f2937;
+        max-width: 570px;
+        margin: 34px 0 0;
+        color: var(--ink-soft);
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 1.18;
       }
 
-      .chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
+      .signals {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
         margin-top: 42px;
       }
 
-      .chip {
-        display: inline-flex;
+      .signal {
+        display: flex;
         align-items: center;
-        gap: 12px;
-        padding: 14px 18px;
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.75);
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        font-size: 24px;
-        font-weight: 600;
-        color: #233044;
+        gap: 14px;
+        color: #123438;
+        font-size: 23px;
+        font-weight: 700;
       }
 
-      .chip::before {
+      .signal::before {
         content: "";
-        width: 10px;
-        height: 10px;
-        border-radius: 999px;
+        width: 12px;
+        height: 12px;
+        border: 2px solid var(--ink);
+        transform: rotate(45deg);
       }
 
-      .chip.blue::before {
-        background: var(--blue-strong);
+      .signal.orange::before {
+        background: var(--orange);
+        border-color: var(--orange);
       }
 
-      .chip.rose::before {
-        background: var(--rose-strong);
+      .signal.blue::before {
+        background: var(--blue);
+        border-color: var(--blue);
       }
 
-      .chip.green::before {
-        background: var(--green-strong);
+      .signal.green::before {
+        background: var(--green);
+        border-color: #35a64d;
       }
 
       .site {
         position: absolute;
         left: 78px;
-        bottom: 58px;
-        color: #64748b;
-        font-size: 24px;
+        bottom: 54px;
+        z-index: 2;
+        color: var(--muted);
+        font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+        font-size: 21px;
         font-weight: 600;
       }
 
-      .artboard {
+      .art {
         position: relative;
-        min-height: 100%;
-        border-radius: 38px;
-        background:
-          linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.74)),
-          var(--yellow);
-        border: 1px solid var(--line);
-        box-shadow: var(--shadow);
+        height: 706px;
+        border: 1px solid rgba(8, 38, 41, 0.34);
+        border-radius: 8px;
         overflow: hidden;
+        box-shadow:
+          12px 12px 0 var(--shadow),
+          0 20px 46px rgba(8, 38, 41, 0.16);
+        background: var(--paper);
       }
 
-      .artboard::before {
+      .art img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: 50% 50%;
+        filter: saturate(0.92) contrast(1.04);
+      }
+
+      .art::before {
         content: "";
         position: absolute;
-        inset: 24px;
-        border-radius: 28px;
-        border: 1px solid rgba(15, 23, 42, 0.06);
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(251, 255, 234, 0.3) 0%, rgba(251, 255, 234, 0.02) 34%, transparent 100%),
+          linear-gradient(180deg, rgba(8, 38, 41, 0.04), rgba(8, 38, 41, 0.18));
       }
 
-      .ring {
+      .art-label {
         position: absolute;
-        border-radius: 999px;
-        border: 2px solid rgba(59, 130, 246, 0.18);
-      }
-
-      .ring.one {
-        width: 430px;
-        height: 430px;
-        right: -40px;
-        top: 140px;
-      }
-
-      .ring.two {
-        width: 280px;
-        height: 280px;
-        right: 40px;
-        top: 215px;
-        border-color: rgba(244, 63, 94, 0.16);
-      }
-
-      .ring.three {
-        width: 120px;
-        height: 120px;
-        right: 120px;
-        top: 295px;
-        border-color: rgba(34, 197, 94, 0.22);
-      }
-
-      .stack-card {
-        position: absolute;
-        width: 360px;
-        padding: 24px 24px 22px;
-        border-radius: 26px;
-        border: 1px solid rgba(15, 23, 42, 0.1);
-        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
-      }
-
-      .stack-card::before {
-        content: "";
-        position: absolute;
-        left: 16px;
-        right: 16px;
-        top: 0;
-        height: 5px;
-        border-radius: 0 0 999px 999px;
-      }
-
-      .stack-card h3 {
-        margin: 0 0 10px;
-        font-family: "Space Grotesk", "Aptos Display", sans-serif;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: -0.03em;
-      }
-
-      .stack-card p {
-        margin: 0;
-        font-size: 19px;
-        line-height: 1.18;
-        color: #314155;
-      }
-
-      .card-1 {
-        left: 48px;
-        top: 82px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.52)), var(--amber);
-      }
-
-      .card-1::before {
-        background: linear-gradient(90deg, var(--amber-strong), #fbbf24);
-      }
-
-      .card-2 {
-        left: 26px;
-        bottom: 110px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.48)), var(--rose);
-      }
-
-      .card-2::before {
-        background: linear-gradient(90deg, var(--rose-strong), #fb7185);
-      }
-
-      .card-3 {
-        right: 48px;
-        bottom: 66px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.5)), var(--blue);
-      }
-
-      .card-3::before {
-        background: linear-gradient(90deg, var(--blue-strong), #60a5fa);
-      }
-
-      .well {
-        position: absolute;
-        right: 128px;
-        top: 114px;
-        width: 200px;
-        height: 200px;
-        border-radius: 999px;
-        background: radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.4));
-        border: 1px solid rgba(15, 23, 42, 0.08);
-        box-shadow: 0 14px 26px rgba(15, 23, 42, 0.08);
-      }
-
-      .well::before {
-        content: "";
-        position: absolute;
-        inset: 28px;
-        border-radius: 999px;
-        border: 14px solid rgba(59, 130, 246, 0.22);
-      }
-
-      .well::after {
-        content: "";
-        position: absolute;
-        left: 72px;
-        right: 72px;
-        top: 36px;
-        bottom: 36px;
-        border-radius: 999px;
-        background: linear-gradient(180deg, rgba(59, 130, 246, 0.16), rgba(244, 63, 94, 0.12));
+        left: 28px;
+        bottom: 28px;
+        max-width: 430px;
+        padding: 16px 18px;
+        border: 1px solid rgba(8, 38, 41, 0.18);
+        border-radius: 8px;
+        background: rgba(251, 255, 234, 0.9);
+        color: var(--ink-soft);
+        font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.25;
       }
     </style>
   </head>
   <body>
     <main class="frame">
-      <div class="grid">
+      <div class="layout">
         <section>
           <div class="eyebrow">Presentation deck</div>
-          <h1 class="title">Poisoning the FOSS Well</h1>
+          <h1 class="title">
+            <span>Poisoning</span>
+            <span>the FOSS</span>
+            <span>Well</span>
+          </h1>
           <p class="subtitle">
-            How AI-generated pull requests, widening attack surfaces, and collapsing
-            trust are reshaping open source.
+            How AI-generated pull requests, widening attack surfaces, and
+            collapsing trust are reshaping open source.
           </p>
-          <div class="chips">
-            <div class="chip blue">Review queues</div>
-            <div class="chip rose">Supply chain</div>
-            <div class="chip green">Trust collapse</div>
+          <div class="signals" aria-hidden="true">
+            <div class="signal orange">Review labour at machine speed</div>
+            <div class="signal blue">New supply-chain attack surfaces</div>
+            <div class="signal green">A commons built on fragile trust</div>
           </div>
         </section>
 
-        <section class="artboard" aria-hidden="true">
-          <div class="ring one"></div>
-          <div class="ring two"></div>
-          <div class="ring three"></div>
-          <div class="well"></div>
-
-          <article class="stack-card card-1">
-            <h3>Cheap to submit</h3>
-            <p>Plausible AI patches create real review labour.</p>
-          </article>
-
-          <article class="stack-card card-2">
-            <h3>Harder to defend</h3>
-            <p>Noise, hallucinations, and speed widen the attack surface.</p>
-          </article>
-
-          <article class="stack-card card-3">
-            <h3>Costlier to trust</h3>
-            <p>The contribution pipeline gets narrower and more suspicious.</p>
-          </article>
-        </section>
+        <figure class="art" aria-hidden="true">
+          <img src="illustrations/foss-social-system.jpg" alt="" />
+          <figcaption class="art-label">
+            FOSS as a shared well: social trust, review labour, and reciprocity
+            under pressure.
+          </figcaption>
+        </figure>
       </div>
 
       <div class="site">indrapatil.com/ai-poisoned-foss-well</div>
