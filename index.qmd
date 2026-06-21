@@ -138,7 +138,7 @@ FOSS runs on three social inputs — **review labour**, **trust**, and **recipro
 ![](media/evidence/github-record-acceleration.png){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 12px; margin-bottom: 10px; font-size: 0.76em;"}
-**AI PR quality is still a review burden.** `Voiceflow` put legitimate AI PRs at 1 in 10; `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
+**AI PR quality is still a review burden.** `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
 :::
 
 :::
@@ -191,13 +191,13 @@ Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://the
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/tldraw-contributions-policy.svg){.artifact width="700" height="300" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
+![](media/evidence/tldraw-contributions-policy.svg){.artifact width="750" height="420" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
@@ -219,13 +219,13 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/curl-bug-bounty.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
+![](media/evidence/curl-bug-bounty.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
 **Seven fake reports in 16 hours**<br>
@@ -244,13 +244,13 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/jazzband-sunsetting.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing Jazzband's March 2026 sunsetting after AI spam made its open-membership model untenable"}
+![](media/evidence/jazzband-sunsetting.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing Jazzband's March 2026 sunsetting after AI spam made its open-membership model untenable"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Before:** Anyone could join, triage issues, and merge PRs across 80+ packages. Shared trust scaled maintenance without centralised control.
