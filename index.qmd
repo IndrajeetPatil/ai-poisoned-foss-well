@@ -221,6 +221,10 @@ Issues, bug reports, and discussions stayed open. What narrowed was the expensiv
 Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
 :::
 
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
+:::
+
 ## When the bounty backfires {.smaller}
 
 :::: {.columns}
@@ -558,46 +562,10 @@ The company said AI can scan public code for vulnerabilities and turn transparen
 Sources: [`Cal.com` closed-source announcement](https://cal.com/blog/cal-com-goes-closed-source-why)
 :::
 
-## Regulation arrives before readiness {.smaller}
+## Room for hope {style="margin-top: 2.3em; text-align: left;"}
 
-:::: {.columns}
-
-::: {.column width="50%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
-September 11, 2026
-:::
-
-EU Cyber Resilience Act vulnerability and incident reporting begins for manufacturers. The deadline is weeks away. The open-source ecosystem still has major readiness gaps.
-
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
-**New obligations for stewards and vendors**<br>
-The CRA creates a lighter "steward" regime for FOSS-supporting entities and full manufacturer liability for commercial vendors — including for FOSS components they ship but do not maintain.
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
-**AI makes compliance harder**<br>
-The flood of AI-generated pseudo-vulnerability reports increases triage volume at exactly the moment regulation demands faster, more accurate disclosure.
-:::
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-Regulation assumes a level of organisational capacity that volunteer-maintained FOSS rarely has.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.44em; margin-top: 0.65em; color: #666;"}
-Sources: [Mend.io CRA guide](https://www.mend.io/blog/eu-cyber-resilience-act-compliance-guide/) · [Linux Foundation Europe](https://linuxfoundation.eu/cyber-resilience-act) · [`GitHub` blog on CRA](https://github.blog/open-source/maintainers/what-the-eus-new-software-legislation-means-for-developers/)
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+The costs are real. So are the responses.
 :::
 
 ## Useful AI gives stewardship time back {.smaller}
@@ -672,6 +640,12 @@ The line is not AI versus no AI. It is whether the tool reduces stewardship burd
 Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution) · [Cybernews on curl and Mythos](https://cybernews.com/security/curl-bug-bounty-ai-security-reports-daniel-stenberg/)
 :::
 
+## Conclusion {style="margin-top: 2.3em; text-align: left;"}
+
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+What it takes to keep the well drinkable.
+:::
+
 ## Keep the well drinkable {.smaller}
 
 ```{=html}
@@ -698,10 +672,6 @@ Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitH
 
 ::: {style="background-color: #FFFBC1; padding: 14px 18px; border-radius: 25px; text-align: center; margin-top: 0.45em;"}
 If openness becomes unaffordable, FOSS stops regenerating.
-:::
-
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
-**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
 :::
 
 # Thank You
