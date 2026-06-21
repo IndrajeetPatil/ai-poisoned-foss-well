@@ -70,7 +70,7 @@ Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in
 Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
 :::
 
-## FOSS is a shared well — and a social system {.smaller}
+## The FOSS well {.smaller}
 
 :::: {.columns}
 
@@ -91,25 +91,13 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 
 :::
 
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
-**Review labour** turns raw patches into shared infrastructure.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
-**Trust** lets contributors begin with a presumption of good faith.
-:::
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
-**Reciprocity** is the implicit exchange that sustains the ecosystem.
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
+FOSS runs on three social inputs — **review labour**, **trust**, and **reciprocity**. LLMs put strain on all three at once.
 :::
 
 :::
 
 ::::
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-LLMs change the cost model of all three at once.
-:::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
 **Boundary:** Low-quality PRs and burnout predate LLMs. AI changes speed, volume, and plausibility; the underlying commons problem is still under-compensated maintainer labour.
