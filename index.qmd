@@ -389,27 +389,27 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="65%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Licence contamination without a trail.**<br>
+![](media/evidence/chardet-licence-laundering.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing chardet's AI-assisted relicensing from LGPL to MIT via Claude rewrite"}
+
+:::
+
+::: {.column width="35%"}
+
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**Licence laundering.**<br>
 AI can regenerate copyleft code into a permissive project — no verbatim copy, but the original terms may still apply.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**No one can prove provenance after the fact.**<br>
-Unlike a human contributor, an LLM cannot say where its output came from. An audit that used to trace imports now hits a black box.
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**Provenance black box.**<br>
+An LLM cannot say where its output came from. Audits that used to trace imports now hit a dead end.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-**Where this bites first:** medical devices, automotive, and defence — sectors where regulators already require full software provenance and licence compliance.
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+**Regulated sectors feel it first:** medical devices, automotive, and defence already require full provenance.
 :::
-
-:::
-
-::: {.column width="60%"}
-
-![](media/evidence/chardet-licence-laundering.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing chardet's AI-assisted relicensing from LGPL to MIT via Claude rewrite"}
 
 :::
 
