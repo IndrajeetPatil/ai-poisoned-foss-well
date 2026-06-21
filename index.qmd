@@ -70,54 +70,7 @@ Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in
 Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
 :::
 
-## FOSS is the shared well {.smaller}
-
-:::: {.columns}
-
-::: {.column width="62%"}
-
-![](media/illustrations/foss-shared-well.png){.illustration width="640" height="360" fig-alt="Generated cross-section illustration of a stone FOSS well feeding modern software systems above ground, with an underground aquifer of open-source dependencies and maintainer work"}
-
-:::
-
-::: {.column width="38%"}
-
-::: {style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
-**96%** of codebases include open-source software.
-
-::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
-[Synopsys OSSRA report, cited by Harvard](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/)
-:::
-
-:::
-
-::: {style="background-color: #e8f5e9; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
-**$8.8T** estimated global replacement value.
-
-::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
-[Harvard demand-side estimate](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/)
-:::
-
-:::
-
-::: {style="background-color: #fff3e0; padding: 13px; border-radius: 18px; font-size: 0.68em;"}
-**2-5x** reported ROI for organisations that contribute upstream.
-
-::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
-[Linux Foundation, 2026](https://www.linuxfoundation.org/press/new-linux-foundation-report-shows-active-open-source-contribution-delivers-2-5x-roi-while-passive-consumption-increases-costly-technical-debt)
-:::
-
-:::
-
-:::
-
-::::
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-Modern software keeps drawing from the same well. Pollute it, and every downstream project pays.
-:::
-
-## The well is a social system {.smaller}
+## The FOSS well {.smaller}
 
 :::: {.columns}
 
@@ -129,34 +82,31 @@ Modern software keeps drawing from the same well. Pollute it, and every downstre
 
 ::: {.column width="38%"}
 
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
-**Review labour** turns raw patches into shared infrastructure.
+::: {style="background-color: #e3f2fd; padding: 13px; border-radius: 18px; margin-bottom: 9px; font-size: 0.7em;"}
+**96%** of codebases include open-source software; **$8.8T** estimated global replacement value.
+
+::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
+[Synopsys OSSRA / Harvard](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/)
 :::
 
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 18px; margin-bottom: 10px; font-size: 0.72em;"}
-**Trust** lets contributors begin with a presumption of good faith.
 :::
 
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
-**Reciprocity** is the implicit exchange that sustains the ecosystem.
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
+FOSS runs on three social inputs — **review labour**, **trust**, and **reciprocity**. LLMs put strain on all three at once.
 :::
 
 :::
 
 ::::
 
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-LLMs change the cost model of all three at once.
-:::
-
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
 **Boundary:** Low-quality PRs and burnout predate LLMs. AI changes speed, volume, and plausibility; the underlying commons problem is still under-compensated maintainer labour.
 :::
 
-## Community {style="margin-top: 2.3em; text-align: left;"}
+## Review labour {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
-Review labour, contribution gates, and the pipeline.
+AI volume overwhelms the people who turn patches into shared infrastructure.
 :::
 
 ## The flood in numbers {.smaller}
@@ -179,10 +129,6 @@ Review labour, contribution gates, and the pipeline.
     <strong>~4.5%</strong>
     <span>of all public <code>GitHub</code> commits from <code>Claude Code</code> alone</span>
   </div>
-  <div class="flood-stat flood-stat--blue">
-    <strong>36M</strong>
-    <span>new developers joined <code>GitHub</code> in 2025</span>
-  </div>
   <div class="flood-stat flood-stat--green">
     <strong>Flat</strong>
     <span>number of people taking on maintainer or ownership roles</span>
@@ -198,11 +144,7 @@ Review labour, contribution gates, and the pipeline.
 ![](media/evidence/github-record-acceleration.png){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 12px; margin-bottom: 10px; font-size: 0.76em;"}
-**AI PR quality is still a review burden.** `Voiceflow` put legitimate AI PRs at 1 in 10; `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.72em;"}
-**Projects are reducing `GitHub` dependence.** `Ghostty` cites reliability strain, `Zig` cites `GitHub Actions` failures and AI pressure, and `Gentoo` is moving contribution mirrors toward `Codeberg` after `Copilot` concerns.
+**AI PR quality is still a review burden.** `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
 :::
 
 :::
@@ -210,7 +152,7 @@ Review labour, contribution gates, and the pipeline.
 ::::
 
 ::: {style="text-align: center; font-size: 0.38em; margin-top: 0.5em; color: #666;"}
-Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [`GitHub`, open source in 2026](https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive) · [`GitHub` availability report](https://github.blog/news-insights/company-news/an-update-on-github-availability/) · [`Ghostty`](https://mitchellh.com/writing/ghostty-leaving-github) · [`Zig`](https://ziglang.org/news/migrating-from-github-to-codeberg/) · [`Gentoo` on Codeberg](https://www.gentoo.org/news/2026/02/16/codeberg.html)
+Sources: [`GitHub` AI Agent Problem](https://www.danilchenko.dev/posts/2026-04-11-github-ai-agents-pull-requests/) · [`GitHub`, open source in 2026](https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/) · [CodeRabbit](https://www.coderabbit.ai/blog/ai-is-burning-out-the-people-who-keep-open-source-alive)
 :::
 
 ## Pollution of Pull Requests {.smaller}
@@ -255,20 +197,16 @@ Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://the
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/tldraw-contributions-policy.svg){.artifact width="700" height="300" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
+![](media/evidence/tldraw-contributions-policy.svg){.artifact width="750" height="420" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.76em;"}
-Not total closure — higher gates at exactly the points where AI volume is most costly.
 :::
 
 ::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
@@ -283,26 +221,25 @@ Not total closure — higher gates at exactly the points where AI volume is most
 Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
 :::
 
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
+:::
+
 ## When the bounty backfires {.smaller}
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/curl-bug-bounty.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
+![](media/evidence/curl-bug-bounty.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing curl's bug bounty shutdown in February 2026 after AI slop overwhelmed the security team, and its reopening in March after AI quality improved"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.8em;"}
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
 **Seven fake reports in 16 hours**<br>
 Each one plausible enough to demand triage — the real cost is maintainer attention, not the reports themselves.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**The floor moved — but so did the ceiling.**<br>
-`curl` reopened one month later after AI quality improved. Anthropic's Mythos later found a real vulnerability the human pipeline had missed.
 :::
 
 :::
@@ -317,13 +254,13 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 :::: {.columns}
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 
-![](media/evidence/jazzband-sunsetting.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing Jazzband's March 2026 sunsetting after AI spam made its open-membership model untenable"}
+![](media/evidence/jazzband-sunsetting.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing Jazzband's March 2026 sunsetting after AI spam made its open-membership model untenable"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 
 ::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Before:** Anyone could join, triage issues, and merge PRs across 80+ packages. Shared trust scaled maintenance without centralised control.
@@ -339,10 +276,6 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
 Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/14/sunsetting-jazzband) · [`Jazzband` wind-down plan](https://jazzband.co/news/2026/03/14/wind-down-plan)
-:::
-
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
-**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
 :::
 
 ## Who pays {.smaller}
@@ -378,10 +311,10 @@ Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/1
 Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
 :::
 
-## Security {style="margin-top: 2.3em; text-align: left;"}
+## Trust {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
-Trust, attack surface, and code provenance.
+AI erodes the good-faith signals contributors and maintainers rely on.
 :::
 
 ## AI amplifies the trust collapse {.smaller}
@@ -416,13 +349,9 @@ Trust, attack surface, and code provenance.
 The lesson was not "review newcomers less kindly." It was that trust itself can be weaponized.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.8em;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.8em;"}
 **AI flood changes the front door**<br>
 When maintainers see more bot-shaped PRs, every unsolicited submission becomes costlier to parse and easier to distrust.
-:::
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
-The tension is only on the surface: projects still want people, not unaccountable volume.
 :::
 
 :::
@@ -431,36 +360,6 @@ The tension is only on the surface: projects still want people, not unaccountabl
 
 ::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
 Context: [Veritasium, "The Most Clever Attack in Computing History"](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
-:::
-
-## Stars stop being trust signals {.smaller}
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-![](media/evidence/github-stars-for-sale.svg){.artifact width="700" height="450" fig-alt="Stylized evidence card showing paid GitHub stars, suspected fake stars at scale, and the loop from visibility to funding attention"}
-
-:::
-
-::: {.column width="40%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
-**AI lowers the cost of faking at scale**<br>
-LLM tooling makes automated account creation and coordinated engagement trivially cheap — what used to need a bot farm now needs a prompt.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**Once the signal can be bought, every passive trust metric needs an audit trail.**<br>
-Stars, forks, and download counts all become unreliable proxies without provenance checks.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [SocialPlug, "Buy `GitHub` Stars"](https://www.socialplug.io/services/buy-github-stars) · [He et al., ICSE 2026](https://arxiv.org/abs/2412.13459) · [`GitHub` Fund](https://github.com/open-source/github-fund) · [TechCrunch on Runa's ROSS Index](https://techcrunch.com/2023/02/01/which-open-source-startups-rocketed-in-2022/)
 :::
 
 ## Security Exploitation {.smaller}
@@ -506,27 +405,27 @@ Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/2451
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="65%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-**Licence contamination without a trail.**<br>
-AI can regenerate copyleft-licensed code in a permissive project. No line is copied verbatim, but the original licence terms may still apply.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**No one can prove provenance after the fact.**<br>
-Unlike a human contributor, an LLM cannot say where its output came from. An audit that used to trace imports now hits a black box.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.84em;"}
-**Where this bites first:** medical devices, automotive, and defence — sectors where regulators already require full software provenance and licence compliance.
-:::
+![](media/evidence/chardet-licence-laundering.svg){.artifact width="750" height="420" fig-alt="Stylized evidence card showing chardet's AI-assisted relicensing from LGPL to MIT via Claude rewrite"}
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="35%"}
 
-![](media/evidence/chardet-licence-laundering.svg){.artifact width="700" height="300" fig-alt="Stylized evidence card showing chardet's AI-assisted relicensing from LGPL to MIT via Claude rewrite"}
+::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**Licence laundering.**<br>
+AI can regenerate copyleft code into a permissive project — no verbatim copy, but the original terms may still apply.
+:::
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+**Provenance black box.**<br>
+An LLM cannot say where its output came from. Audits that used to trace imports now hit a dead end.
+:::
+
+::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+**Regulated sectors feel it first:** medical devices, automotive, and defence already require full provenance.
+:::
 
 :::
 
@@ -579,40 +478,10 @@ Sources: [USENIX ;login:, 2025](https://www.usenix.org/publications/loginonline/
 **Trend vs. floor:** Newer models hallucinate fewer packages, but [Kalai (OpenAI, 2024)](https://arxiv.org/abs/2311.14648) proved that calibrated language models have an irreducible hallucination rate — the floor is above zero by design, not just by current limitation.
 :::
 
-## Why LLMs tilt the field {style="font-size: 0.8em;"}
-
-:::: {.columns}
-
-::: {.column width="62%"}
-
-![](media/illustrations/llm-tilted-field.jpg){.illustration width="640" height="360" fig-alt="Generated illustration of a tilted review field where human maintainers review carefully on one side while an AI system sends parallel streams of code, exploit notes, and issue comments on the other"}
-
-:::
-
-::: {.column width="38%"}
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
-**Same reviewer, more surface area**<br>
-Recon, exploit drafting, follow-up comments, and social engineering become parallel streams.
-:::
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.78em;"}
-**The bottleneck stays human**<br>
-Maintainers still pay attention one issue, one patch, one incident at a time.
-:::
-
-::: {style="background-color: #FFFBC1; padding: 16px; border-radius: 18px; font-size: 0.72em;"}
-Synthetic volume turns time asymmetry into attacker advantage.
-:::
-
-:::
-
-::::
-
-## Economics {style="margin-top: 2.3em; text-align: left;"}
+## Reciprocity {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
-Reciprocity, business models, and who carries the cost.
+AI breaks the implicit exchange that funds and sustains open-source work.
 :::
 
 ## The docs-led business-model shock {style="font-size: 0.74em;"}
@@ -680,14 +549,9 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 In April 2026 the scheduling SaaS went closed source after five years in public.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.82em;"}
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
 **Security rationale**<br>
 The company said AI can scan public code for vulnerabilities and turn transparency into customer-data exposure.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
-**Reconstruction risk**<br>
-Even after closure, public code, docs, APIs, and prior architecture via `Cal.diy` still lower the cost of recreating the product.
 :::
 
 :::
@@ -695,62 +559,10 @@ Even after closure, public code, docs, APIs, and prior architecture via `Cal.diy
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.7em; color: #666;"}
-Sources: [`Cal.com` closed-source announcement](https://cal.com/blog/cal-com-goes-closed-source-why) · [`Cal.diy` technical changes](https://cal.com/blog/cal-diy-open-source-to-closed-source)
+Sources: [`Cal.com` closed-source announcement](https://cal.com/blog/cal-com-goes-closed-source-why)
 :::
 
-## Regulation arrives before readiness {.smaller}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px;"}
-
-::: {style="font-size: 1.15em; font-weight: bold; margin-bottom: 8px;"}
-September 11, 2026
-:::
-
-EU Cyber Resilience Act vulnerability and incident reporting begins for manufacturers. The deadline is weeks away. The open-source ecosystem still has major readiness gaps.
-
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.84em;"}
-**New category: "open-source software steward"**<br>
-Legal entities that provide sustained support for FOSS in a commercial context face a lighter steward regime: cybersecurity policy, vulnerability-handling cooperation, and reporting duties.
-:::
-
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.82em;"}
-**Commercial vendors carry full liability**<br>
-Companies that place products with digital elements on the EU market carry manufacturer obligations — including for FOSS components they ship but do not maintain.
-:::
-
-:::
-
-::: {.column width="50%"}
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
-**AI makes compliance harder**<br>
-The flood of AI-generated pseudo-vulnerability reports increases triage volume at exactly the moment regulation demands faster, more accurate disclosure.
-:::
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.82em;"}
-**Significant knowledge gaps**<br>
-A Linux Foundation survey found most open-source contributors are unaware of CRA obligations or unsure how to comply.
-:::
-
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
-Regulation assumes a level of organisational capacity that volunteer-maintained FOSS rarely has.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.44em; margin-top: 0.65em; color: #666;"}
-Sources: [Mend.io CRA guide](https://www.mend.io/blog/eu-cyber-resilience-act-compliance-guide/) · [Linux Foundation Europe](https://linuxfoundation.eu/cyber-resilience-act) · [`GitHub` blog on CRA](https://github.blog/open-source/maintainers/what-the-eus-new-software-legislation-means-for-developers/)
-:::
-
-## Not all doom and gloom {style="margin-top: 2.3em; text-align: left;"}
+## Room for hope {style="margin-top: 2.3em; text-align: left;"}
 
 ::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
 The costs are real. So are the responses.
@@ -826,6 +638,12 @@ The line is not AI versus no AI. It is whether the tool reduces stewardship burd
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.8em; color: #666;"}
 Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution) · [Cybernews on curl and Mythos](https://cybernews.com/security/curl-bug-bounty-ai-security-reports-daniel-stenberg/)
+:::
+
+## Conclusion {style="margin-top: 2.3em; text-align: left;"}
+
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+What it takes to keep the well drinkable.
 :::
 
 ## Keep the well drinkable {.smaller}
