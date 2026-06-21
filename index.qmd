@@ -103,6 +103,12 @@ FOSS runs on three social inputs — **review labour**, **trust**, and **recipro
 **Boundary:** Low-quality PRs and burnout predate LLMs. AI changes speed, volume, and plausibility; the underlying commons problem is still under-compensated maintainer labour.
 :::
 
+## Review labour {style="margin-top: 2.3em; text-align: left;"}
+
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+AI volume overwhelms the people who turn patches into shared infrastructure.
+:::
+
 ## The flood in numbers {.smaller}
 
 :::: {.columns}
@@ -301,6 +307,12 @@ Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/1
 Source: [Mara Averick, stdlib, 2026](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/)
 :::
 
+## Trust {style="margin-top: 2.3em; text-align: left;"}
+
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+AI erodes the good-faith signals contributors and maintainers rely on.
+:::
+
 ## AI amplifies the trust collapse {.smaller}
 
 :::: {.columns}
@@ -460,6 +472,12 @@ Sources: [USENIX ;login:, 2025](https://www.usenix.org/publications/loginonline/
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
 **Trend vs. floor:** Newer models hallucinate fewer packages, but [Kalai (OpenAI, 2024)](https://arxiv.org/abs/2311.14648) proved that calibrated language models have an irreducible hallucination rate — the floor is above zero by design, not just by current limitation.
+:::
+
+## Reciprocity {style="margin-top: 2.3em; text-align: left;"}
+
+::: {style="text-align: left; font-size: 0.9em; color: #666; margin-top: 1.1em;"}
+AI breaks the implicit exchange that funds and sustains open-source work.
 :::
 
 ## The docs-led business-model shock {style="font-size: 0.74em;"}
