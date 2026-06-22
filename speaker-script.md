@@ -46,17 +46,7 @@ There's a vivid example from February 2026. Scott Shambaugh, a Matplotlib mainta
 
 ---
 
-## Slide 6 — Narrower Funnels (~1.5 min)
-
-Projects are responding. And the responses are rational, but they carry costs.
-
-tldraw, the collaborative whiteboard library, started automatically closing pull requests from external contributors. They kept issues, bug reports, and discussions open — what narrowed was the expensive part: reviewable code from strangers.
-
-Ghostty went further. First-time contributors now need a maintainer vouch before their PR even stays open. These aren't overreactions. They're survival mechanisms. But the emerging norm is worth noting: a scan of a thousand popular repositories found 118 AI contribution policies, and 78 percent of them do allow AI-generated code — they just require disclosure and human review. The standard isn't prohibition. It's accountability.
-
----
-
-## Slide 7 — When the Bounty Backfires (~1.5 min)
+## Slide 6 — When the Bounty Backfires (~1.5 min)
 
 The review burden extends to security too. In January 2026, curl — one of the most critical pieces of software on the planet — shut down its bug bounty programme. Daniel Stenberg's team received seven fabricated security reports in sixteen hours. Each one was plausible enough to demand triage. The reports weren't dangerous in themselves — the real cost was the maintainer attention they burned.
 
@@ -64,11 +54,21 @@ The good news, which we'll return to later, is that curl reopened the bounty in 
 
 ---
 
-## Slide 8 — Shared Maintenance Breaks First (~1.5 min)
+## Slide 7 — Shared Maintenance Breaks First (~1.5 min)
 
-The most fragile structures break first. Jazzband was a community collective that maintained over 80 Python packages under a shared-membership model. Anyone could join, triage issues, and merge PRs. That open trust model scaled maintenance beautifully — until AI spam made open membership a liability.
+And when security triage breaks, the most fragile structures are next. Jazzband was a community collective that maintained over 80 Python packages under a shared-membership model. Anyone could join, triage issues, and merge PRs. That open trust model scaled maintenance beautifully — until AI spam made open membership a liability.
 
 In March 2026, Jazzband announced it was sunsetting. Django-specific projects have Django Commons to fall back on. But the non-Django packages? They need to find new homes or risk going unmaintained. This is what it looks like when a working governance model becomes collateral damage.
+
+---
+
+## Slide 8 — Narrower Funnels (~1.5 min)
+
+So projects are responding. And the responses are rational, but they carry costs.
+
+tldraw, the collaborative whiteboard library, started automatically closing pull requests from external contributors. They kept issues, bug reports, and discussions open — what narrowed was the expensive part: reviewable code from strangers.
+
+Ghostty went further. First-time contributors now need a maintainer vouch before their PR even stays open. These aren't overreactions — after what we've just seen with curl and Jazzband, they're survival mechanisms. But the emerging norm is worth noting: a scan of a thousand popular repositories found 118 AI contribution policies, and 78 percent of them do allow AI-generated code — they just require disclosure and human review. The standard isn't prohibition. It's accountability.
 
 ---
 
@@ -98,15 +98,7 @@ Now layer AI on top of that. When maintainers see more bot-shaped pull requests,
 
 ---
 
-## Slide 12 — Security Exploitation (~1.5 min)
-
-Here's what it looks like when noise becomes part of a security incident. In March 2026, an issue was filed on LiteLLM warning that the package on PyPI had been compromised. Legitimate, serious, actionable. But the issue thread was flooded with nearly 500 repetitive, bot-shaped comments. The real discussion was submerged. The issue was briefly closed as "not planned" before being reopened.
-
-This is a pattern worth watching. It's not just that AI makes bad contributions — it can actively bury real problems under a pile of noise. ReversingLabs reported a 73 percent increase in malicious open-source package detections in 2025, with npm accounting for nearly 90 percent of the detected malware.
-
----
-
-## Slide 13 — When Code Has No Paper Trail (~1.5 min)
+## Slide 12 — When Code Has No Paper Trail (~1.5 min)
 
 There's a subtler trust problem: provenance. Consider what happened with chardet, a character-detection library. The original was licensed under LGPL — a copyleft licence. Someone used Claude to rewrite it and released the result under MIT, a permissive licence. No verbatim copying, so no obvious infringement. But the original licence terms may still apply.
 
@@ -114,13 +106,21 @@ This is what I'd call "licence laundering." An LLM can regenerate copyleft code 
 
 ---
 
-## Slide 14 — Hallucinations as Supply-Chain Bait (~1.5 min)
+## Slide 13 — Hallucinations as Supply-Chain Bait (~1.5 min)
 
-And then there's the supply-chain angle that nobody asked for. LLMs hallucinate package names. A 2024 study found over 205,000 phantom package names in generated code — packages that don't exist. The average hallucination rate was about 5 percent for commercial models and nearly 22 percent for open-weight models.
+And when provenance breaks down, attackers don't even need real packages to exploit the gap. LLMs hallucinate package names. A 2024 study found over 205,000 phantom package names in generated code — packages that don't exist. The average hallucination rate was about 5 percent for commercial models and nearly 22 percent for open-weight models.
 
 Here's the attack: the model invents a package name. A developer installs it without checking. An attacker registers that name on a package registry, pre-loaded with malicious code. The package doesn't need to exist first — the model creates the demand, and the attacker fills it.
 
 Newer models are getting better at this, but there's a theoretical floor. Research from OpenAI showed that calibrated language models have an irreducible hallucination rate. The floor is above zero by design, not just by current limitation.
+
+---
+
+## Slide 14 — Security Exploitation (~1.5 min)
+
+And when real security incidents do happen, the noise makes response even harder. In March 2026, an issue was filed on LiteLLM warning that the package on PyPI had been compromised. Legitimate, serious, actionable. But the issue thread was flooded with nearly 500 repetitive, bot-shaped comments. The real discussion was submerged. The issue was briefly closed as "not planned" before being reopened.
+
+This is the cumulative effect: trust eroded, provenance gone, phantom packages weaponized — and when a genuine compromise surfaces, the signal drowns in noise. ReversingLabs reported a 73 percent increase in malicious open-source package detections in 2025, with npm accounting for nearly 90 percent of the detected malware.
 
 ---
 
@@ -194,7 +194,7 @@ Thank you. The slides and source code are on GitHub. I'd love to hear your quest
 
 ## Notes for delivery
 
-- **Pacing:** At ~25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 7 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
+- **Pacing:** At ~25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 6 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
 - **Transitions:** The section divider slides (Review Labour, Trust, Reciprocity, Room for Hope, Conclusion) are natural pause points. Use them to take a breath, make eye contact, and reset the room's attention.
 - **Tone calibration:** The talk presents hard evidence but ends constructively. Resist the temptation to editorialize beyond what the data shows — the slides already flag causation-vs-correlation caveats, and audiences respect that honesty.
 

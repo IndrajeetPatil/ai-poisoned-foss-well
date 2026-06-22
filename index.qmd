@@ -193,38 +193,6 @@ Expensive to review.
 Source: [Scott Shambaugh, "An AI Agent Published a Hit Piece on Me"](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 :::
 
-## Narrower funnels {.smaller}
-
-:::: {.columns}
-
-::: {.column width="65%"}
-
-![](media/evidence/tldraw-contributions-policy.svg){.artifact width="750" height="420" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
-
-:::
-
-::: {.column width="35%"}
-
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
-Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
-:::
-
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
-**`Ghostty`** went further: first-time contributors now need a [maintainer vouch](https://github.com/mitchellh/vouch) before a PR stays open.
-:::
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
-Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
-:::
-
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
-**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
-:::
-
 ## When the bounty backfires {.smaller}
 
 :::: {.columns}
@@ -276,6 +244,38 @@ Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bou
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
 Sources: [`Jazzband` sunsetting announcement](https://jazzband.co/news/2026/03/14/sunsetting-jazzband) · [`Jazzband` wind-down plan](https://jazzband.co/news/2026/03/14/wind-down-plan)
+:::
+
+## Narrower funnels {.smaller}
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+![](media/evidence/tldraw-contributions-policy.svg){.artifact width="750" height="420" fig-alt="Stylized snapshot of tldraw's January 2026 issue announcing automatic closure of pull requests from external contributors"}
+
+:::
+
+::: {.column width="35%"}
+
+::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+Issues, bug reports, and discussions stayed open. What narrowed was the expensive part: reviewable code.
+:::
+
+::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; font-size: 0.76em;"}
+**`Ghostty`** went further: first-time contributors now need a [maintainer vouch](https://github.com/mitchellh/vouch) before a PR stays open.
+:::
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.5em; margin-top: 0.7em; color: #666;"}
+Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw/tldraw/issues/7695)
+:::
+
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Not all bans:** A [scan of 1,000 popular repositories](https://arxiv.org/abs/2605.16706) found 118 AI contribution policies — 78% allow GenAI but require disclosure and human review. The emerging norm is accountability, not prohibition.
 :::
 
 ## Who pays {.smaller}
@@ -362,45 +362,6 @@ When maintainers see more bot-shaped PRs, every unsolicited submission becomes c
 Context: [Veritasium, "The Most Clever Attack in Computing History"](https://youtu.be/aoag03mSuXQ?si=QOQqGUBr49P5NnEf)
 :::
 
-## Security Exploitation {.smaller}
-
-:::: {.columns}
-
-::: {.column width="40%"}
-
-::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
-**Noise became part of the incident.**
-:::
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
-**March 2026**<br>
-`LiteLLM` issue `#24512` warned that the package on `PyPI` was compromised.
-:::
-
-::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
-**Nearly 500 comments**<br>
-The thread was submerged in repetitive bot-shaped replies.<br>
-Briefly closed as `not_planned`, then reopened; a separate status thread stayed open.
-:::
-
-:::
-
-::: {.column width="60%"}
-
-![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
-
-:::
-
-::::
-
-::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
-Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [status thread #24518](https://github.com/BerriAI/litellm/issues/24518)
-:::
-
-::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
-**Broader trend:** `ReversingLabs` reports a **73%** increase in malicious OSS package detections in 2025, with `npm` accounting for nearly **90%** of detected open-source malware.
-:::
-
 ## When code has no paper trail {.smaller}
 
 :::: {.columns}
@@ -476,6 +437,45 @@ Sources: [USENIX ;login:, 2025](https://www.usenix.org/publications/loginonline/
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
 **Trend vs. floor:** Newer models hallucinate fewer packages, but [Kalai (OpenAI, 2024)](https://arxiv.org/abs/2311.14648) proved that calibrated language models have an irreducible hallucination rate — the floor is above zero by design, not just by current limitation.
+:::
+
+## Security Exploitation {.smaller}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+**Noise became part of the incident.**
+:::
+
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 18px; margin-bottom: 12px; font-size: 0.84em;"}
+**March 2026**<br>
+`LiteLLM` issue `#24512` warned that the package on `PyPI` was compromised.
+:::
+
+::: {style="background-color: #fff3e0; padding: 14px; border-radius: 18px; font-size: 0.84em;"}
+**Nearly 500 comments**<br>
+The thread was submerged in repetitive bot-shaped replies.<br>
+Briefly closed as `not_planned`, then reopened; a separate status thread stayed open.
+:::
+
+:::
+
+::: {.column width="60%"}
+
+![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
+
+:::
+
+::::
+
+::: {style="text-align: center; font-size: 0.55em; margin-top: 0.8em; color: #666;"}
+Sources: [`LiteLLM` issue #24512](https://github.com/BerriAI/litellm/issues/24512) · [status thread #24518](https://github.com/BerriAI/litellm/issues/24518)
+:::
+
+::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 10px 12px; font-size: 0.58em; margin-top: 0.65em; color: #444;"}
+**Broader trend:** `ReversingLabs` reports a **73%** increase in malicious OSS package detections in 2025, with `npm` accounting for nearly **90%** of detected open-source malware.
 :::
 
 ## Reciprocity {style="margin-top: 2.3em; text-align: left;"}
