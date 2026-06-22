@@ -8,21 +8,6 @@ The slide design is inspired by the [Pydantic Logfire website](https://pydantic.
 > [!NOTE]
 > These slides were designed for ZEISS's internal FOSS Community of Practice meeting on 24th June, 2026.
 
-## Contents
-
-The current deck covers:
-
-- why FOSS functions as a hidden economic subsidy and a fragile social system
-- extraction without reciprocity, including AI pressure on documentation-led FOSS business models
-- maintainers treating open source as a liability when synthetic volume and commercial reuse make support costs harder to absorb
-- pull-request pollution, maintainer overload, and the collapse of security triage and shared-maintenance models
-- explicit trust gates such as Ghostty and Vouch, narrower contribution funnels, and measurable AI policy hardening across popular repositories
-- the social costs borne by maintainers, junior developers, and the movement itself
-- the trust collapse after XZ Utils, provenance collapse, licence laundering, and hallucinated packages
-- security exploitation through synthetic issue noise that buries real incidents
-- transparent, accountable AI use that gives stewardship time back instead of adding unreviewable noise
-- community adaptability through verification, disclosure, provenance checks, and upstream support
-
 ## Development
 
 This project uses Python 3.14 (see `.python-version`) with [uv](https://docs.astral.sh/uv/) for dependency management, [Quarto](https://quarto.org/) for rendering slides, and [just](https://github.com/casey/just) as a command runner.
