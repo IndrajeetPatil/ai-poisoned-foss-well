@@ -48,7 +48,9 @@ Indrajeet Patil
 ::: {style="font-size: 0.85em; margin-top: 0.3em;"}
 **[FOSS developer](https://www.indrapatil.com/experience/open-source/), 8+ years**
 
-ZEISS FOSS CoP, 24th June, 2026
+ZEISS FOSS CoP
+
+24th June, 2026
 :::
 :::
 
