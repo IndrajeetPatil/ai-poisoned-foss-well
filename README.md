@@ -5,6 +5,9 @@ This presentation examines how AI can genuinely help open-source developers move
 The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, and designed to be published as a static site.
 The slide design is inspired by the [Pydantic Logfire website](https://pydantic.dev/logfire).
 
+> [!NOTE]
+> These slides were designed for ZEISS's internal FOSS Community of Practice meeting on 24th June, 2026.
+
 ## Contents
 
 The current deck covers:
