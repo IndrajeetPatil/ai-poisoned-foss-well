@@ -1,11 +1,15 @@
 # Default recipe - install, render, and open slides
 default: install render open
 
+# Setup everything from scratch (useful after `just clean`)
+setup: install render
+
 # Show help
 help:
     @echo "Available recipes:"
     @echo "  just install       - Install Quarto extensions and Python dependencies"
     @echo "  just sync          - Alias for install"
+    @echo "  just setup         - Install dependencies and render (useful after clean)"
     @echo "  just update        - Update all dependencies (Quarto extensions and Python packages)"
     @echo "  just render        - Render the Quarto slides to HTML"
     @echo "  just preview       - Start Quarto preview with live reload"

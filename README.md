@@ -5,20 +5,8 @@ This presentation examines how AI can genuinely help open-source developers move
 The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, and designed to be published as a static site.
 The slide design is inspired by the [Pydantic Logfire website](https://pydantic.dev/logfire).
 
-## Contents
-
-The current deck covers:
-
-- why FOSS functions as a hidden economic subsidy and a fragile social system
-- extraction without reciprocity, including AI pressure on documentation-led FOSS business models
-- maintainers treating open source as a liability when synthetic volume and commercial reuse make support costs harder to absorb
-- pull-request pollution, maintainer overload, and the collapse of security triage and shared-maintenance models
-- explicit trust gates such as Ghostty and Vouch, narrower contribution funnels, and measurable AI policy hardening across popular repositories
-- the social costs borne by maintainers, junior developers, and the movement itself
-- the trust collapse after XZ Utils, provenance collapse, licence laundering, and hallucinated packages
-- security exploitation through synthetic issue noise that buries real incidents
-- transparent, accountable AI use that gives stewardship time back instead of adding unreviewable noise
-- community adaptability through verification, disclosure, provenance checks, and upstream support
+> [!NOTE]
+> These slides were designed for ZEISS's internal FOSS Community of Practice meeting on 24th June, 2026.
 
 ## Development
 
