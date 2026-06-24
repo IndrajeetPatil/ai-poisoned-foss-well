@@ -1,12 +1,12 @@
 # Speaker Script — "Poisoning the FOSS Well"
 
-**Target duration:** ~25 minutes (plus 5 minutes Q&A)
+**Target duration:** ~22-25 minutes (plus 5 minutes Q&A)
 
 ---
 
 ## Slide 1 — Title Slide (~1 min)
 
-Good [morning/afternoon], everyone. My name is Indrajeet Patil. I've been building and maintaining free and open-source software for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
+Good [morning/afternoon], everyone. My name is Indrajeet Patil. I've been building and maintaining FOSS for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
 
 The title of this talk is "Poisoning the FOSS Well" — and by "well," I don't just mean well as in "things are going well." I mean the actual communal resource. The shared well that the entire software industry draws from. And the thesis is straightforward: AI is putting real strain on the systems that keep that well clean.
 
@@ -14,9 +14,9 @@ The title of this talk is "Poisoning the FOSS Well" — and by "well," I don't j
 
 ## Slide 2 — The FOSS Well (~2 min)
 
-Let's set the stage. Ninety-six percent of codebases include open-source components. Harvard researchers have estimated the global replacement value of open-source software at around 8.8 trillion dollars. That's not a niche concern — that's critical infrastructure.
+For this room, I don't need to argue that FOSS matters. Ninety-six percent of codebases include open-source components, and Harvard researchers have estimated the global replacement value of open-source software at around 8.8 trillion dollars. The point is not that FOSS is important — we know that. The point is that the maintenance model behind it is more fragile than its economic value suggests.
 
-But FOSS doesn't sustain itself through funding alone. It runs on three social inputs: review labour, trust, and reciprocity. Maintainers volunteer their time to review code. Contributors earn trust through consistent, good-faith participation. And there's an implicit exchange — you contribute upstream, you benefit downstream.
+I want to frame that maintenance model around three social inputs: review labour, trust, and reciprocity. Review labour turns patches into shared infrastructure. Trust lets maintainers accept help from people they do not personally know. Reciprocity is the implicit exchange: you contribute upstream, you benefit downstream.
 
 Large language models are putting pressure on all three of these at once. And I want to be clear up front about something: low-quality contributions and maintainer burnout are not new. They predate AI entirely. What AI changes is the speed, the volume, and — critically — the plausibility of the noise. The underlying problem is still that maintainer labour is chronically undercompensated. AI just made the math worse.
 
@@ -56,7 +56,7 @@ The good news, which we'll return to later, is that curl reopened the bounty in 
 
 ## Slide 7 — Shared Maintenance Breaks First (~1.5 min)
 
-And when security triage breaks, the most fragile structures are next. Jazzband was a community collective that maintained over 80 Python packages under a shared-membership model. Anyone could join, triage issues, and merge PRs. That open trust model scaled maintenance beautifully — until AI spam made open membership a liability.
+And when security triage breaks, the most fragile structures are next. Jazzband was a community collective that maintained over 80 Python packages under a shared-membership model. The model depended on exactly the kind of open, distributed trust that many of us value in FOSS: low barriers, shared stewardship, and lightweight governance. AI spam made that openness a liability.
 
 In March 2026, Jazzband announced it was sunsetting. Django-specific projects have Django Commons to fall back on. But the non-Django packages? They need to find new homes or risk going unmaintained. This is what it looks like when a working governance model becomes collateral damage.
 
@@ -76,7 +76,7 @@ Ghostty went further. First-time contributors now need a maintainer vouch before
 
 So who actually bears the cost? It cascades through the ecosystem.
 
-Junior developers lose their entry path. First reviews, apprenticeship, that low-friction route into open source — those gates are closing. Maintainers carry more suspicion, more context-switching, and more unpaid incident response. Projects lose the diverse, small contributions that kept them broad and healthy. And the movement as a whole loses the renewal mechanism that has kept FOSS resilient for decades.
+Newcomers lose their entry path. First reviews, apprenticeship, that low-friction route into open source — those gates are closing. Maintainers carry more suspicion, more context-switching, and more unpaid incident response. Projects lose the diverse, small contributions that kept them broad and healthy. And the movement as a whole loses the renewal mechanism that has kept FOSS resilient for decades.
 
 If you want to understand why this matters beyond the code itself, think about it as a pipeline problem. The people who will maintain the critical infrastructure of 2035 are the newcomers of today. Narrow the funnel now, and you pay for it later.
 
@@ -90,7 +90,7 @@ That brings us to the second pillar: trust. AI is eroding the good-faith signals
 
 ## Slide 11 — AI Amplifies the Trust Collapse (~2 min)
 
-If you haven't heard of the XZ Utils backdoor, I'd recommend this Veritasium video — it's a remarkable piece of reporting. The short version: a contributor spent years building trust in a critical compression library, then inserted a sophisticated backdoor that was nearly shipped in every major Linux distribution.
+Most of you will know the XZ Utils backdoor. If you want the full narrative arc, this Veritasium video is a useful reconstruction. The part that matters for this talk is narrower: a contributor spent years building trust in a critical compression library, then inserted a sophisticated backdoor that was nearly shipped in every major Linux distribution.
 
 The lesson from XZ wasn't "be less kind to newcomers." It was that trust itself can be weaponized — that patient, long-term social engineering can compromise infrastructure that billions of devices depend on.
 
@@ -132,7 +132,7 @@ The third pillar: reciprocity. The implicit exchange that funds and sustains ope
 
 ## Slide 16 — The Docs-Led Business-Model Shock (~2 min)
 
-Here's a case study that really brings this home. Tailwind CSS — one of the most widely adopted utility-first CSS frameworks. The business model was simple: build a great free framework, drive traffic to the documentation, and monetize through paid products and sponsorships.
+Here's a case study that really brings this home. Tailwind CSS is familiar enough that I don't need to explain the framework. What's relevant is the business loop around it: build a great free framework, drive traffic to the documentation, and monetize through paid products and sponsorships.
 
 By January 2026, framework usage was still rising. But documentation traffic had dropped about 40 percent compared to early 2023, revenue was down nearly 80 percent, and 75 percent of the engineering team had been laid off. People were still using Tailwind — they just weren't visiting the docs anymore. AI tools were answering their questions instead.
 
@@ -194,7 +194,8 @@ Thank you. The slides and source code are on GitHub. I'd love to hear your quest
 
 ## Notes for delivery
 
-- **Pacing:** At ~25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 6 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
+- **Audience calibration:** Assume the room already understands FOSS norms, contribution workflows, and why open source matters. Do not spend time defending FOSS as a concept; spend the time on what AI changes about review labour, trust, provenance, and reciprocity.
+- **Pacing:** At ~22-25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 6 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
 - **Transitions:** The section divider slides (Review Labour, Trust, Reciprocity, Room for Hope, Conclusion) are natural pause points. Use them to take a breath, make eye contact, and reset the room's attention.
 - **Tone calibration:** The talk presents hard evidence but ends constructively. Resist the temptation to editorialize beyond what the data shows — the slides already flag causation-vs-correlation caveats, and audiences respect that honesty.
 
