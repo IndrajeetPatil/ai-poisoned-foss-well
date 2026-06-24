@@ -378,17 +378,17 @@ Context: [Veritasium, "The Most Clever Attack in Computing History"](https://you
 
 ::: {.column width="35%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+::: {.fragment fragment-index=1 style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Licence laundering.**<br>
 AI can regenerate copyleft code into a permissive project — no verbatim copy, but the original terms may still apply.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+::: {.fragment fragment-index=2 style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Provenance black box.**<br>
 An LLM cannot say where its output came from. Audits that used to trace imports now hit a dead end.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+::: {.fragment fragment-index=3 style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **Regulated sectors feel it first:** medical devices, automotive, and defence already require full provenance.
 :::
 
@@ -411,18 +411,9 @@ Sources: [The Register, "AI will kill software licensing"](https://www.theregist
 The model can invent it. An attacker can register it later.
 :::
 
-::: {style="display: flex; gap: 12px; margin-top: 10px;"}
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
-**5.2%**<br>
-average hallucination rate for commercial models (2024).
-:::
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
-**21.7%**<br>
-average hallucination rate for open-weight models (2024).
-:::
-
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.7em; margin-top: 10px;"}
+**5.2% vs 21.7%**<br>
+Average package-hallucination rate for commercial versus open-weight models (2024).
 :::
 
 :::
