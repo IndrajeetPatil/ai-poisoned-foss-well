@@ -287,22 +287,22 @@ Source: [`tldraw` issue #7695, "Contributions policy"](https://github.com/tldraw
 ```{=html}
 <div class="cost-stack" role="img" aria-label="Impact map showing costs shifted onto junior developers, maintainers, projects, and the broader movement.">
   <div class="cost-stack__grid">
-    <div class="cost-impact cost-impact--junior">
+    <div class="cost-impact cost-impact--junior fragment" data-fragment-index="1">
       <em>Entry path narrows</em>
       <strong>Junior developers</strong>
       <span>lose first reviews, apprenticeship, and a low-friction route into FOSS.</span>
     </div>
-    <div class="cost-impact cost-impact--maintainers">
+    <div class="cost-impact cost-impact--maintainers fragment" data-fragment-index="2">
       <em>Attention fragments</em>
       <strong>Maintainers</strong>
       <span>carry suspicion, context switching, and unpaid incident response.</span>
     </div>
-    <div class="cost-impact cost-impact--projects">
+    <div class="cost-impact cost-impact--projects fragment" data-fragment-index="3">
       <em>Contribution base shrinks</em>
       <strong>Projects</strong>
       <span>lose diverse small contributions and become more closed and fragile.</span>
     </div>
-    <div class="cost-impact cost-impact--movement">
+    <div class="cost-impact cost-impact--movement fragment" data-fragment-index="4">
       <em>Renewal slows</em>
       <strong>The movement</strong>
       <span>loses the renewal mechanism that kept FOSS broad and resilient.</span>
@@ -378,17 +378,17 @@ Context: [Veritasium, "The Most Clever Attack in Computing History"](https://you
 
 ::: {.column width="35%"}
 
-::: {style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+::: {.fragment fragment-index=1 style="background-color: #ffebee; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Licence laundering.**<br>
 AI can regenerate copyleft code into a permissive project — no verbatim copy, but the original terms may still apply.
 :::
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
+::: {.fragment fragment-index=2 style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 14px; font-size: 0.78em;"}
 **Provenance black box.**<br>
 An LLM cannot say where its output came from. Audits that used to trace imports now hit a dead end.
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
+::: {.fragment fragment-index=3 style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.78em;"}
 **Regulated sectors feel it first:** medical devices, automotive, and defence already require full provenance.
 :::
 
@@ -411,18 +411,9 @@ Sources: [The Register, "AI will kill software licensing"](https://www.theregist
 The model can invent it. An attacker can register it later.
 :::
 
-::: {style="display: flex; gap: 12px; margin-top: 10px;"}
-
-::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
-**5.2%**<br>
-average hallucination rate for commercial models (2024).
-:::
-
-::: {style="background-color: #e8f5e9; padding: 14px; border-radius: 16px; font-size: 0.68em; min-height: 116px; flex: 1;"}
-**21.7%**<br>
-average hallucination rate for open-weight models (2024).
-:::
-
+::: {style="background-color: #e3f2fd; padding: 14px; border-radius: 16px; font-size: 0.7em; margin-top: 10px;"}
+**5.2% vs 21.7%**<br>
+Average package-hallucination rate for commercial versus open-weight models (2024).
 :::
 
 :::
@@ -578,7 +569,7 @@ The costs are real. So are the responses.
 
 ::: {.column width="50%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
+::: {.fragment fragment-index=1 style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px;"}
 
 ::: {style="font-size: 1.1em; font-weight: bold; margin-bottom: 8px;"}
 +5.9% OSS contributions
@@ -588,7 +579,7 @@ The costs are real. So are the responses.
 
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+::: {.fragment fragment-index=2 style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 curl bounty came back
@@ -598,7 +589,7 @@ After shutting down in February, `curl` reopened on HackerOne in March 2026 — 
 
 :::
 
-::: {style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.86em;"}
+::: {.fragment fragment-index=3 style="background-color: #fff3e0; padding: 16px; border-radius: 18px; font-size: 0.86em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 Accountable reports work
@@ -612,7 +603,7 @@ Accountable reports work
 
 ::: {.column width="50%"}
 
-::: {style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+::: {.fragment fragment-index=4 style="background-color: #e3f2fd; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 AI finds real vulnerabilities
@@ -622,7 +613,7 @@ Anthropic's Mythos, run via Linux Foundation Alpha Omega, reviewed `curl`'s sour
 
 :::
 
-::: {style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
+::: {.fragment fragment-index=5 style="background-color: #e8f5e9; padding: 16px; border-radius: 18px; margin-bottom: 12px; font-size: 0.88em;"}
 
 ::: {style="font-size: 1.05em; font-weight: bold; margin-bottom: 8px;"}
 Triage relief
@@ -632,7 +623,7 @@ First-pass issue sorting with `Copilot SDK` can make maintainership more sustain
 
 :::
 
-::: {style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
+::: {.fragment fragment-index=6 style="background-color: #FFFBC1; padding: 18px; border-radius: 25px; text-align: center;"}
 The line is not AI versus no AI. It is whether the tool reduces stewardship burden or exports it to maintainers.
 :::
 
@@ -655,15 +646,15 @@ What it takes to keep the well drinkable.
 ```{=html}
 <div class="well-two-column">
   <div class="well-action-rail" role="group" aria-label="Three guardrails keep the FOSS well drinkable: review time, provenance, and commons repair.">
-    <div class="well-action well-action--review">
+    <div class="well-action well-action--review fragment" data-fragment-index="1">
       <strong>Maintainers: protect review time</strong>
       <span>Require AI disclosure · close synthetic drive-bys fast · demand follow-up ownership before merge</span>
     </div>
-    <div class="well-action well-action--provenance">
+    <div class="well-action well-action--provenance fragment" data-fragment-index="2">
       <strong>Platforms: protect provenance</strong>
       <span>Ship attribution tooling · surface AI-provenance signals on PRs · fund forge alternatives and interoperability</span>
     </div>
-    <div class="well-action well-action--commons">
+    <div class="well-action well-action--commons fragment" data-fragment-index="3">
       <strong>Companies & funders: protect the commons</strong>
       <span>Verify dependencies you ship · fund maintainers upstream · keep a real entry path for newcomers</span>
     </div>
