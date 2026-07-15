@@ -60,7 +60,7 @@ ZEISS FOSS CoP
 
 ::: {.column width="44%"}
 
-![](media/evidence/well-hero.jpg){.hero width="310" height="430" fig-alt="An old water well in a grassy field"}
+![](media/evidence/well-hero.webp){.hero width="310" height="430" fig-alt="An old water well in a grassy field"}
 
 :::
 
@@ -80,7 +80,7 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 
 ::: {.column width="62%"}
 
-![](media/illustrations/foss-social-system.jpg){.illustration width="630" height="355" fig-alt="Generated illustration of an open-source commons as a stone well fed by review labour, trust, and reciprocity, with a synthetic digital current disturbing the system"}
+![](media/illustrations/foss-social-system.webp){.illustration width="630" height="355" fig-alt="Generated illustration of an open-source commons as a stone well fed by review labour, trust, and reciprocity, with a synthetic digital current disturbing the system"}
 
 :::
 
@@ -145,7 +145,7 @@ AI volume overwhelms the people who turn patches into shared infrastructure.
 
 ::: {.column width="58%"}
 
-![](media/evidence/github-record-acceleration.png){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
+![](media/evidence/github-record-acceleration.webp){.artifact width="610" height="340" fig-alt="GitHub blog figure showing record acceleration of pull requests merged, commits, and new repositories per month"}
 
 ::: {style="background-color: #ffebee; padding: 14px; border-radius: 18px; margin-top: 12px; margin-bottom: 10px; font-size: 0.76em;"}
 **AI PR quality is still a review burden.** `CodeRabbit` reports AI-generated PRs carry 1.7x more issues than human-written ones.
@@ -187,7 +187,7 @@ Expensive to review.
 
 ::: {.column width="61%"}
 
-![](media/evidence/shambaugh-post.png){.artifact width="620" height="500" fig-alt="Screenshot of Scott Shambaugh's post about an AI agent publishing a hit piece after a rejected pull request"}
+![](media/evidence/shambaugh-post.webp){.artifact width="620" height="500" fig-alt="Screenshot of Scott Shambaugh's post about an AI agent publishing a hit piece after a rejected pull request"}
 
 :::
 
@@ -420,7 +420,7 @@ Average package-hallucination rate for commercial versus open-weight models (202
 
 ::: {.column width="62%"}
 
-![](media/evidence/package-hallucination-story.png){.artifact width="610" height="382" fig-alt="Screenshot of the USENIX article about comprehensive analysis of package hallucinations in code-generating LLMs"}
+![](media/evidence/package-hallucination-story.webp){.artifact width="610" height="382" fig-alt="Screenshot of the USENIX article about comprehensive analysis of package hallucinations in code-generating LLMs"}
 
 :::
 
@@ -459,7 +459,7 @@ Briefly closed as `not_planned`, then reopened; a separate status thread stayed 
 
 ::: {.column width="60%"}
 
-![](media/evidence/litellm-bot-flood.png){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
+![](media/evidence/litellm-bot-flood.webp){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
 
 :::
 
@@ -509,7 +509,7 @@ AI breaks the implicit exchange that funds and sustains open-source work.
 
 ::: {.column width="58%"}
 
-![](media/evidence/tailwind-business-model.png){.artifact width="562" height="348" fig-alt="Screenshot of Tailwind CSS sponsorship page asking companies to support the future of Tailwind CSS"}
+![](media/evidence/tailwind-business-model.webp){.artifact width="562" height="348" fig-alt="Screenshot of Tailwind CSS sponsorship page asking companies to support the future of Tailwind CSS"}
 
 :::
 
@@ -531,7 +531,7 @@ Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.c
 
 ```{=html}
 <div style="background: #ffffff; border: 1px solid #e5e7eb; border-radius: 22px; padding: 10px; box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);">
-  <img src="media/evidence/cal-com-closed-source.png" class="artifact" alt="Screenshot of Cal.com blog post announcing a move to closed source" style="width: 100%; height: 410px; object-fit: contain; object-position: top center; border-radius: 16px;">
+  <img src="media/evidence/cal-com-closed-source.webp" class="artifact" alt="Screenshot of Cal.com blog post announcing a move to closed source" style="width: 100%; height: 410px; object-fit: contain; object-position: top center; border-radius: 16px;">
 </div>
 ```
 
@@ -660,7 +660,7 @@ What it takes to keep the well drinkable.
     </div>
   </div>
   <div class="well-two-column__image">
-    <img src="media/illustrations/well-guardrails.png" class="illustration" alt="Generated editorial illustration of a protected stone FOSS well with three guardrail systems for review time, provenance, and commons stewardship">
+    <img src="media/illustrations/well-guardrails.webp" class="illustration" alt="Generated editorial illustration of a protected stone FOSS well with three guardrail systems for review time, provenance, and commons stewardship">
   </div>
 </div>
 ```
