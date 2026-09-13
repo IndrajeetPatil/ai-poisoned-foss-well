@@ -10,6 +10,7 @@ format:
     touch: true
     help: true
     include-in-header: meta-tags.html
+    include-after-body: accessibility.html
     link-external-newwindow: true
 execute:
   echo: true

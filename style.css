@@ -107,13 +107,15 @@ body {
 }
 
 .reveal a {
-  color: #b13cff;
-  text-decoration-color: rgba(177, 60, 255, 0.45);
+  color: #8b22a8;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
   text-underline-offset: 0.13em;
 }
 
-.reveal a:hover {
-  color: var(--well-magenta);
+.reveal a:hover,
+.reveal a:focus-visible {
+  color: #74208d;
 }
 
 .footer > p {
@@ -244,7 +246,7 @@ body {
 .reveal .slides div[style*="background-color: #ffebee;"] a,
 .reveal .slides div[style*="background-color: #FFFBC1;"] a {
   color: #8b22a8 !important;
-  text-decoration-color: rgba(139, 34, 168, 0.45);
+  text-decoration-color: currentColor;
 }
 
 .reveal .slides div[style*="background: #ffffff; border: 1px solid #e5e7eb"] {
