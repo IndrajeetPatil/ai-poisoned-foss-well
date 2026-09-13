@@ -69,7 +69,7 @@ Photo: [Daniel Prado / Unsplash](https://unsplash.com/photos/old-wishing-well-in
 :::
 
 ::: {style="text-align: center; font-size: 0.6em; margin-top: 0.9em; color: #666;"}
-Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/).
+Source code for these slides can be found [on `GitHub`](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/){style="text-decoration: underline;"}.
 :::
 
 ## The FOSS well {.smaller}
