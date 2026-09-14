@@ -7,7 +7,7 @@ setup: install render
 # Show help
 help:
     @echo "Available recipes:"
-    @echo "  just install       - Install Python dependencies"
+    @echo "  just install       - Install Python dependencies and Quarto extensions"
     @echo "  just sync          - Alias for install"
     @echo "  just setup         - Install dependencies and render (useful after clean)"
     @echo "  just update        - Update Python dependencies"
@@ -21,9 +21,8 @@ help:
 
 # Install/sync dependencies
 install:
-    @echo "Installing Python dependencies..."
     uv sync --no-install-project
-    @echo "Installation complete"
+    quarto add mcanouil/quarto-revealjs-a11y --no-prompt
 
 # Alias for install
 alias sync := install
