@@ -108,9 +108,6 @@ body {
 
 .reveal a {
   color: #8b22a8;
-  text-decoration: underline;
-  text-decoration-color: currentColor;
-  text-underline-offset: 0.13em;
 }
 
 .reveal a:hover,
@@ -246,7 +243,6 @@ body {
 .reveal .slides div[style*="background-color: #ffebee;"] a,
 .reveal .slides div[style*="background-color: #FFFBC1;"] a {
   color: #8b22a8 !important;
-  text-decoration-color: currentColor;
 }
 
 .reveal .slides div[style*="background: #ffffff; border: 1px solid #e5e7eb"] {
