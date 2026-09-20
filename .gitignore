@@ -19,7 +19,7 @@ _site/
 README.html
 
 # Claude
-.claude/
+/.claude/
 
 # Generated files
 _extensions/
