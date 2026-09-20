@@ -1,0 +1,4 @@
+# Unsplash returns 401 to every non-browser user agent, so the photo-credit
+# links in README.md fail the link check even though they resolve fine in a
+# browser (verified: 307 redirect with a normal browser UA).
+https://unsplash\.com/photos/.*
