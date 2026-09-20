@@ -1,5 +1,7 @@
 # Poisoning the FOSS Well
 
+[![Build and Deploy Presentation](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/actions/workflows/build-presentation.yaml/badge.svg)](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/actions/workflows/build-presentation.yaml)
+
 This presentation examines how AI can genuinely help open-source developers move faster, triage better, and fix real bugs, while also showing how AI-generated pull requests, synthetic issue noise, collapsing trust assumptions, licence laundering, and business-model shocks are reshaping the free and open source software movement.
 
 The deck is built with [Quarto](https://quarto.org/), rendered with RevealJS, and designed to be published as a static site.
@@ -67,7 +69,7 @@ scroll views. Normal builds omit the axe checker.
 
 Feedback and suggestions are welcome in [the issue tracker](https://github.com/IndrajeetPatil/ai-poisoned-foss-well/issues).
 
-## Asset Attribution
+## Acknowledgements
 
 The deck text, layout, and repository-authored material are released under CC0.
 
@@ -77,6 +79,6 @@ Third-party photographs and screenshots remain under their original terms and ar
 - "Why LLMs tilt the field" photograph: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
 - Screenshots of articles, GitHub issues, repository pages, and websites are included for commentary, criticism, and source attribution
 
-## Licence
+## License
 
-Repository-authored material is released under the terms of the [CC0 1.0 Universal](LICENSE) licence. Third-party images are not relicensed under CC0.
+Repository-authored material is released under the terms of the [CC0 1.0 Universal](LICENSE) license. Third-party images are not relicensed under CC0.
