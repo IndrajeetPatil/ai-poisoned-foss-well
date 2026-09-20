@@ -32,7 +32,7 @@ description-meta: "A presentation about how AI-generated pull requests, new secu
 license: "CC0 1.0 Universal"
 pagetitle: "Poisoning the FOSS Well"
 author-meta: "Indrajeet Patil"
-date-meta: "2026-06-15"
+date-meta: "2026-04-18"
 lang: "en"
 dir: "ltr"
 image: "media/social-media-card.webp"
@@ -643,7 +643,7 @@ The line is not AI versus no AI. It is whether the tool reduces stewardship burd
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.8em; color: #666;"}
-Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://blog.continue.dev/were-losing-open-contribution) · [Cybernews on curl and Mythos](https://cybernews.com/security/curl-bug-bounty-ai-security-reports-daniel-stenberg/)
+Sources: [Song et al. (arXiv, 2024)](https://arxiv.org/abs/2410.02091) · [`GitHub` Blog, 2026](https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/) · [Continue Blog, 2026](https://web.archive.org/web/20260416234220/https://blog.continue.dev/were-losing-open-contribution) · [Cybernews on curl and Mythos](https://cybernews.com/security/curl-bug-bounty-ai-security-reports-daniel-stenberg/)
 :::
 
 ## Conclusion {style="margin-top: 2.3em; text-align: left;"}
