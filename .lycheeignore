@@ -14,3 +14,15 @@ https://cybernews\.com/.*
 # check while loading fine in a browser (verified: 999 with a normal browser
 # UA, which is a block rather than a missing page).
 https://www\.linkedin\.com/.*
+
+# www.fda.gov serves an abuse-detection interstitial to datacenter IP ranges
+# such as GitHub Actions runners: a 302 to /apology_objects/abuse-detection-
+# apology.html, which is itself a 404. The page returns 200 over an ordinary
+# connection with both a default and a browser user agent.
+https://www\.fda\.gov/.*
+
+# web.archive.org answers CI runners with HTTP 503 under rate limiting while
+# serving the same snapshot normally elsewhere (verified: 200 on three
+# consecutive local requests). Snapshots are immutable, so there is no link
+# rot here for the checker to catch.
+https://web\.archive\.org/.*
