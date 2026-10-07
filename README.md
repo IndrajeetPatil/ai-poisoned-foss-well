@@ -81,6 +81,6 @@ Third-party photographs and screenshots remain under their original terms and ar
 - "Why LLMs tilt the field" photograph: [Maxim Tolchinskiy / Unsplash](https://unsplash.com/photos/oil-is-polluting-the-surface-of-the-water-Gt4DBSXqySc)
 - Screenshots of articles, GitHub issues, repository pages, and websites are included for commentary, criticism, and source attribution
 
-## License
+## Licence
 
-Repository-authored material is released under the terms of the [CC0 1.0 Universal](LICENSE) license. Third-party images are not relicensed under CC0.
+Repository-authored material is released under the terms of the [CC0 1.0 Universal](LICENSE) licence. Third-party images are not relicensed under CC0.
