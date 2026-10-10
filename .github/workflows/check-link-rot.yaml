@@ -11,6 +11,6 @@ on:
 
 jobs:
   check-link-rot:
-    uses: IndrajeetPatil/workflows/.github/workflows/check-link-rot.yaml@feat/python-3.15
+    uses: IndrajeetPatil/workflows/.github/workflows/check-link-rot.yaml@main
     permissions:
       contents: read
