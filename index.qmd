@@ -127,7 +127,7 @@ For this room, I don't need to argue that FOSS matters. Ninety-six percent of co
 
 I want to frame that maintenance model around three social inputs: review labour, trust, and reciprocity. Review labour turns patches into shared infrastructure. Trust lets maintainers accept help from people they do not personally know. Reciprocity is the implicit exchange: you contribute upstream, you benefit downstream.
 
-Large language models are putting pressure on all three of these at once. And I want to be clear up front about something: low-quality contributions and maintainer burnout are not new. They predate AI entirely. What AI changes is the speed, the volume, and — critically — the plausibility of the noise. The underlying problem is still that maintainer labour is chronically undercompensated. AI just made the math worse.
+Large language models are putting pressure on all three of these at once. And I want to be clear up front about something: low-quality contributions and maintainer burnout are not new. They predate AI entirely. What AI changes is the speed, the volume, and — critically — the plausibility of the noise. The underlying problem is still that maintainer labour is chronically undercompensated. AI just made the maths worse.
 :::
 ## Review labour {style="margin-top: 2.3em; text-align: left;"}
 
@@ -796,7 +796,7 @@ Second — platforms, protect provenance. Ship attribution tooling. Surface AI-p
 
 Third — companies and funders, protect the commons. Verify the dependencies you ship. Fund maintainers upstream. And keep a real entry path for newcomers — because if you don't, the pipeline of future maintainers dries up.
 
-The bottom line: if openness becomes unaffordable, FOSS stops regenerating. The well runs dry. And everyone who draws from it — which, at 96 percent of codebases, is nearly everyone — will feel it.
+The bottom line: if openness becomes unaffordable, FOSS stops regenerating. The well runs dry. And everyone who draws from it — virtually every modern software organisation — will feel it.
 :::
 # Thank You
 
