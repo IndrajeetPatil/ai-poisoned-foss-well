@@ -6,7 +6,7 @@
 
 ## Slide 1 — Title Slide (~1 min)
 
-Good [morning/afternoon], everyone. My name is Indrajeet Patil. I've been building and maintaining FOSS for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
+Hello, everyone. My name is Indrajeet Patil. I've been building and maintaining FOSS for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
 
 The title of this talk is "Poisoning the FOSS Well" — and by "well," I don't just mean well as in "things are going well." I mean the actual communal resource. The shared well that the entire software industry draws from. And the thesis is straightforward: AI is putting real strain on the systems that keep that well clean.
 
@@ -197,7 +197,7 @@ Thank you. The slides and source code are on GitHub. I'd love to hear your quest
 - **Audience calibration:** Assume the room already understands FOSS norms, contribution workflows, and why open source matters. Do not spend time defending FOSS as a concept; spend the time on what AI changes about review labour, trust, provenance, and reciprocity.
 - **Pacing:** At ~22-25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 6 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
 - **Transitions:** The section divider slides (Review Labour, Trust, Reciprocity, Room for Hope, Conclusion) are natural pause points. Use them to take a breath, make eye contact, and reset the room's attention.
-- **Tone calibration:** The talk presents hard evidence but ends constructively. Resist the temptation to editorialize beyond what the data shows — the slides already flag causation-vs-correlation caveats, and audiences respect that honesty.
+- **Tone calibration:** The talk presents hard evidence but ends constructively. Resist the temptation to editorialise beyond what the data shows — the slides already flag causation-vs-correlation caveats, and audiences respect that honesty.
 
 ---
 
@@ -205,24 +205,20 @@ Thank you. The slides and source code are on GitHub. I'd love to hear your quest
 
 **"How do you actually enforce an AI disclosure policy?"**
 
-You mostly can't with perfect accuracy, and that's okay. The goal isn't a foolproof detector — it's a social norm. When a project says "disclose AI use," it creates a standard that honest contributors follow and that gives maintainers grounds to close PRs that clearly weren't human-reviewed. Detection tools like Binoculars or GPTZero can help with obvious cases, but the real mechanism is cultural: make non-disclosure a trust violation, the same way plagiarism works in academia. It won't catch everyone, but it raises the cost of low-effort submissions.
-
-**"Is AI-generated code copyrightable?"**
-
-The legal landscape is still forming. In the US, the Copyright Office has said that purely AI-generated output without meaningful human creative input isn't copyrightable. But "meaningful human input" is doing a lot of work in that sentence — a developer who prompts, reviews, edits, and integrates AI output is probably still an author. The harder question for open source is on the input side: if a model was trained on copyleft code and produces something functionally equivalent, do the original licence terms carry over? Courts haven't settled this, and the chardet example in the talk shows why it matters practically. For now, the safest stance is to treat AI output as having uncertain provenance and document your review process.
+The goal is not an automated detector, but establishing a clear community expectation. When a project asks for disclosure, it sets a cultural norm that honest contributors respect and gives maintainers clear mandate to decline unverified submissions.
 
 **"What does a 'good' AI contribution actually look like?"**
 
-The Ghostty example is a useful benchmark. Those AI-assisted bug reports were transparent about how they were produced, they identified real crashes, and the submitters stuck around to engage with feedback. The common thread is accountability: the contributor used AI as a tool but took ownership of the result. Compare that with a drive-by PR where someone pointed an agent at a "good first issue" label and disappeared. The difference isn't whether AI was involved — it's whether a human took responsibility for the output.
+The Ghostty example discussed earlier is a useful benchmark: contributors were transparent about using AI assistance, reported real issues, and remained engaged to address maintainer feedback. The core principle is accountability.
 
-**"What can small projects do if they don't have the resources of curl or Ghostty?"**
+**"What can small projects do if they don't have large resources?"**
 
-A few low-cost steps go a long way. Add a `CONTRIBUTING.md` that requires AI disclosure and a brief explanation of the change in the contributor's own words — that alone filters out most zero-effort submissions. Use issue templates that ask questions a bot can't easily answer, like "how did you encounter this bug?" Set branch protection so PRs need at least one approval. And if the volume gets unmanageable, it's okay to close unsolicited PRs by default and direct people to open an issue first. tldraw's approach isn't gatekeeping — it's triage.
+Low-overhead measures make a significant difference: clear contribution guidelines requiring disclosure, structured issue templates, and standard pull request review requirements before merging.
 
-**"Aren't you being too pessimistic? AI tools are genuinely making developers more productive."**
+**"Aren't AI tools genuinely making developers more productive?"**
 
-I'd push back on the framing a bit. The talk isn't anti-AI — the "Room for Hope" section exists for a reason. Copilot demonstrably increases contribution volume, AI-assisted security audits find real bugs, and triage automation gives maintainers time back. The problem isn't productivity gains for individual developers. It's that the costs of those gains are externalized onto maintainers who didn't opt in. A developer saves 30 minutes generating a PR; a maintainer spends 45 minutes reviewing it. The math only works if the contribution is high quality and the submitter stays engaged. When that happens, AI is a genuine force multiplier. When it doesn't, it's a tax on the commons.
+The presentation highlights productivity benefits in the Room for Hope section. The friction occurs when productivity gains for submitters shift disproportionate review burden onto maintainers without adequate verification.
 
-**"Will AI eventually replace maintainers entirely?"**
+**"Will AI eventually replace maintainers?"**
 
-Not in any meaningful timeframe. Maintenance isn't primarily a code-production problem — it's a judgment problem. Should this feature exist? Does this API change break downstream users? Is this security report real or fabricated? Those decisions require context, taste, and accountability that current models can't provide. What AI can realistically do is handle the mechanical parts — first-pass triage, test generation, dependency updates — and free maintainers to focus on the judgment calls. The risk isn't replacement; it's that we automate the easy parts and leave humans with only the hard, thankless parts. That's a recipe for faster burnout, not less.
+Maintenance is fundamentally a matter of judgment, context, and responsibility rather than sheer code throughput. The practical path forward is using automation for mechanical tasks while reserving human judgment for architecture, security, and project direction.

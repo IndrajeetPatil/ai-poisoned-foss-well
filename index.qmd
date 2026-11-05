@@ -86,7 +86,7 @@ Source code for these slides can be found [on `GitHub`](https://github.com/Indra
 :::
 
 ::: {.notes}
-Good [morning/afternoon], everyone. My name is Indrajeet Patil. I've been building and maintaining FOSS for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
+Hello, everyone. My name is Indrajeet Patil. I've been building and maintaining FOSS for over eight years now — mostly in the R ecosystem, but the problems I want to talk about today cut across every language and every community.
 
 The title of this talk is "Poisoning the FOSS Well" — and by "well," I don't just mean well as in "things are going well." I mean the actual communal resource. The shared well that the entire software industry draws from. And the thesis is straightforward: AI is putting real strain on the systems that keep that well clean.
 :::
@@ -824,37 +824,4 @@ See more [slide decks](https://www.indrapatil.com/presentations/) on software en
 
 ::: {.notes}
 Thank you. The slides and source code are on GitHub. I'd love to hear your questions, pushback, and critiques.
-
----
-
-## Notes for delivery
-
-- **Audience calibration:** Assume the room already understands FOSS norms, contribution workflows, and why open source matters. Do not spend time defending FOSS as a concept; spend the time on what AI changes about review labour, trust, provenance, and reciprocity.
-- **Pacing:** At ~22-25 minutes of speaking, you have comfortable margin for the 5-minute Q&A window. If running long, the easiest sections to compress are slides 6 (curl bounty) and 17 (Cal.com), since both are single-example illustrations.
-- **Transitions:** The section divider slides (Review Labour, Trust, Reciprocity, Room for Hope, Conclusion) are natural pause points. Use them to take a breath, make eye contact, and reset the room's attention.
-- **Tone calibration:** The talk presents hard evidence but ends constructively. Resist the temptation to editorialise beyond what the data shows — the slides already flag causation-vs-correlation caveats, and audiences respect that honesty.
-
----
-
-## Anticipated Q&A
-
-**"How do you actually enforce an AI disclosure policy?"**
-
-The goal is not an automated detector, but establishing a clear community expectation. When a project asks for disclosure, it sets a cultural norm that honest contributors respect and gives maintainers clear mandate to decline unverified submissions.
-
-**"What does a 'good' AI contribution actually look like?"**
-
-The Ghostty example discussed earlier is a useful benchmark: contributors were transparent about using AI assistance, reported real issues, and remained engaged to address maintainer feedback. The core principle is accountability.
-
-**"What can small projects do if they don't have large resources?"**
-
-Low-overhead measures make a significant difference: clear contribution guidelines requiring disclosure, structured issue templates, and standard pull request review requirements before merging.
-
-**"Aren't AI tools genuinely making developers more productive?"**
-
-The presentation highlights productivity benefits in the Room for Hope section. The friction occurs when productivity gains for submitters shift disproportionate review burden onto maintainers without adequate verification.
-
-**"Will AI eventually replace maintainers?"**
-
-Maintenance is fundamentally a matter of judgment, context, and responsibility rather than sheer code throughput. The practical path forward is using automation for mechanical tasks while reserving human judgment for architecture, security, and project direction.
 :::
