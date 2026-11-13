@@ -71,6 +71,11 @@ body {
   margin-bottom: 0.24em;
 }
 
+.reveal .slides section:first-child h2 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
 .reveal h2::after {
   content: "";
   display: block;
