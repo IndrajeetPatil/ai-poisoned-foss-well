@@ -25,8 +25,8 @@ pull request.
   slide in a small-font centred div. Keep this pattern.
 - **Spelling and punctuation.** Use British spelling in prose (colour, licence,
   catalogue, artefact) and the Oxford comma in lists of three or more. Leave
-  code, identifiers, file names, URLs, quotations, and proper names (`license`
-  in YAML, `.well-known/api-catalog`) as they are.
+  code, identifiers, file names, URLs, quotations, and proper names (such as
+  `license` in YAML) as they are.
 - **Spoken notes.** The read-aloud control speaks the `.notes` content. Write
   complete, audience-facing narration; keep staging cues, private reminders,
   and delivery checklists outside these blocks.
@@ -53,7 +53,7 @@ pull request.
 - `.github/workflows/build-presentation.yaml` calls a reusable workflow from
   `IndrajeetPatil/workflows`. Do not inline or modify that workflow here.
 - Reference reusable workflows as `@main`, never a commit SHA: they are
-  first-party, and a pinned SHA once went five months stale.
+  first-party, and a pinned SHA silently falls behind them.
 - `check-link-rot.yaml` checks external links; list false positives in
   `.lycheeignore`.
 
