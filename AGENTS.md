@@ -4,53 +4,20 @@ A single-page [Quarto](https://quarto.org/) presentation rendered to
 [RevealJS](https://revealjs.com/) slides and deployed as a static site via
 GitHub Pages.
 
-## Repository layout
+## Checks
 
-```text
-index.qmd            # All slide content (the only file you usually need to edit)
-DESIGN.md            # Visual design tokens, typography, and styling rules
-_quarto.yml          # Quarto project config (output dir, resources list)
-_quarto-a11y.yml     # Opt-in profile enabling the axe accessibility checker (`just axe`)
-accessibility.html   # Compatibility fixes supplementing the a11y extension
-style.css            # Custom RevealJS theme (fonts, colours, component classes)
-meta-tags.html       # OpenGraph, Twitter Card, JSON-LD, and analytics tags
-justfile             # Command runner
-media/               # Images: evidence screenshots, illustrations, social card
-llms.txt, llms-full.txt   # Machine-readable summaries (mirrored in .well-known/)
-robots.txt, sitemap.xml   # Static crawl files; rarely change
-pyproject.toml, uv.lock   # Python dependencies for Quarto's Jupyter engine (uv)
-speaker-script.md    # Speaker script for the talk
-LICENSE              # CC0 dedication
-```
-
-`_site/`, `_extensions/`, `.quarto/` and `.venv/` are gitignored; never commit
-them.
-
-## Commands
-
-```bash
-just install   # Install Python dependencies and Quarto extensions
-just update    # Update Python dependencies
-just render    # Render index.qmd to _site/ (run after every change)
-just preview   # Live-reload dev server
-just clean     # Remove build artefacts
-just check     # Verify Quarto and Python setup
-just axe       # Preview with the axe accessibility checker enabled
-```
+`just render` must succeed after every change; CI builds the deck on every
+pull request.
 
 ## Key conventions
 
-- **Single-file deck.** All slides live in `index.qmd`; do not split it. Slides
-  are separated by `##` headings. Use Quarto's RevealJS dialect: fenced divs
-  (`:::`), columns (`.columns` / `.column`), raw HTML blocks (`{=html}`), and
-  the `{.smaller}` class for dense slides. Follow the layout patterns of
-  neighbouring slides.
+- **Single-file deck.** All slides live in `index.qmd`; do not split it.
 - **Design specification.** The visual design follows [DESIGN.md](DESIGN.md).
-  Always respect this document when creating or modifying slides, components,
-  styling, colours, and typography. Keep the theme `simple` and the format
-  `revealjs`; restyle through `style.css`. Inline `style` backgrounds on fenced
-  divs reuse colours already defined in `DESIGN.md` and `style.css`; do not
-  invent new ones. New widgets follow the naming patterns already in `style.css`.
+  Respect it when creating or modifying slides, components, styling, colours,
+  and typography. Keep the theme `simple` and the format `revealjs`; restyle
+  through `style.css`. Inline `style` backgrounds on fenced divs reuse colours
+  already defined in `DESIGN.md` and `style.css`; do not invent new ones. New
+  widgets follow the naming patterns already in `style.css`.
 - **Image classes.** Images use semantic classes (`.hero`, `.artifact`,
   `.illustration`) that control border, shadow, and rounding in `style.css`.
   Check the existing CSS before adding new ones.
@@ -64,8 +31,7 @@ just axe       # Preview with the axe accessibility checker enabled
   complete, audience-facing narration; keep staging cues, private reminders,
   and delivery checklists outside these blocks.
 - **Accessibility.** Images must have `fig-alt` text; raw HTML widgets use
-  `role="img"` and `aria-label`. Load the `check-accessibility` skill before
-  changing markup, styles, widgets or the a11y setup.
+  `role="img"` and `aria-label`.
 - **Icons.** Icons are HTML spans backed by only the required SVG path data in
   `style.css`; no icon font or Quarto icon extension. When adding one, add only
   its mask data, preserve the source licence attribution, and keep an
@@ -85,14 +51,11 @@ just axe       # Preview with the axe accessibility checker enabled
 ## CI/CD
 
 - `.github/workflows/build-presentation.yaml` calls a reusable workflow from
-  `IndrajeetPatil/workflows`: pushes to `main` build and deploy to GitHub
-  Pages, pull requests build without deploying. Do not inline or modify that
-  workflow here.
+  `IndrajeetPatil/workflows`. Do not inline or modify that workflow here.
 - Reference reusable workflows as `@main`, never a commit SHA: they are
   first-party, and a pinned SHA once went five months stale.
-- Dependabot updates GitHub Actions and `uv` dependencies weekly.
-- `check-link-rot.yaml` checks external links on pushes, pull requests and
-  weekly (Sunday 00:00 UTC); list false positives in `.lycheeignore`.
+- `check-link-rot.yaml` checks external links; list false positives in
+  `.lycheeignore`.
 
 ## Agent skills
 
