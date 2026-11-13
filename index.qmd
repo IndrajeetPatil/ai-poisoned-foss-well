@@ -72,7 +72,7 @@ ZEISS FOSS CoP
 
 ::: {.column width="44%"}
 
-![](media/evidence/well-hero.webp){.hero width="310" height="430" fig-alt="An old water well in a grassy field"}
+![](media/evidence/well-hero.webp){.hero width="240" height="360" fig-alt="An old water well in a grassy field"}
 
 :::
 
@@ -544,7 +544,7 @@ Briefly closed as `not_planned`, then reopened; a separate status thread stayed 
 
 ::: {.column width="60%"}
 
-![](media/evidence/litellm-bot-flood.webp){.artifact width="610" height="455" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
+![](media/evidence/litellm-bot-flood.webp){.artifact width="610" height="430" style="object-fit: cover; object-position: top;" fig-alt="Screenshot of the LiteLLM security issue flooded with repetitive comments"}
 
 :::
 
