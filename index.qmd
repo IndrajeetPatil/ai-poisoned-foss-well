@@ -72,7 +72,7 @@ ZEISS FOSS CoP
 
 ::: {.column width="44%"}
 
-![](media/evidence/well-hero.webp){.hero width="310" height="430" fig-alt="An old water well in a grassy field"}
+![](media/evidence/well-hero.webp){.hero width="240" height="360" fig-alt="An old water well in a grassy field"}
 
 :::
 
