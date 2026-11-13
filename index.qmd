@@ -41,7 +41,8 @@ image-alt: "Preview image for presentation about AI poisoning the FOSS movement"
 canonical-url: "https://www.indrapatil.com/ai-poisoned-foss-well/"
 jupyter: python3
 ---
-## Poisoning the FOSS Well {style="margin-top: 1.5em; margin-bottom: 1em;"}
+<h2>Poisoning the FOSS Well</h2>
+<!-- A Markdown heading here is promoted to metadata by Quarto's Jupyter engine. -->
 
 :::: {.columns}
 
