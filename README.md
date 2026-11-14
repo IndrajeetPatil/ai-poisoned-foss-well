@@ -57,12 +57,8 @@ underlines, reduced motion, and screen-reader announcements.
 Run `just install` again after `just clean`, which removes installed extensions.
 
 The `accessibility.html` helper handles scrollable code, slide-menu focus,
-vertical-slide semantics, and tabset keyboard navigation. The file is shared
-verbatim across the deck fleet, so it keeps the tabset handling even though this
-deck currently has no tabsets.
-The extension's slide-menu patch and accessibility settings panel are disabled
-as in the reference deck: version 0.2.3 introduces ARIA and contrast failures in
-those components.
+and vertical-slide semantics. The extension's slide-menu patch and accessibility
+settings panel are disabled because they introduce ARIA and contrast failures.
 
 Use `just axe` to inspect slides, fragments, and menu panels in presentation and
 scroll views. Normal builds omit the axe checker.
