@@ -107,7 +107,7 @@ The title of this talk is "Poisoning the FOSS Well" — and by "well," I don't j
 **96%** of codebases include open-source software; **$8.8T** estimated global replacement value.
 
 ::: {style="font-size: 0.75em; margin-top: 12px; color: #444;"}
-[Synopsys OSSRA / Harvard](https://d3.harvard.edu/revealing-value-the-economic-power-of-open-source-software/)
+[Synopsys OSSRA / Harvard](https://aiinstitute.hbs.edu/revealing-value-the-economic-power-of-open-source-software/)
 :::
 
 :::
@@ -258,7 +258,7 @@ Each one plausible enough to demand triage — the real cost is maintainer atten
 ::::
 
 ::: {style="text-align: center; font-size: 0.48em; margin-top: 0.7em; color: #666;"}
-Sources: [The Register](https://www.theregister.com/2026/01/21/curl_ends_bug_bounty/) · [The New Stack](https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/) · [Daniel Stenberg, FOSDEM 2026](https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/)
+Sources: [The Register](https://www.theregister.com/security/2026/01/21/curl-shutters-bug-bounty-program-to-stop-ai-slop/5063039) · [The New Stack](https://thenewstack.io/drowning-in-ai-slop-reports-curl-ends-bug-bounties/) · [Daniel Stenberg, FOSDEM 2026](https://thenewstack.io/curls-daniel-stenberg-ai-is-ddosing-open-source-and-fixing-its-bugs/)
 :::
 
 ::: {.notes}
@@ -470,7 +470,7 @@ An LLM cannot say where its output came from. Audits that used to trace imports 
 ::::
 
 ::: {style="text-align: center; font-size: 0.46em; margin-top: 0.5em; color: #666;"}
-Sources: [The Register, "AI will kill software licensing"](https://www.theregister.com/2026/03/06/ai_kills_software_licensing/) · [Black Duck OSSRA 2026](https://www.blackduck.com/resources/analyst-reports/open-source-security-risk-analysis.html) · [FDA SBOM guidance](https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity) · [EU CRA SBOM requirements](https://anchore.com/sbom/eu-cra/)
+Sources: [The Register, "AI will kill software licensing"](https://www.theregister.com/software/2026/03/06/chardet-dispute-shows-how-ai-will-kill-software-licensing/4118822) · [Black Duck OSSRA 2026](https://www.blackduck.com/resources/analyst-reports/open-source-security-risk-analysis.html) · [FDA SBOM guidance](https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity) · [EU CRA SBOM requirements](https://anchore.com/sbom/eu-cra/)
 :::
 
 ::: {.notes}
@@ -609,7 +609,7 @@ The third pillar: reciprocity. The implicit exchange that funds and sustains ope
 ::::
 
 ::: {style="text-align: center; font-size: 0.38em; margin-top: 0.04em; color: #666;"}
-Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [`Tailwind` Sponsor](https://tailwindcss.com/sponsor) · [`Tailwind` Plus](https://tailwindcss.com/plus)
+Sources: [Adam Wathan on PR #2388](https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957) · [`Tailwind` Sponsor](https://tailwindcss.com/partners) · [`Tailwind` Plus](https://tailwindcss.com/plus)
 :::
 
 ::: {style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 12px; font-size: 0.6em; margin-top: 1em; color: #444;"}

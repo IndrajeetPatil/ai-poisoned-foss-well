@@ -12,40 +12,51 @@ pull request.
 ## Key conventions
 
 - **Single-file deck.** All slides live in `index.qmd`; do not split it.
+
 - **Design specification.** The visual design follows [DESIGN.md](DESIGN.md).
   Respect it when creating or modifying slides, components, styling, colours,
   and typography. Keep the theme `simple` and the format `revealjs`; restyle
   through `style.css`. Inline `style` backgrounds on fenced divs reuse colours
   already defined in `DESIGN.md` and `style.css`; do not invent new ones. New
   widgets follow the naming patterns already in `style.css`.
+
 - **Image classes.** Images use semantic classes (`.hero`, `.artifact`,
   `.illustration`) that control border, shadow, and rounding in `style.css`.
   Check the existing CSS before adding new ones.
+
 - **Sources.** Every factual claim has a source citation at the bottom of its
   slide in a small-font centred div. Keep this pattern.
+
 - **Spelling and punctuation.** Use British spelling in prose (colour, licence,
   catalogue, artefact) and the Oxford comma in lists of three or more. Leave
   code, identifiers, file names, URLs, quotations, and proper names (such as
   `license` in YAML) as they are.
+
 - **Spoken notes.** The read-aloud control speaks the `.notes` content. Write
   complete, audience-facing narration; keep staging cues, private reminders,
   and delivery checklists outside these blocks.
+
 - **Accessibility.** Images must have `fig-alt` text; raw HTML widgets use
   `role="img"` and `aria-label`.
+
 - **Icons.** Icons are HTML spans backed by only the required SVG path data in
   `style.css`; no icon font or Quarto icon extension. When adding one, add only
   its mask data, preserve the source licence attribution, and keep an
   accessible label where the icon conveys meaning.
+
 - **No code execution.** The front matter sets `execute: eval: false`; code
   blocks are display-only. Do not enable `eval: true` unless the deck genuinely
   needs computed output.
+
 - **Python dependencies.** The deck declares `jupyter: python3`; the virtualenv
   only satisfies Quarto's engine. Depend only on `ipykernel`, `nbclient` and
   `pyyaml`. Do not add the `jupyter` metapackage: it pulls in JupyterLab and
   Notebook and only attracts irrelevant security alerts.
+
 - **Discoverability files.** Update `meta-tags.html` when the title,
   description, or social card changes, and `llms.txt` / `llms-full.txt` (and
   their `.well-known/` mirrors) when the content changes significantly.
+
 - **No new top-level files** without a clear reason; the structure is flat.
 
 ## Pull requests
@@ -80,6 +91,7 @@ pull request.
 
 - `.github/workflows/build-presentation.yaml` calls a reusable workflow from
   `IndrajeetPatil/workflows`. Do not inline or modify that workflow here.
+
 - Reference `IndrajeetPatil/workflows` reusable workflows as `@main`, never a
   commit SHA. The owner maintains them and is the only person who can
   contribute to this repository, so there is no external-contributor risk, and
@@ -87,8 +99,9 @@ pull request.
   `actions/unpinned-tag`, zizmor `unpinned-uses`) flag this by design: do not
   report it or propose a pin; dismiss such alerts as "won't fix" with this
   reason.
-- `check-link-rot.yaml` checks external links; list false positives in
-  `.lycheeignore`.
+
+- `check-link-rot.yaml` checks external links; configure exclusions in
+  `lychee.toml`.
 
 ## Agent skills
 

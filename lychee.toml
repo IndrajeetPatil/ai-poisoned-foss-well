@@ -1,0 +1,36 @@
+# Lychee link checker configuration.
+# Lychee automatically reads this file from the repository root when run by
+# the reusable workflow IndrajeetPatil/workflows/.github/workflows/check-link-rot.yaml.
+
+# Exclude loopback addresses (localhost, 127.0.0.1, ::1)
+exclude_loopback = true
+
+# Exclude mailto: links from being checked
+include_mail = false
+
+# Exclude URLs that trigger false positives in automated link checkers
+exclude = [
+  # Unsplash returns 401 to automated / non-browser user agents, blocking CI
+  # link checks even though photo links resolve normally in a browser.
+  '^https://unsplash\.com/photos/',
+
+  # Cybernews sits behind Cloudflare bot management, serving an HTTP 403
+  # interstitial to non-browser requests across the host.
+  '^https://cybernews\.com/',
+
+  # LinkedIn answers non-browser clients with HTTP 999 (anti-scraping),
+  # causing profile and reference links to fail automated CI checks.
+  '^https://www\.linkedin\.com/',
+
+  # www.fda.gov returns an abuse-detection redirect (302 -> 404) to datacenter
+  # IP ranges such as GitHub Actions runners, but serves 200 to ordinary clients.
+  '^https://www\.fda\.gov/',
+
+  # web.archive.org frequently returns HTTP 503 under rate limiting on CI runners
+  # while snapshots remain immutable and healthy.
+  '^https://web\.archive\.org/',
+
+  # RevealJS website drops TLS 1.3 handshakes when modern clients offer post-quantum
+  # key shares (X25519MLKEM768), causing false-positive connection resets in automated checks.
+  '^https://revealjs\.com/',
+]
