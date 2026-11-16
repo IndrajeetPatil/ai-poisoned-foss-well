@@ -102,11 +102,3 @@ pull request.
 
 - `check-link-rot.yaml` checks external links; configure exclusions in
   `lychee.toml`.
-
-## Agent skills
-
-Skills live in `.agents/skills/<name>/SKILL.md`. Load one before its task:
-
-| Skill | Load before |
-| --- | --- |
-| `check-accessibility` | Changing slide markup, styles, widgets, menus or the a11y setup; any accessibility audit |
