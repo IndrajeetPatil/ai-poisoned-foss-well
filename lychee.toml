@@ -33,4 +33,8 @@ exclude = [
   # RevealJS website drops TLS 1.3 handshakes when modern clients offer post-quantum
   # key shares (X25519MLKEM768), causing false-positive connection resets in automated checks.
   '^https://revealjs\.com/',
+
+  # www.usenix.org frequently returns HTTP 504 Gateway Timeout to automated runners
+  # while pages and publications remain healthy and accessible.
+  '^https://www\.usenix\.org/',
 ]
