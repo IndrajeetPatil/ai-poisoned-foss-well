@@ -108,7 +108,8 @@ body {
 .reveal code,
 .reveal pre {
   font-family:
-    "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    monospace;
 }
 
 .reveal a {
@@ -181,7 +182,11 @@ body {
 
 .reveal .slides div[style*="background-color: #e3f2fd;"] {
   background:
-    linear-gradient(90deg, rgba(114, 212, 255, 0.16), rgba(114, 212, 255, 0) 42%),
+    linear-gradient(
+      90deg,
+      rgba(114, 212, 255, 0.16),
+      rgba(114, 212, 255, 0) 42%
+    ),
     var(--well-paper) !important;
   border-color: rgba(8, 38, 41, 0.2) !important;
 }
@@ -192,7 +197,11 @@ body {
 
 .reveal .slides div[style*="background-color: #e8f5e9;"] {
   background:
-    linear-gradient(90deg, rgba(149, 240, 168, 0.18), rgba(149, 240, 168, 0) 42%),
+    linear-gradient(
+      90deg,
+      rgba(149, 240, 168, 0.18),
+      rgba(149, 240, 168, 0) 42%
+    ),
     var(--well-paper) !important;
   border-color: rgba(8, 38, 41, 0.2) !important;
 }
@@ -433,8 +442,11 @@ body {
   gap: 7px;
   padding: 12px;
   border-radius: 8px;
-  background:
-    linear-gradient(90deg, rgba(255, 92, 115, 0.16), rgba(114, 212, 255, 0.12));
+  background: linear-gradient(
+    90deg,
+    rgba(255, 92, 115, 0.16),
+    rgba(114, 212, 255, 0.12)
+  );
 }
 
 .business-shock__break strong {
